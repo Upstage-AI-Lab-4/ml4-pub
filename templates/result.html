@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>예측 결과</title>
+</head>
+<body>
+    <h1>예측 결과</h1>
+    {% if error %}
+        <p style="color: red;">{{ error }}</p>
+    {% elif predictions %}
+        <p>예측된 숫자: {{ predictions }}</p>
+    {% else %}
+        <p>예측 결과를 가져올 수 없습니다.</p>
+    {% endif %}
+    <a href="/">돌아가기</a>
+</body>
+</html>
