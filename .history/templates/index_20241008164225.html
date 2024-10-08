@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>손글씨 숫자 인식</title>
+</head>
+<body>
+    <h1>손글씨 숫자 인식</h1>
+    <div id="image_container"></div>
+    <form action="/predict" enctype="multipart/form-data" method="post">
+        <input type="file" name="image" onchange="setThumbnail(event);" accept="image/*" required>
+        <input type="submit" value="업로드 및 예측">
+    </form>
+
+    
+
+    <script>
+      function setThumbnail(event) {
+        var reader = new FileReader();
+
+        reader.onload = function(event) {
+          var img = document.createElement("img");
+          img.setAttribute("src", event.target.result);
+          document.querySelector("div#image_container").appendChild(img);
+        };
+
+        reader.readAsDataURL(event.target.files[0]);
+      }
+    </script>
+
+</body>
+</html>
