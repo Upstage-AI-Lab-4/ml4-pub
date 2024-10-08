@@ -1,10 +1,10 @@
 # api_module.py
 
 import os
-from fastapi import FastAPI, UploadFile, File, Request
+from fastapi import FastAPI, Request, Form
 from fastapi.responses import HTMLResponse
 from fastapi.templating import Jinja2Templates
-from data_processing import preprocess_image_cv
+from data_processing import preprocess_canvas_images
 from model import load_model, predict
 from monitoring import log_info, log_error
 from database import save_prediction
@@ -12,15 +12,10 @@ from database import save_prediction
 def create_app():
     app = FastAPI()
 
-    # Upload folder configuration
-    UPLOAD_FOLDER = 'uploads/'
-    if not os.path.exists(UPLOAD_FOLDER):
-        os.makedirs(UPLOAD_FOLDER)
-
-    # Load model
+    # 모델 로드
     model = load_model()
 
-    # Template configuration
+    # 템플릿 설정
     templates = Jinja2Templates(directory="templates")
 
     @app.get("/", response_class=HTMLResponse)
@@ -28,34 +23,33 @@ def create_app():
         return templates.TemplateResponse("index.html", {"request": request})
 
     @app.post("/predict", response_class=HTMLResponse)
-    async def predict_route(request: Request, image: UploadFile = File(...)):
+    async def predict_route(
+        request: Request,
+        image1: str = Form(...),
+        image2: str = Form(...),
+        image3: str = Form(...),
+        image4: str = Form(...)
+    ):
         try:
-            # Save file
-            filename = image.filename
-            file_path = os.path.join(UPLOAD_FOLDER, filename)
-            with open(file_path, "wb") as buffer:
-                buffer.write(await image.read())
+            images_data = [image1, image2, image3, image4]
 
-            # Preprocess image
-            input_data_list = preprocess_image_cv(file_path)
+            # 이미지 전처리
+            input_data_list, raw_images = preprocess_canvas_images(images_data)
 
-            if not input_data_list:
-                return templates.TemplateResponse("result.html", {"request": request, "predictions": None, "error": "No digits found in image"})
-
-            # Perform prediction
+            # 예측 수행
             predictions = predict(model, input_data_list)
 
-            # Save results
-            save_prediction(file_path, predictions)
+            # 결과 저장 (이미지와 예측 결과를 함께 저장)
+            save_prediction(raw_images, predictions)
 
-            # Log info
-            log_info(f"File {filename} uploaded, predictions: {predictions}")
+            # 로그 정보
+            log_info(f"Predictions: {predictions}")
 
-            # Return results
+            # 결과 반환
             return templates.TemplateResponse("result.html", {"request": request, "predictions": predictions, "error": None})
 
         except Exception as e:
             log_error(f"Error in predict_route: {str(e)}")
-            return templates.TemplateResponse("result.html", {"request": request, "predictions": None, "error": "Internal server error"})
+            return templates.TemplateResponse("result.html", {"request": request, "predictions": None, "error": "내부 서버 오류"})
 
     return app

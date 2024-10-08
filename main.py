@@ -1,6 +1,5 @@
 # main.py
 
-from fastapi import FastAPI
 from api_module import create_app
 from database import init_db
 import uvicorn
