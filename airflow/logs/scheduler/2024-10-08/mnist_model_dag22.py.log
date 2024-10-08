@@ -1,0 +1,181 @@
+[2024-10-08T18:03:45.409+0900] {processor.py:186} INFO - Started process (PID=27650) to work on /Users/alookso/1007MLpj/ml-project-ml-pjt-7/airflow/dags/mnist_model_dag22.py
+[2024-10-08T18:03:45.410+0900] {processor.py:914} INFO - Processing file /Users/alookso/1007MLpj/ml-project-ml-pjt-7/airflow/dags/mnist_model_dag22.py for tasks to queue
+[2024-10-08T18:03:45.410+0900] {logging_mixin.py:190} INFO - [2024-10-08T18:03:45.410+0900] {dagbag.py:588} INFO - Filling up the DagBag from /Users/alookso/1007MLpj/ml-project-ml-pjt-7/airflow/dags/mnist_model_dag22.py
+[2024-10-08T18:03:45.413+0900] {logging_mixin.py:190} INFO - [2024-10-08T18:03:45.412+0900] {dagbag.py:387} ERROR - Failed to import: /Users/alookso/1007MLpj/ml-project-ml-pjt-7/airflow/dags/mnist_model_dag22.py
+Traceback (most recent call last):
+  File "/Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/alookso/1007MLpj/ml-project-ml-pjt-7/airflow/dags/mnist_model_dag22.py", line 41
+    with dag = DAG(
+             ^
+SyntaxError: invalid syntax
+[2024-10-08T18:03:45.413+0900] {processor.py:927} WARNING - No viable dags retrieved from /Users/alookso/1007MLpj/ml-project-ml-pjt-7/airflow/dags/mnist_model_dag22.py
+[2024-10-08T18:03:46.276+0900] {processor.py:208} INFO - Processing /Users/alookso/1007MLpj/ml-project-ml-pjt-7/airflow/dags/mnist_model_dag22.py took 0.872 seconds
+[2024-10-08T18:04:56.050+0900] {processor.py:186} INFO - Started process (PID=27707) to work on /Users/alookso/1007MLpj/ml-project-ml-pjt-7/airflow/dags/mnist_model_dag22.py
+[2024-10-08T18:04:56.051+0900] {processor.py:914} INFO - Processing file /Users/alookso/1007MLpj/ml-project-ml-pjt-7/airflow/dags/mnist_model_dag22.py for tasks to queue
+[2024-10-08T18:04:56.052+0900] {logging_mixin.py:190} INFO - [2024-10-08T18:04:56.052+0900] {dagbag.py:588} INFO - Filling up the DagBag from /Users/alookso/1007MLpj/ml-project-ml-pjt-7/airflow/dags/mnist_model_dag22.py
+[2024-10-08T18:04:56.054+0900] {logging_mixin.py:190} INFO - [2024-10-08T18:04:56.053+0900] {dagbag.py:387} ERROR - Failed to import: /Users/alookso/1007MLpj/ml-project-ml-pjt-7/airflow/dags/mnist_model_dag22.py
+Traceback (most recent call last):
+  File "/Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/alookso/1007MLpj/ml-project-ml-pjt-7/airflow/dags/mnist_model_dag22.py", line 41
+    with dag = DAG(
+             ^
+SyntaxError: invalid syntax
+[2024-10-08T18:04:56.054+0900] {processor.py:927} WARNING - No viable dags retrieved from /Users/alookso/1007MLpj/ml-project-ml-pjt-7/airflow/dags/mnist_model_dag22.py
+[2024-10-08T18:04:56.879+0900] {processor.py:208} INFO - Processing /Users/alookso/1007MLpj/ml-project-ml-pjt-7/airflow/dags/mnist_model_dag22.py took 0.834 seconds
+[2024-10-08T18:08:36.362+0900] {processor.py:186} INFO - Started process (PID=27821) to work on /Users/alookso/1007MLpj/ml-project-ml-pjt-7/airflow/dags/mnist_model_dag22.py
+[2024-10-08T18:08:36.363+0900] {processor.py:914} INFO - Processing file /Users/alookso/1007MLpj/ml-project-ml-pjt-7/airflow/dags/mnist_model_dag22.py for tasks to queue
+[2024-10-08T18:08:36.364+0900] {logging_mixin.py:190} INFO - [2024-10-08T18:08:36.363+0900] {dagbag.py:588} INFO - Filling up the DagBag from /Users/alookso/1007MLpj/ml-project-ml-pjt-7/airflow/dags/mnist_model_dag22.py
+[2024-10-08T18:08:36.366+0900] {logging_mixin.py:190} INFO - [2024-10-08T18:08:36.366+0900] {dagbag.py:387} ERROR - Failed to import: /Users/alookso/1007MLpj/ml-project-ml-pjt-7/airflow/dags/mnist_model_dag22.py
+Traceback (most recent call last):
+  File "/Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/alookso/1007MLpj/ml-project-ml-pjt-7/airflow/dags/mnist_model_dag22.py", line 84
+    with dag = DAG(
+             ^
+SyntaxError: invalid syntax
+[2024-10-08T18:08:36.367+0900] {processor.py:927} WARNING - No viable dags retrieved from /Users/alookso/1007MLpj/ml-project-ml-pjt-7/airflow/dags/mnist_model_dag22.py
+[2024-10-08T18:08:37.200+0900] {processor.py:208} INFO - Processing /Users/alookso/1007MLpj/ml-project-ml-pjt-7/airflow/dags/mnist_model_dag22.py took 0.844 seconds
+[2024-10-08T18:11:44.853+0900] {processor.py:186} INFO - Started process (PID=27915) to work on /Users/alookso/1007MLpj/ml-project-ml-pjt-7/airflow/dags/mnist_model_dag22.py
+[2024-10-08T18:11:44.854+0900] {processor.py:914} INFO - Processing file /Users/alookso/1007MLpj/ml-project-ml-pjt-7/airflow/dags/mnist_model_dag22.py for tasks to queue
+[2024-10-08T18:11:44.855+0900] {logging_mixin.py:190} INFO - [2024-10-08T18:11:44.855+0900] {dagbag.py:588} INFO - Filling up the DagBag from /Users/alookso/1007MLpj/ml-project-ml-pjt-7/airflow/dags/mnist_model_dag22.py
+[2024-10-08T18:11:44.858+0900] {logging_mixin.py:190} INFO - [2024-10-08T18:11:44.857+0900] {dagbag.py:387} ERROR - Failed to import: /Users/alookso/1007MLpj/ml-project-ml-pjt-7/airflow/dags/mnist_model_dag22.py
+Traceback (most recent call last):
+  File "/Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/alookso/1007MLpj/ml-project-ml-pjt-7/airflow/dags/mnist_model_dag22.py", line 83
+    with dag = DAG(
+             ^
+SyntaxError: invalid syntax
+[2024-10-08T18:11:44.858+0900] {processor.py:927} WARNING - No viable dags retrieved from /Users/alookso/1007MLpj/ml-project-ml-pjt-7/airflow/dags/mnist_model_dag22.py
+[2024-10-08T18:11:45.755+0900] {processor.py:208} INFO - Processing /Users/alookso/1007MLpj/ml-project-ml-pjt-7/airflow/dags/mnist_model_dag22.py took 0.907 seconds
+[2024-10-08T18:14:55.430+0900] {processor.py:186} INFO - Started process (PID=28020) to work on /Users/alookso/1007MLpj/ml-project-ml-pjt-7/airflow/dags/mnist_model_dag22.py
+[2024-10-08T18:14:55.431+0900] {processor.py:914} INFO - Processing file /Users/alookso/1007MLpj/ml-project-ml-pjt-7/airflow/dags/mnist_model_dag22.py for tasks to queue
+[2024-10-08T18:14:55.431+0900] {logging_mixin.py:190} INFO - [2024-10-08T18:14:55.431+0900] {dagbag.py:588} INFO - Filling up the DagBag from /Users/alookso/1007MLpj/ml-project-ml-pjt-7/airflow/dags/mnist_model_dag22.py
+[2024-10-08T18:14:55.434+0900] {logging_mixin.py:190} INFO - [2024-10-08T18:14:55.434+0900] {dagbag.py:387} ERROR - Failed to import: /Users/alookso/1007MLpj/ml-project-ml-pjt-7/airflow/dags/mnist_model_dag22.py
+Traceback (most recent call last):
+  File "/Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/alookso/1007MLpj/ml-project-ml-pjt-7/airflow/dags/mnist_model_dag22.py", line 88
+    with dag = DAG(
+             ^
+SyntaxError: invalid syntax
+[2024-10-08T18:14:55.434+0900] {processor.py:927} WARNING - No viable dags retrieved from /Users/alookso/1007MLpj/ml-project-ml-pjt-7/airflow/dags/mnist_model_dag22.py
+[2024-10-08T18:14:56.326+0900] {processor.py:208} INFO - Processing /Users/alookso/1007MLpj/ml-project-ml-pjt-7/airflow/dags/mnist_model_dag22.py took 0.901 seconds
+[2024-10-08T18:18:04.153+0900] {processor.py:186} INFO - Started process (PID=28110) to work on /Users/alookso/1007MLpj/ml-project-ml-pjt-7/airflow/dags/mnist_model_dag22.py
+[2024-10-08T18:18:04.154+0900] {processor.py:914} INFO - Processing file /Users/alookso/1007MLpj/ml-project-ml-pjt-7/airflow/dags/mnist_model_dag22.py for tasks to queue
+[2024-10-08T18:18:04.155+0900] {logging_mixin.py:190} INFO - [2024-10-08T18:18:04.154+0900] {dagbag.py:588} INFO - Filling up the DagBag from /Users/alookso/1007MLpj/ml-project-ml-pjt-7/airflow/dags/mnist_model_dag22.py
+[2024-10-08T18:18:04.158+0900] {logging_mixin.py:190} INFO - [2024-10-08T18:18:04.157+0900] {dagbag.py:387} ERROR - Failed to import: /Users/alookso/1007MLpj/ml-project-ml-pjt-7/airflow/dags/mnist_model_dag22.py
+Traceback (most recent call last):
+  File "/Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/alookso/1007MLpj/ml-project-ml-pjt-7/airflow/dags/mnist_model_dag22.py", line 94
+    with dag = DAG(
+             ^
+SyntaxError: invalid syntax
+[2024-10-08T18:18:04.158+0900] {processor.py:927} WARNING - No viable dags retrieved from /Users/alookso/1007MLpj/ml-project-ml-pjt-7/airflow/dags/mnist_model_dag22.py
+[2024-10-08T18:18:04.977+0900] {processor.py:208} INFO - Processing /Users/alookso/1007MLpj/ml-project-ml-pjt-7/airflow/dags/mnist_model_dag22.py took 0.829 seconds
+[2024-10-08T18:20:47.854+0900] {processor.py:186} INFO - Started process (PID=28225) to work on /Users/alookso/1007MLpj/ml-project-ml-pjt-7/airflow/dags/mnist_model_dag22.py
+[2024-10-08T18:20:47.854+0900] {processor.py:914} INFO - Processing file /Users/alookso/1007MLpj/ml-project-ml-pjt-7/airflow/dags/mnist_model_dag22.py for tasks to queue
+[2024-10-08T18:20:47.855+0900] {logging_mixin.py:190} INFO - [2024-10-08T18:20:47.855+0900] {dagbag.py:588} INFO - Filling up the DagBag from /Users/alookso/1007MLpj/ml-project-ml-pjt-7/airflow/dags/mnist_model_dag22.py
+[2024-10-08T18:20:51.504+0900] {processor.py:925} INFO - DAG(s) 'mnist_model_workflow_22' retrieved from /Users/alookso/1007MLpj/ml-project-ml-pjt-7/airflow/dags/mnist_model_dag22.py
+[2024-10-08T18:20:51.753+0900] {logging_mixin.py:190} INFO - [2024-10-08T18:20:51.752+0900] {override.py:1901} INFO - Created Permission View: can edit on DAG:mnist_model_workflow_22
+[2024-10-08T18:20:51.762+0900] {logging_mixin.py:190} INFO - [2024-10-08T18:20:51.762+0900] {override.py:1901} INFO - Created Permission View: can delete on DAG:mnist_model_workflow_22
+[2024-10-08T18:20:51.769+0900] {logging_mixin.py:190} INFO - [2024-10-08T18:20:51.769+0900] {override.py:1901} INFO - Created Permission View: can read on DAG:mnist_model_workflow_22
+[2024-10-08T18:20:51.778+0900] {logging_mixin.py:190} INFO - [2024-10-08T18:20:51.778+0900] {override.py:1901} INFO - Created Permission View: can create on DAG Run:mnist_model_workflow_22
+[2024-10-08T18:20:51.785+0900] {logging_mixin.py:190} INFO - [2024-10-08T18:20:51.785+0900] {override.py:1901} INFO - Created Permission View: menu access on DAG Run:mnist_model_workflow_22
+[2024-10-08T18:20:51.792+0900] {logging_mixin.py:190} INFO - [2024-10-08T18:20:51.792+0900] {override.py:1901} INFO - Created Permission View: can delete on DAG Run:mnist_model_workflow_22
+[2024-10-08T18:20:51.799+0900] {logging_mixin.py:190} INFO - [2024-10-08T18:20:51.799+0900] {override.py:1901} INFO - Created Permission View: can read on DAG Run:mnist_model_workflow_22
+[2024-10-08T18:20:51.800+0900] {logging_mixin.py:190} INFO - [2024-10-08T18:20:51.799+0900] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-08T18:20:51.814+0900] {logging_mixin.py:190} INFO - [2024-10-08T18:20:51.814+0900] {dag.py:3262} INFO - Creating ORM DAG for mnist_model_workflow_22
+[2024-10-08T18:20:51.827+0900] {logging_mixin.py:190} INFO - [2024-10-08T18:20:51.826+0900] {dag.py:4180} INFO - Setting next_dagrun for mnist_model_workflow_22 to 2024-10-08T09:15:00+00:00, run_after=2024-10-08T09:20:00+00:00
+[2024-10-08T18:20:51.846+0900] {processor.py:208} INFO - Processing /Users/alookso/1007MLpj/ml-project-ml-pjt-7/airflow/dags/mnist_model_dag22.py took 3.997 seconds
+[2024-10-08T18:27:04.151+0900] {processor.py:186} INFO - Started process (PID=28458) to work on /Users/alookso/1007MLpj/ml-project-ml-pjt-7/airflow/dags/mnist_model_dag22.py
+[2024-10-08T18:27:04.152+0900] {processor.py:914} INFO - Processing file /Users/alookso/1007MLpj/ml-project-ml-pjt-7/airflow/dags/mnist_model_dag22.py for tasks to queue
+[2024-10-08T18:27:04.153+0900] {logging_mixin.py:190} INFO - [2024-10-08T18:27:04.152+0900] {dagbag.py:588} INFO - Filling up the DagBag from /Users/alookso/1007MLpj/ml-project-ml-pjt-7/airflow/dags/mnist_model_dag22.py
+[2024-10-08T18:27:07.836+0900] {processor.py:925} INFO - DAG(s) 'mnist_model_workflow_22' retrieved from /Users/alookso/1007MLpj/ml-project-ml-pjt-7/airflow/dags/mnist_model_dag22.py
+[2024-10-08T18:27:07.982+0900] {logging_mixin.py:190} INFO - [2024-10-08T18:27:07.981+0900] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-08T18:27:08.023+0900] {processor.py:208} INFO - Processing /Users/alookso/1007MLpj/ml-project-ml-pjt-7/airflow/dags/mnist_model_dag22.py took 3.876 seconds
+[2024-10-08T18:31:38.625+0900] {processor.py:186} INFO - Started process (PID=28636) to work on /Users/alookso/1007MLpj/ml-project-ml-pjt-7/airflow/dags/mnist_model_dag22.py
+[2024-10-08T18:31:38.626+0900] {processor.py:914} INFO - Processing file /Users/alookso/1007MLpj/ml-project-ml-pjt-7/airflow/dags/mnist_model_dag22.py for tasks to queue
+[2024-10-08T18:31:38.627+0900] {logging_mixin.py:190} INFO - [2024-10-08T18:31:38.627+0900] {dagbag.py:588} INFO - Filling up the DagBag from /Users/alookso/1007MLpj/ml-project-ml-pjt-7/airflow/dags/mnist_model_dag22.py
+[2024-10-08T18:31:42.178+0900] {processor.py:925} INFO - DAG(s) 'mnist_model_workflow_22' retrieved from /Users/alookso/1007MLpj/ml-project-ml-pjt-7/airflow/dags/mnist_model_dag22.py
+[2024-10-08T18:31:42.436+0900] {logging_mixin.py:190} INFO - [2024-10-08T18:31:42.435+0900] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-08T18:31:42.478+0900] {processor.py:208} INFO - Processing /Users/alookso/1007MLpj/ml-project-ml-pjt-7/airflow/dags/mnist_model_dag22.py took 3.857 seconds
+[2024-10-08T18:32:01.681+0900] {processor.py:186} INFO - Started process (PID=28652) to work on /Users/alookso/1007MLpj/ml-project-ml-pjt-7/airflow/dags/mnist_model_dag22.py
+[2024-10-08T18:32:01.682+0900] {processor.py:914} INFO - Processing file /Users/alookso/1007MLpj/ml-project-ml-pjt-7/airflow/dags/mnist_model_dag22.py for tasks to queue
+[2024-10-08T18:32:01.683+0900] {logging_mixin.py:190} INFO - [2024-10-08T18:32:01.682+0900] {dagbag.py:588} INFO - Filling up the DagBag from /Users/alookso/1007MLpj/ml-project-ml-pjt-7/airflow/dags/mnist_model_dag22.py
+[2024-10-08T18:32:05.315+0900] {processor.py:925} INFO - DAG(s) 'mnist_model_workflow_22' retrieved from /Users/alookso/1007MLpj/ml-project-ml-pjt-7/airflow/dags/mnist_model_dag22.py
+[2024-10-08T18:32:05.321+0900] {logging_mixin.py:190} INFO - [2024-10-08T18:32:05.320+0900] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-08T18:32:05.471+0900] {processor.py:208} INFO - Processing /Users/alookso/1007MLpj/ml-project-ml-pjt-7/airflow/dags/mnist_model_dag22.py took 3.796 seconds
+[2024-10-08T18:33:42.048+0900] {processor.py:186} INFO - Started process (PID=28749) to work on /Users/alookso/1007MLpj/ml-project-ml-pjt-7/airflow/dags/mnist_model_dag22.py
+[2024-10-08T18:33:42.049+0900] {processor.py:914} INFO - Processing file /Users/alookso/1007MLpj/ml-project-ml-pjt-7/airflow/dags/mnist_model_dag22.py for tasks to queue
+[2024-10-08T18:33:42.050+0900] {logging_mixin.py:190} INFO - [2024-10-08T18:33:42.050+0900] {dagbag.py:588} INFO - Filling up the DagBag from /Users/alookso/1007MLpj/ml-project-ml-pjt-7/airflow/dags/mnist_model_dag22.py
+[2024-10-08T18:33:45.912+0900] {processor.py:925} INFO - DAG(s) 'mnist_model_workflow_2' retrieved from /Users/alookso/1007MLpj/ml-project-ml-pjt-7/airflow/dags/mnist_model_dag22.py
+[2024-10-08T18:33:46.161+0900] {logging_mixin.py:190} INFO - [2024-10-08T18:33:46.160+0900] {override.py:1901} INFO - Created Permission View: can delete on DAG:mnist_model_workflow_2
+[2024-10-08T18:33:46.172+0900] {logging_mixin.py:190} INFO - [2024-10-08T18:33:46.171+0900] {override.py:1901} INFO - Created Permission View: can edit on DAG:mnist_model_workflow_2
+[2024-10-08T18:33:46.179+0900] {logging_mixin.py:190} INFO - [2024-10-08T18:33:46.179+0900] {override.py:1901} INFO - Created Permission View: can read on DAG:mnist_model_workflow_2
+[2024-10-08T18:33:46.188+0900] {logging_mixin.py:190} INFO - [2024-10-08T18:33:46.188+0900] {override.py:1901} INFO - Created Permission View: menu access on DAG Run:mnist_model_workflow_2
+[2024-10-08T18:33:46.195+0900] {logging_mixin.py:190} INFO - [2024-10-08T18:33:46.195+0900] {override.py:1901} INFO - Created Permission View: can delete on DAG Run:mnist_model_workflow_2
+[2024-10-08T18:33:46.202+0900] {logging_mixin.py:190} INFO - [2024-10-08T18:33:46.202+0900] {override.py:1901} INFO - Created Permission View: can create on DAG Run:mnist_model_workflow_2
+[2024-10-08T18:33:46.210+0900] {logging_mixin.py:190} INFO - [2024-10-08T18:33:46.209+0900] {override.py:1901} INFO - Created Permission View: can read on DAG Run:mnist_model_workflow_2
+[2024-10-08T18:33:46.210+0900] {logging_mixin.py:190} INFO - [2024-10-08T18:33:46.210+0900] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-08T18:33:46.225+0900] {logging_mixin.py:190} INFO - [2024-10-08T18:33:46.224+0900] {dag.py:3262} INFO - Creating ORM DAG for mnist_model_workflow_2
+[2024-10-08T18:33:46.237+0900] {logging_mixin.py:190} INFO - [2024-10-08T18:33:46.236+0900] {dag.py:4180} INFO - Setting next_dagrun for mnist_model_workflow_2 to 2024-10-08T09:25:00+00:00, run_after=2024-10-08T09:30:00+00:00
+[2024-10-08T18:33:46.255+0900] {processor.py:208} INFO - Processing /Users/alookso/1007MLpj/ml-project-ml-pjt-7/airflow/dags/mnist_model_dag22.py took 4.211 seconds
+[2024-10-08T18:39:51.201+0900] {processor.py:186} INFO - Started process (PID=29007) to work on /Users/alookso/1007MLpj/ml-project-ml-pjt-7/airflow/dags/mnist_model_dag22.py
+[2024-10-08T18:39:51.202+0900] {processor.py:914} INFO - Processing file /Users/alookso/1007MLpj/ml-project-ml-pjt-7/airflow/dags/mnist_model_dag22.py for tasks to queue
+[2024-10-08T18:39:51.203+0900] {logging_mixin.py:190} INFO - [2024-10-08T18:39:51.203+0900] {dagbag.py:588} INFO - Filling up the DagBag from /Users/alookso/1007MLpj/ml-project-ml-pjt-7/airflow/dags/mnist_model_dag22.py
+[2024-10-08T18:39:54.896+0900] {processor.py:925} INFO - DAG(s) 'mnist_model_workflow_2' retrieved from /Users/alookso/1007MLpj/ml-project-ml-pjt-7/airflow/dags/mnist_model_dag22.py
+[2024-10-08T18:39:55.042+0900] {logging_mixin.py:190} INFO - [2024-10-08T18:39:55.042+0900] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-08T18:39:55.084+0900] {processor.py:208} INFO - Processing /Users/alookso/1007MLpj/ml-project-ml-pjt-7/airflow/dags/mnist_model_dag22.py took 3.888 seconds
+[2024-10-08T18:45:23.232+0900] {processor.py:186} INFO - Started process (PID=29203) to work on /Users/alookso/1007MLpj/ml-project-ml-pjt-7/airflow/dags/mnist_model_dag22.py
+[2024-10-08T18:45:23.233+0900] {processor.py:914} INFO - Processing file /Users/alookso/1007MLpj/ml-project-ml-pjt-7/airflow/dags/mnist_model_dag22.py for tasks to queue
+[2024-10-08T18:45:23.234+0900] {logging_mixin.py:190} INFO - [2024-10-08T18:45:23.234+0900] {dagbag.py:588} INFO - Filling up the DagBag from /Users/alookso/1007MLpj/ml-project-ml-pjt-7/airflow/dags/mnist_model_dag22.py
+[2024-10-08T18:45:26.902+0900] {processor.py:925} INFO - DAG(s) 'mnist_model_workflow_2' retrieved from /Users/alookso/1007MLpj/ml-project-ml-pjt-7/airflow/dags/mnist_model_dag22.py
+[2024-10-08T18:45:27.053+0900] {logging_mixin.py:190} INFO - [2024-10-08T18:45:27.052+0900] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-08T18:45:27.094+0900] {processor.py:208} INFO - Processing /Users/alookso/1007MLpj/ml-project-ml-pjt-7/airflow/dags/mnist_model_dag22.py took 3.866 seconds
+[2024-10-08T18:49:04.041+0900] {processor.py:186} INFO - Started process (PID=29321) to work on /Users/alookso/1007MLpj/ml-project-ml-pjt-7/airflow/dags/mnist_model_dag22.py
+[2024-10-08T18:49:04.042+0900] {processor.py:914} INFO - Processing file /Users/alookso/1007MLpj/ml-project-ml-pjt-7/airflow/dags/mnist_model_dag22.py for tasks to queue
+[2024-10-08T18:49:04.043+0900] {logging_mixin.py:190} INFO - [2024-10-08T18:49:04.042+0900] {dagbag.py:588} INFO - Filling up the DagBag from /Users/alookso/1007MLpj/ml-project-ml-pjt-7/airflow/dags/mnist_model_dag22.py
+[2024-10-08T18:49:07.587+0900] {processor.py:925} INFO - DAG(s) 'mnist_model_workflow_2' retrieved from /Users/alookso/1007MLpj/ml-project-ml-pjt-7/airflow/dags/mnist_model_dag22.py
+[2024-10-08T18:49:07.735+0900] {logging_mixin.py:190} INFO - [2024-10-08T18:49:07.735+0900] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-08T18:49:07.760+0900] {logging_mixin.py:190} INFO - [2024-10-08T18:49:07.760+0900] {dag.py:4180} INFO - Setting next_dagrun for mnist_model_workflow_2 to 2024-10-08T09:40:00+00:00, run_after=2024-10-08T09:45:00+00:00
+[2024-10-08T18:49:07.779+0900] {processor.py:208} INFO - Processing /Users/alookso/1007MLpj/ml-project-ml-pjt-7/airflow/dags/mnist_model_dag22.py took 3.743 seconds
+[2024-10-08T18:54:21.475+0900] {processor.py:186} INFO - Started process (PID=29377) to work on /Users/alookso/1007MLpj/ml-project-ml-pjt-7/airflow/dags/mnist_model_dag22.py
+[2024-10-08T18:54:21.476+0900] {processor.py:914} INFO - Processing file /Users/alookso/1007MLpj/ml-project-ml-pjt-7/airflow/dags/mnist_model_dag22.py for tasks to queue
+[2024-10-08T18:54:21.477+0900] {logging_mixin.py:190} INFO - [2024-10-08T18:54:21.477+0900] {dagbag.py:588} INFO - Filling up the DagBag from /Users/alookso/1007MLpj/ml-project-ml-pjt-7/airflow/dags/mnist_model_dag22.py
+[2024-10-08T18:54:25.031+0900] {processor.py:925} INFO - DAG(s) 'mnist_model_workflow_2' retrieved from /Users/alookso/1007MLpj/ml-project-ml-pjt-7/airflow/dags/mnist_model_dag22.py
+[2024-10-08T18:54:25.183+0900] {logging_mixin.py:190} INFO - [2024-10-08T18:54:25.183+0900] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-08T18:54:25.223+0900] {processor.py:208} INFO - Processing /Users/alookso/1007MLpj/ml-project-ml-pjt-7/airflow/dags/mnist_model_dag22.py took 3.753 seconds
+[2024-10-08T18:57:14.828+0900] {processor.py:186} INFO - Started process (PID=29481) to work on /Users/alookso/1007MLpj/ml-project-ml-pjt-7/airflow/dags/mnist_model_dag22.py
+[2024-10-08T18:57:14.829+0900] {processor.py:914} INFO - Processing file /Users/alookso/1007MLpj/ml-project-ml-pjt-7/airflow/dags/mnist_model_dag22.py for tasks to queue
+[2024-10-08T18:57:14.830+0900] {logging_mixin.py:190} INFO - [2024-10-08T18:57:14.830+0900] {dagbag.py:588} INFO - Filling up the DagBag from /Users/alookso/1007MLpj/ml-project-ml-pjt-7/airflow/dags/mnist_model_dag22.py
+[2024-10-08T18:57:18.805+0900] {processor.py:925} INFO - DAG(s) 'mnist_model_workflow_2' retrieved from /Users/alookso/1007MLpj/ml-project-ml-pjt-7/airflow/dags/mnist_model_dag22.py
+[2024-10-08T18:57:19.241+0900] {logging_mixin.py:190} INFO - [2024-10-08T18:57:19.241+0900] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-08T18:57:19.332+0900] {processor.py:208} INFO - Processing /Users/alookso/1007MLpj/ml-project-ml-pjt-7/airflow/dags/mnist_model_dag22.py took 4.509 seconds

@@ -1,0 +1,204 @@
+[2024-10-08T14:45:03.395+0900] {processor.py:186} INFO - Started process (PID=22275) to work on /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2024-10-08T14:45:03.396+0900] {processor.py:914} INFO - Processing file /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py for tasks to queue
+[2024-10-08T14:45:03.397+0900] {logging_mixin.py:190} INFO - [2024-10-08T14:45:03.397+0900] {dagbag.py:588} INFO - Filling up the DagBag from /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2024-10-08T14:45:03.443+0900] {processor.py:925} INFO - DAG(s) 'example_params_trigger_ui' retrieved from /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2024-10-08T14:45:03.743+0900] {logging_mixin.py:190} INFO - [2024-10-08T14:45:03.742+0900] {override.py:1901} INFO - Created Permission View: can read on DAG:example_params_trigger_ui
+[2024-10-08T14:45:03.753+0900] {logging_mixin.py:190} INFO - [2024-10-08T14:45:03.753+0900] {override.py:1901} INFO - Created Permission View: can delete on DAG:example_params_trigger_ui
+[2024-10-08T14:45:03.760+0900] {logging_mixin.py:190} INFO - [2024-10-08T14:45:03.760+0900] {override.py:1901} INFO - Created Permission View: can edit on DAG:example_params_trigger_ui
+[2024-10-08T14:45:03.770+0900] {logging_mixin.py:190} INFO - [2024-10-08T14:45:03.770+0900] {override.py:1901} INFO - Created Permission View: can read on DAG Run:example_params_trigger_ui
+[2024-10-08T14:45:03.778+0900] {logging_mixin.py:190} INFO - [2024-10-08T14:45:03.777+0900] {override.py:1901} INFO - Created Permission View: menu access on DAG Run:example_params_trigger_ui
+[2024-10-08T14:45:03.784+0900] {logging_mixin.py:190} INFO - [2024-10-08T14:45:03.784+0900] {override.py:1901} INFO - Created Permission View: can delete on DAG Run:example_params_trigger_ui
+[2024-10-08T14:45:03.792+0900] {logging_mixin.py:190} INFO - [2024-10-08T14:45:03.791+0900] {override.py:1901} INFO - Created Permission View: can create on DAG Run:example_params_trigger_ui
+[2024-10-08T14:45:03.792+0900] {logging_mixin.py:190} INFO - [2024-10-08T14:45:03.792+0900] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-08T14:45:03.807+0900] {logging_mixin.py:190} INFO - [2024-10-08T14:45:03.807+0900] {dag.py:3262} INFO - Creating ORM DAG for example_params_trigger_ui
+[2024-10-08T14:45:03.808+0900] {logging_mixin.py:190} INFO - [2024-10-08T14:45:03.807+0900] {dag.py:4180} INFO - Setting next_dagrun for example_params_trigger_ui to None, run_after=None
+[2024-10-08T14:45:03.827+0900] {processor.py:208} INFO - Processing /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py took 0.436 seconds
+[2024-10-08T14:48:47.105+0900] {processor.py:186} INFO - Started process (PID=22366) to work on /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2024-10-08T14:48:47.105+0900] {processor.py:914} INFO - Processing file /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py for tasks to queue
+[2024-10-08T14:48:47.106+0900] {logging_mixin.py:190} INFO - [2024-10-08T14:48:47.106+0900] {dagbag.py:588} INFO - Filling up the DagBag from /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2024-10-08T14:48:47.153+0900] {processor.py:925} INFO - DAG(s) 'example_params_trigger_ui' retrieved from /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2024-10-08T14:48:47.321+0900] {logging_mixin.py:190} INFO - [2024-10-08T14:48:47.321+0900] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-08T14:48:47.334+0900] {logging_mixin.py:190} INFO - [2024-10-08T14:48:47.334+0900] {dag.py:4180} INFO - Setting next_dagrun for example_params_trigger_ui to None, run_after=None
+[2024-10-08T14:48:47.355+0900] {processor.py:208} INFO - Processing /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py took 0.255 seconds
+[2024-10-08T14:51:55.757+0900] {processor.py:186} INFO - Started process (PID=22461) to work on /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2024-10-08T14:51:55.758+0900] {processor.py:914} INFO - Processing file /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py for tasks to queue
+[2024-10-08T14:51:55.759+0900] {logging_mixin.py:190} INFO - [2024-10-08T14:51:55.759+0900] {dagbag.py:588} INFO - Filling up the DagBag from /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2024-10-08T14:51:55.804+0900] {processor.py:925} INFO - DAG(s) 'example_params_trigger_ui' retrieved from /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2024-10-08T14:51:55.975+0900] {logging_mixin.py:190} INFO - [2024-10-08T14:51:55.975+0900] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-08T14:51:55.988+0900] {logging_mixin.py:190} INFO - [2024-10-08T14:51:55.988+0900] {dag.py:4180} INFO - Setting next_dagrun for example_params_trigger_ui to None, run_after=None
+[2024-10-08T14:51:56.009+0900] {processor.py:208} INFO - Processing /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py took 0.256 seconds
+[2024-10-08T14:55:02.773+0900] {processor.py:186} INFO - Started process (PID=22587) to work on /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2024-10-08T14:55:02.774+0900] {processor.py:914} INFO - Processing file /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py for tasks to queue
+[2024-10-08T14:55:02.775+0900] {logging_mixin.py:190} INFO - [2024-10-08T14:55:02.775+0900] {dagbag.py:588} INFO - Filling up the DagBag from /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2024-10-08T14:55:02.821+0900] {processor.py:925} INFO - DAG(s) 'example_params_trigger_ui' retrieved from /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2024-10-08T14:55:02.994+0900] {logging_mixin.py:190} INFO - [2024-10-08T14:55:02.993+0900] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-08T14:55:03.008+0900] {logging_mixin.py:190} INFO - [2024-10-08T14:55:03.007+0900] {dag.py:4180} INFO - Setting next_dagrun for example_params_trigger_ui to None, run_after=None
+[2024-10-08T14:55:03.029+0900] {processor.py:208} INFO - Processing /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py took 0.260 seconds
+[2024-10-08T14:58:08.610+0900] {processor.py:186} INFO - Started process (PID=22685) to work on /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2024-10-08T14:58:08.611+0900] {processor.py:914} INFO - Processing file /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py for tasks to queue
+[2024-10-08T14:58:08.612+0900] {logging_mixin.py:190} INFO - [2024-10-08T14:58:08.611+0900] {dagbag.py:588} INFO - Filling up the DagBag from /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2024-10-08T14:58:08.656+0900] {processor.py:925} INFO - DAG(s) 'example_params_trigger_ui' retrieved from /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2024-10-08T14:58:08.828+0900] {logging_mixin.py:190} INFO - [2024-10-08T14:58:08.827+0900] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-08T14:58:08.842+0900] {logging_mixin.py:190} INFO - [2024-10-08T14:58:08.842+0900] {dag.py:4180} INFO - Setting next_dagrun for example_params_trigger_ui to None, run_after=None
+[2024-10-08T14:58:08.865+0900] {processor.py:208} INFO - Processing /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py took 0.260 seconds
+[2024-10-08T15:01:20.965+0900] {processor.py:186} INFO - Started process (PID=22792) to work on /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2024-10-08T15:01:20.966+0900] {processor.py:914} INFO - Processing file /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py for tasks to queue
+[2024-10-08T15:01:20.967+0900] {logging_mixin.py:190} INFO - [2024-10-08T15:01:20.967+0900] {dagbag.py:588} INFO - Filling up the DagBag from /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2024-10-08T15:01:21.014+0900] {processor.py:925} INFO - DAG(s) 'example_params_trigger_ui' retrieved from /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2024-10-08T15:01:21.185+0900] {logging_mixin.py:190} INFO - [2024-10-08T15:01:21.185+0900] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-08T15:01:21.199+0900] {logging_mixin.py:190} INFO - [2024-10-08T15:01:21.198+0900] {dag.py:4180} INFO - Setting next_dagrun for example_params_trigger_ui to None, run_after=None
+[2024-10-08T15:01:21.221+0900] {processor.py:208} INFO - Processing /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py took 0.262 seconds
+[2024-10-08T15:04:26.738+0900] {processor.py:186} INFO - Started process (PID=22872) to work on /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2024-10-08T15:04:26.739+0900] {processor.py:914} INFO - Processing file /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py for tasks to queue
+[2024-10-08T15:04:26.740+0900] {logging_mixin.py:190} INFO - [2024-10-08T15:04:26.740+0900] {dagbag.py:588} INFO - Filling up the DagBag from /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2024-10-08T15:04:26.785+0900] {processor.py:925} INFO - DAG(s) 'example_params_trigger_ui' retrieved from /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2024-10-08T15:04:26.955+0900] {logging_mixin.py:190} INFO - [2024-10-08T15:04:26.954+0900] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-08T15:04:26.968+0900] {logging_mixin.py:190} INFO - [2024-10-08T15:04:26.968+0900] {dag.py:4180} INFO - Setting next_dagrun for example_params_trigger_ui to None, run_after=None
+[2024-10-08T15:04:26.989+0900] {processor.py:208} INFO - Processing /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py took 0.255 seconds
+[2024-10-08T15:07:32.858+0900] {processor.py:186} INFO - Started process (PID=22970) to work on /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2024-10-08T15:07:32.859+0900] {processor.py:914} INFO - Processing file /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py for tasks to queue
+[2024-10-08T15:07:32.860+0900] {logging_mixin.py:190} INFO - [2024-10-08T15:07:32.860+0900] {dagbag.py:588} INFO - Filling up the DagBag from /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2024-10-08T15:07:32.905+0900] {processor.py:925} INFO - DAG(s) 'example_params_trigger_ui' retrieved from /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2024-10-08T15:07:33.072+0900] {logging_mixin.py:190} INFO - [2024-10-08T15:07:33.072+0900] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-08T15:07:33.085+0900] {logging_mixin.py:190} INFO - [2024-10-08T15:07:33.085+0900] {dag.py:4180} INFO - Setting next_dagrun for example_params_trigger_ui to None, run_after=None
+[2024-10-08T15:07:33.106+0900] {processor.py:208} INFO - Processing /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py took 0.253 seconds
+[2024-10-08T15:10:36.575+0900] {processor.py:186} INFO - Started process (PID=23096) to work on /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2024-10-08T15:10:36.576+0900] {processor.py:914} INFO - Processing file /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py for tasks to queue
+[2024-10-08T15:10:36.576+0900] {logging_mixin.py:190} INFO - [2024-10-08T15:10:36.576+0900] {dagbag.py:588} INFO - Filling up the DagBag from /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2024-10-08T15:10:36.620+0900] {processor.py:925} INFO - DAG(s) 'example_params_trigger_ui' retrieved from /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2024-10-08T15:10:36.783+0900] {logging_mixin.py:190} INFO - [2024-10-08T15:10:36.783+0900] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-08T15:10:36.796+0900] {logging_mixin.py:190} INFO - [2024-10-08T15:10:36.796+0900] {dag.py:4180} INFO - Setting next_dagrun for example_params_trigger_ui to None, run_after=None
+[2024-10-08T15:10:36.816+0900] {processor.py:208} INFO - Processing /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py took 0.246 seconds
+[2024-10-08T15:13:36.832+0900] {processor.py:186} INFO - Started process (PID=23173) to work on /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2024-10-08T15:13:36.833+0900] {processor.py:914} INFO - Processing file /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py for tasks to queue
+[2024-10-08T15:13:36.834+0900] {logging_mixin.py:190} INFO - [2024-10-08T15:13:36.834+0900] {dagbag.py:588} INFO - Filling up the DagBag from /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2024-10-08T15:13:36.879+0900] {processor.py:925} INFO - DAG(s) 'example_params_trigger_ui' retrieved from /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2024-10-08T15:13:37.047+0900] {logging_mixin.py:190} INFO - [2024-10-08T15:13:37.046+0900] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-08T15:13:37.060+0900] {logging_mixin.py:190} INFO - [2024-10-08T15:13:37.059+0900] {dag.py:4180} INFO - Setting next_dagrun for example_params_trigger_ui to None, run_after=None
+[2024-10-08T15:13:37.080+0900] {processor.py:208} INFO - Processing /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py took 0.253 seconds
+[2024-10-08T15:16:35.948+0900] {processor.py:186} INFO - Started process (PID=23258) to work on /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2024-10-08T15:16:35.949+0900] {processor.py:914} INFO - Processing file /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py for tasks to queue
+[2024-10-08T15:16:35.949+0900] {logging_mixin.py:190} INFO - [2024-10-08T15:16:35.949+0900] {dagbag.py:588} INFO - Filling up the DagBag from /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2024-10-08T15:16:35.995+0900] {processor.py:925} INFO - DAG(s) 'example_params_trigger_ui' retrieved from /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2024-10-08T15:16:36.166+0900] {logging_mixin.py:190} INFO - [2024-10-08T15:16:36.165+0900] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-08T15:16:36.179+0900] {logging_mixin.py:190} INFO - [2024-10-08T15:16:36.179+0900] {dag.py:4180} INFO - Setting next_dagrun for example_params_trigger_ui to None, run_after=None
+[2024-10-08T15:16:36.200+0900] {processor.py:208} INFO - Processing /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py took 0.257 seconds
+[2024-10-08T15:19:45.091+0900] {processor.py:186} INFO - Started process (PID=23358) to work on /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2024-10-08T15:19:45.092+0900] {processor.py:914} INFO - Processing file /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py for tasks to queue
+[2024-10-08T15:19:45.093+0900] {logging_mixin.py:190} INFO - [2024-10-08T15:19:45.093+0900] {dagbag.py:588} INFO - Filling up the DagBag from /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2024-10-08T15:19:45.140+0900] {processor.py:925} INFO - DAG(s) 'example_params_trigger_ui' retrieved from /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2024-10-08T15:19:45.310+0900] {logging_mixin.py:190} INFO - [2024-10-08T15:19:45.309+0900] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-08T15:19:45.323+0900] {logging_mixin.py:190} INFO - [2024-10-08T15:19:45.323+0900] {dag.py:4180} INFO - Setting next_dagrun for example_params_trigger_ui to None, run_after=None
+[2024-10-08T15:19:45.346+0900] {processor.py:208} INFO - Processing /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py took 0.260 seconds
+[2024-10-08T15:22:52.383+0900] {processor.py:186} INFO - Started process (PID=23451) to work on /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2024-10-08T15:22:52.384+0900] {processor.py:914} INFO - Processing file /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py for tasks to queue
+[2024-10-08T15:22:52.385+0900] {logging_mixin.py:190} INFO - [2024-10-08T15:22:52.385+0900] {dagbag.py:588} INFO - Filling up the DagBag from /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2024-10-08T15:22:52.429+0900] {processor.py:925} INFO - DAG(s) 'example_params_trigger_ui' retrieved from /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2024-10-08T15:22:52.595+0900] {logging_mixin.py:190} INFO - [2024-10-08T15:22:52.594+0900] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-08T15:22:52.608+0900] {logging_mixin.py:190} INFO - [2024-10-08T15:22:52.608+0900] {dag.py:4180} INFO - Setting next_dagrun for example_params_trigger_ui to None, run_after=None
+[2024-10-08T15:22:52.630+0900] {processor.py:208} INFO - Processing /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py took 0.250 seconds
+[2024-10-08T15:25:58.561+0900] {processor.py:186} INFO - Started process (PID=23535) to work on /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2024-10-08T15:25:58.562+0900] {processor.py:914} INFO - Processing file /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py for tasks to queue
+[2024-10-08T15:25:58.563+0900] {logging_mixin.py:190} INFO - [2024-10-08T15:25:58.563+0900] {dagbag.py:588} INFO - Filling up the DagBag from /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2024-10-08T15:25:58.609+0900] {processor.py:925} INFO - DAG(s) 'example_params_trigger_ui' retrieved from /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2024-10-08T15:25:58.776+0900] {logging_mixin.py:190} INFO - [2024-10-08T15:25:58.775+0900] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-08T15:25:58.789+0900] {logging_mixin.py:190} INFO - [2024-10-08T15:25:58.788+0900] {dag.py:4180} INFO - Setting next_dagrun for example_params_trigger_ui to None, run_after=None
+[2024-10-08T15:25:58.810+0900] {processor.py:208} INFO - Processing /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py took 0.254 seconds
+[2024-10-08T15:29:00.757+0900] {processor.py:186} INFO - Started process (PID=23652) to work on /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2024-10-08T15:29:00.758+0900] {processor.py:914} INFO - Processing file /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py for tasks to queue
+[2024-10-08T15:29:00.759+0900] {logging_mixin.py:190} INFO - [2024-10-08T15:29:00.759+0900] {dagbag.py:588} INFO - Filling up the DagBag from /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2024-10-08T15:29:00.803+0900] {processor.py:925} INFO - DAG(s) 'example_params_trigger_ui' retrieved from /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2024-10-08T15:29:00.969+0900] {logging_mixin.py:190} INFO - [2024-10-08T15:29:00.969+0900] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-08T15:29:00.982+0900] {logging_mixin.py:190} INFO - [2024-10-08T15:29:00.982+0900] {dag.py:4180} INFO - Setting next_dagrun for example_params_trigger_ui to None, run_after=None
+[2024-10-08T15:29:01.003+0900] {processor.py:208} INFO - Processing /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py took 0.250 seconds
+[2024-10-08T15:32:01.415+0900] {processor.py:186} INFO - Started process (PID=23756) to work on /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2024-10-08T15:32:01.416+0900] {processor.py:914} INFO - Processing file /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py for tasks to queue
+[2024-10-08T15:32:01.416+0900] {logging_mixin.py:190} INFO - [2024-10-08T15:32:01.416+0900] {dagbag.py:588} INFO - Filling up the DagBag from /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2024-10-08T15:32:01.461+0900] {processor.py:925} INFO - DAG(s) 'example_params_trigger_ui' retrieved from /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2024-10-08T15:32:01.625+0900] {logging_mixin.py:190} INFO - [2024-10-08T15:32:01.625+0900] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-08T15:32:01.639+0900] {logging_mixin.py:190} INFO - [2024-10-08T15:32:01.639+0900] {dag.py:4180} INFO - Setting next_dagrun for example_params_trigger_ui to None, run_after=None
+[2024-10-08T15:32:01.659+0900] {processor.py:208} INFO - Processing /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py took 0.249 seconds
+[2024-10-08T16:37:24.165+0900] {processor.py:186} INFO - Started process (PID=25043) to work on /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2024-10-08T16:37:24.166+0900] {processor.py:914} INFO - Processing file /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py for tasks to queue
+[2024-10-08T16:37:24.167+0900] {logging_mixin.py:190} INFO - [2024-10-08T16:37:24.167+0900] {dagbag.py:588} INFO - Filling up the DagBag from /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2024-10-08T16:37:24.215+0900] {processor.py:925} INFO - DAG(s) 'example_params_trigger_ui' retrieved from /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2024-10-08T16:37:24.399+0900] {logging_mixin.py:190} INFO - [2024-10-08T16:37:24.398+0900] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-08T16:37:24.412+0900] {logging_mixin.py:190} INFO - [2024-10-08T16:37:24.412+0900] {dag.py:4180} INFO - Setting next_dagrun for example_params_trigger_ui to None, run_after=None
+[2024-10-08T16:37:24.435+0900] {processor.py:208} INFO - Processing /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py took 0.275 seconds
+[2024-10-08T17:28:56.767+0900] {processor.py:186} INFO - Started process (PID=26413) to work on /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2024-10-08T17:28:56.768+0900] {processor.py:914} INFO - Processing file /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py for tasks to queue
+[2024-10-08T17:28:56.769+0900] {logging_mixin.py:190} INFO - [2024-10-08T17:28:56.769+0900] {dagbag.py:588} INFO - Filling up the DagBag from /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2024-10-08T17:28:56.816+0900] {processor.py:925} INFO - DAG(s) 'example_params_trigger_ui' retrieved from /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2024-10-08T17:28:56.987+0900] {logging_mixin.py:190} INFO - [2024-10-08T17:28:56.986+0900] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-08T17:28:57.000+0900] {logging_mixin.py:190} INFO - [2024-10-08T17:28:57.000+0900] {dag.py:4180} INFO - Setting next_dagrun for example_params_trigger_ui to None, run_after=None
+[2024-10-08T17:28:57.022+0900] {processor.py:208} INFO - Processing /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py took 0.261 seconds
+[2024-10-08T17:43:44.430+0900] {processor.py:186} INFO - Started process (PID=26907) to work on /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2024-10-08T17:43:44.431+0900] {processor.py:914} INFO - Processing file /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py for tasks to queue
+[2024-10-08T17:43:44.432+0900] {logging_mixin.py:190} INFO - [2024-10-08T17:43:44.432+0900] {dagbag.py:588} INFO - Filling up the DagBag from /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2024-10-08T17:43:44.476+0900] {processor.py:925} INFO - DAG(s) 'example_params_trigger_ui' retrieved from /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2024-10-08T17:43:44.641+0900] {logging_mixin.py:190} INFO - [2024-10-08T17:43:44.641+0900] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-08T17:43:44.654+0900] {logging_mixin.py:190} INFO - [2024-10-08T17:43:44.653+0900] {dag.py:4180} INFO - Setting next_dagrun for example_params_trigger_ui to None, run_after=None
+[2024-10-08T17:43:44.674+0900] {processor.py:208} INFO - Processing /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py took 0.248 seconds
+[2024-10-08T17:56:07.466+0900] {processor.py:186} INFO - Started process (PID=27335) to work on /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2024-10-08T17:56:07.467+0900] {processor.py:914} INFO - Processing file /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py for tasks to queue
+[2024-10-08T17:56:07.468+0900] {logging_mixin.py:190} INFO - [2024-10-08T17:56:07.467+0900] {dagbag.py:588} INFO - Filling up the DagBag from /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2024-10-08T17:56:07.511+0900] {processor.py:925} INFO - DAG(s) 'example_params_trigger_ui' retrieved from /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2024-10-08T17:56:07.675+0900] {logging_mixin.py:190} INFO - [2024-10-08T17:56:07.675+0900] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-08T17:56:07.689+0900] {logging_mixin.py:190} INFO - [2024-10-08T17:56:07.688+0900] {dag.py:4180} INFO - Setting next_dagrun for example_params_trigger_ui to None, run_after=None
+[2024-10-08T17:56:07.709+0900] {processor.py:208} INFO - Processing /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py took 0.247 seconds
+[2024-10-08T18:00:58.061+0900] {processor.py:186} INFO - Started process (PID=27545) to work on /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2024-10-08T18:00:58.062+0900] {processor.py:914} INFO - Processing file /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py for tasks to queue
+[2024-10-08T18:00:58.062+0900] {logging_mixin.py:190} INFO - [2024-10-08T18:00:58.062+0900] {dagbag.py:588} INFO - Filling up the DagBag from /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2024-10-08T18:00:58.106+0900] {processor.py:925} INFO - DAG(s) 'example_params_trigger_ui' retrieved from /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2024-10-08T18:00:58.269+0900] {logging_mixin.py:190} INFO - [2024-10-08T18:00:58.269+0900] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-08T18:00:58.283+0900] {logging_mixin.py:190} INFO - [2024-10-08T18:00:58.282+0900] {dag.py:4180} INFO - Setting next_dagrun for example_params_trigger_ui to None, run_after=None
+[2024-10-08T18:00:58.303+0900] {processor.py:208} INFO - Processing /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py took 0.247 seconds
+[2024-10-08T18:04:38.608+0900] {processor.py:186} INFO - Started process (PID=27678) to work on /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2024-10-08T18:04:38.609+0900] {processor.py:914} INFO - Processing file /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py for tasks to queue
+[2024-10-08T18:04:38.610+0900] {logging_mixin.py:190} INFO - [2024-10-08T18:04:38.609+0900] {dagbag.py:588} INFO - Filling up the DagBag from /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2024-10-08T18:04:38.653+0900] {processor.py:925} INFO - DAG(s) 'example_params_trigger_ui' retrieved from /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2024-10-08T18:04:38.820+0900] {logging_mixin.py:190} INFO - [2024-10-08T18:04:38.819+0900] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-08T18:04:38.833+0900] {logging_mixin.py:190} INFO - [2024-10-08T18:04:38.833+0900] {dag.py:4180} INFO - Setting next_dagrun for example_params_trigger_ui to None, run_after=None
+[2024-10-08T18:04:38.854+0900] {processor.py:208} INFO - Processing /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py took 0.250 seconds
+[2024-10-08T18:07:05.156+0900] {processor.py:186} INFO - Started process (PID=27777) to work on /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2024-10-08T18:07:05.156+0900] {processor.py:914} INFO - Processing file /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py for tasks to queue
+[2024-10-08T18:07:05.157+0900] {logging_mixin.py:190} INFO - [2024-10-08T18:07:05.157+0900] {dagbag.py:588} INFO - Filling up the DagBag from /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2024-10-08T18:07:05.207+0900] {processor.py:925} INFO - DAG(s) 'example_params_trigger_ui' retrieved from /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2024-10-08T18:07:05.377+0900] {logging_mixin.py:190} INFO - [2024-10-08T18:07:05.376+0900] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-08T18:07:05.390+0900] {logging_mixin.py:190} INFO - [2024-10-08T18:07:05.390+0900] {dag.py:4180} INFO - Setting next_dagrun for example_params_trigger_ui to None, run_after=None
+[2024-10-08T18:07:05.410+0900] {processor.py:208} INFO - Processing /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py took 0.260 seconds
+[2024-10-08T18:10:45.087+0900] {processor.py:186} INFO - Started process (PID=27890) to work on /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2024-10-08T18:10:45.088+0900] {processor.py:914} INFO - Processing file /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py for tasks to queue
+[2024-10-08T18:10:45.089+0900] {logging_mixin.py:190} INFO - [2024-10-08T18:10:45.088+0900] {dagbag.py:588} INFO - Filling up the DagBag from /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2024-10-08T18:10:45.133+0900] {processor.py:925} INFO - DAG(s) 'example_params_trigger_ui' retrieved from /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2024-10-08T18:10:45.301+0900] {logging_mixin.py:190} INFO - [2024-10-08T18:10:45.301+0900] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-08T18:10:45.315+0900] {logging_mixin.py:190} INFO - [2024-10-08T18:10:45.315+0900] {dag.py:4180} INFO - Setting next_dagrun for example_params_trigger_ui to None, run_after=None
+[2024-10-08T18:10:45.336+0900] {processor.py:208} INFO - Processing /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py took 0.254 seconds
+[2024-10-08T18:13:55.769+0900] {processor.py:186} INFO - Started process (PID=27983) to work on /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2024-10-08T18:13:55.770+0900] {processor.py:914} INFO - Processing file /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py for tasks to queue
+[2024-10-08T18:13:55.771+0900] {logging_mixin.py:190} INFO - [2024-10-08T18:13:55.770+0900] {dagbag.py:588} INFO - Filling up the DagBag from /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2024-10-08T18:13:55.816+0900] {processor.py:925} INFO - DAG(s) 'example_params_trigger_ui' retrieved from /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2024-10-08T18:13:55.984+0900] {logging_mixin.py:190} INFO - [2024-10-08T18:13:55.984+0900] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-08T18:13:55.997+0900] {logging_mixin.py:190} INFO - [2024-10-08T18:13:55.997+0900] {dag.py:4180} INFO - Setting next_dagrun for example_params_trigger_ui to None, run_after=None
+[2024-10-08T18:13:56.017+0900] {processor.py:208} INFO - Processing /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py took 0.252 seconds
+[2024-10-08T18:17:04.734+0900] {processor.py:186} INFO - Started process (PID=28080) to work on /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2024-10-08T18:17:04.735+0900] {processor.py:914} INFO - Processing file /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py for tasks to queue
+[2024-10-08T18:17:04.736+0900] {logging_mixin.py:190} INFO - [2024-10-08T18:17:04.736+0900] {dagbag.py:588} INFO - Filling up the DagBag from /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2024-10-08T18:17:04.781+0900] {processor.py:925} INFO - DAG(s) 'example_params_trigger_ui' retrieved from /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2024-10-08T18:17:04.953+0900] {logging_mixin.py:190} INFO - [2024-10-08T18:17:04.953+0900] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-08T18:17:04.966+0900] {logging_mixin.py:190} INFO - [2024-10-08T18:17:04.966+0900] {dag.py:4180} INFO - Setting next_dagrun for example_params_trigger_ui to None, run_after=None
+[2024-10-08T18:17:04.988+0900] {processor.py:208} INFO - Processing /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py took 0.259 seconds
+[2024-10-08T18:20:17.284+0900] {processor.py:186} INFO - Started process (PID=28177) to work on /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2024-10-08T18:20:17.285+0900] {processor.py:914} INFO - Processing file /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py for tasks to queue
+[2024-10-08T18:20:17.286+0900] {logging_mixin.py:190} INFO - [2024-10-08T18:20:17.286+0900] {dagbag.py:588} INFO - Filling up the DagBag from /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2024-10-08T18:20:17.330+0900] {processor.py:925} INFO - DAG(s) 'example_params_trigger_ui' retrieved from /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2024-10-08T18:20:17.497+0900] {logging_mixin.py:190} INFO - [2024-10-08T18:20:17.497+0900] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-08T18:20:17.510+0900] {logging_mixin.py:190} INFO - [2024-10-08T18:20:17.510+0900] {dag.py:4180} INFO - Setting next_dagrun for example_params_trigger_ui to None, run_after=None
+[2024-10-08T18:20:17.531+0900] {processor.py:208} INFO - Processing /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py took 0.251 seconds
+[2024-10-08T18:47:33.884+0900] {processor.py:186} INFO - Started process (PID=29280) to work on /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2024-10-08T18:47:33.884+0900] {processor.py:914} INFO - Processing file /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py for tasks to queue
+[2024-10-08T18:47:33.885+0900] {logging_mixin.py:190} INFO - [2024-10-08T18:47:33.885+0900] {dagbag.py:588} INFO - Filling up the DagBag from /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2024-10-08T18:47:33.929+0900] {processor.py:925} INFO - DAG(s) 'example_params_trigger_ui' retrieved from /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2024-10-08T18:47:34.093+0900] {logging_mixin.py:190} INFO - [2024-10-08T18:47:34.093+0900] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-08T18:47:34.106+0900] {logging_mixin.py:190} INFO - [2024-10-08T18:47:34.105+0900] {dag.py:4180} INFO - Setting next_dagrun for example_params_trigger_ui to None, run_after=None
+[2024-10-08T18:47:34.126+0900] {processor.py:208} INFO - Processing /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py took 0.246 seconds

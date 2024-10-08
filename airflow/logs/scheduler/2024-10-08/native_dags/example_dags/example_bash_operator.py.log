@@ -1,0 +1,113 @@
+[2024-10-08T14:46:35.192+0900] {processor.py:186} INFO - Started process (PID=22311) to work on /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-10-08T14:46:35.193+0900] {processor.py:914} INFO - Processing file /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2024-10-08T14:46:35.194+0900] {logging_mixin.py:190} INFO - [2024-10-08T14:46:35.194+0900] {dagbag.py:588} INFO - Filling up the DagBag from /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-10-08T14:46:35.209+0900] {processor.py:925} INFO - DAG(s) 'example_bash_operator' retrieved from /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-10-08T14:46:35.462+0900] {logging_mixin.py:190} INFO - [2024-10-08T14:46:35.462+0900] {override.py:1901} INFO - Created Permission View: can delete on DAG:example_bash_operator
+[2024-10-08T14:46:35.473+0900] {logging_mixin.py:190} INFO - [2024-10-08T14:46:35.473+0900] {override.py:1901} INFO - Created Permission View: can edit on DAG:example_bash_operator
+[2024-10-08T14:46:35.481+0900] {logging_mixin.py:190} INFO - [2024-10-08T14:46:35.480+0900] {override.py:1901} INFO - Created Permission View: can read on DAG:example_bash_operator
+[2024-10-08T14:46:35.490+0900] {logging_mixin.py:190} INFO - [2024-10-08T14:46:35.490+0900] {override.py:1901} INFO - Created Permission View: can delete on DAG Run:example_bash_operator
+[2024-10-08T14:46:35.498+0900] {logging_mixin.py:190} INFO - [2024-10-08T14:46:35.497+0900] {override.py:1901} INFO - Created Permission View: can create on DAG Run:example_bash_operator
+[2024-10-08T14:46:35.505+0900] {logging_mixin.py:190} INFO - [2024-10-08T14:46:35.505+0900] {override.py:1901} INFO - Created Permission View: can read on DAG Run:example_bash_operator
+[2024-10-08T14:46:35.512+0900] {logging_mixin.py:190} INFO - [2024-10-08T14:46:35.512+0900] {override.py:1901} INFO - Created Permission View: menu access on DAG Run:example_bash_operator
+[2024-10-08T14:46:35.513+0900] {logging_mixin.py:190} INFO - [2024-10-08T14:46:35.513+0900] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-08T14:46:35.527+0900] {logging_mixin.py:190} INFO - [2024-10-08T14:46:35.527+0900] {dag.py:3262} INFO - Creating ORM DAG for example_bash_operator
+[2024-10-08T14:46:35.539+0900] {logging_mixin.py:190} INFO - [2024-10-08T14:46:35.539+0900] {dag.py:4180} INFO - Setting next_dagrun for example_bash_operator to 2024-10-07T00:00:00+00:00, run_after=2024-10-08T00:00:00+00:00
+[2024-10-08T14:46:35.558+0900] {processor.py:208} INFO - Processing /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py took 0.371 seconds
+[2024-10-08T14:52:51.589+0900] {processor.py:186} INFO - Started process (PID=22486) to work on /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-10-08T14:52:51.590+0900] {processor.py:914} INFO - Processing file /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2024-10-08T14:52:51.591+0900] {logging_mixin.py:190} INFO - [2024-10-08T14:52:51.591+0900] {dagbag.py:588} INFO - Filling up the DagBag from /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-10-08T14:52:51.607+0900] {processor.py:925} INFO - DAG(s) 'example_bash_operator' retrieved from /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-10-08T14:52:51.754+0900] {logging_mixin.py:190} INFO - [2024-10-08T14:52:51.754+0900] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-08T14:52:51.777+0900] {logging_mixin.py:190} INFO - [2024-10-08T14:52:51.776+0900] {dag.py:4180} INFO - Setting next_dagrun for example_bash_operator to 2024-10-07T00:00:00+00:00, run_after=2024-10-08T00:00:00+00:00
+[2024-10-08T14:52:51.796+0900] {processor.py:208} INFO - Processing /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py took 0.213 seconds
+[2024-10-08T14:59:04.931+0900] {processor.py:186} INFO - Started process (PID=22716) to work on /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-10-08T14:59:04.932+0900] {processor.py:914} INFO - Processing file /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2024-10-08T14:59:04.933+0900] {logging_mixin.py:190} INFO - [2024-10-08T14:59:04.933+0900] {dagbag.py:588} INFO - Filling up the DagBag from /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-10-08T14:59:04.950+0900] {processor.py:925} INFO - DAG(s) 'example_bash_operator' retrieved from /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-10-08T14:59:05.129+0900] {logging_mixin.py:190} INFO - [2024-10-08T14:59:05.129+0900] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-08T14:59:05.155+0900] {logging_mixin.py:190} INFO - [2024-10-08T14:59:05.154+0900] {dag.py:4180} INFO - Setting next_dagrun for example_bash_operator to 2024-10-07T00:00:00+00:00, run_after=2024-10-08T00:00:00+00:00
+[2024-10-08T14:59:05.177+0900] {processor.py:208} INFO - Processing /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py took 0.252 seconds
+[2024-10-08T15:05:21.951+0900] {processor.py:186} INFO - Started process (PID=22895) to work on /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-10-08T15:05:21.952+0900] {processor.py:914} INFO - Processing file /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2024-10-08T15:05:21.953+0900] {logging_mixin.py:190} INFO - [2024-10-08T15:05:21.952+0900] {dagbag.py:588} INFO - Filling up the DagBag from /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-10-08T15:05:21.968+0900] {processor.py:925} INFO - DAG(s) 'example_bash_operator' retrieved from /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-10-08T15:05:22.115+0900] {logging_mixin.py:190} INFO - [2024-10-08T15:05:22.115+0900] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-08T15:05:22.140+0900] {logging_mixin.py:190} INFO - [2024-10-08T15:05:22.139+0900] {dag.py:4180} INFO - Setting next_dagrun for example_bash_operator to 2024-10-07T00:00:00+00:00, run_after=2024-10-08T00:00:00+00:00
+[2024-10-08T15:05:22.160+0900] {processor.py:208} INFO - Processing /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py took 0.215 seconds
+[2024-10-08T15:11:29.009+0900] {processor.py:186} INFO - Started process (PID=23117) to work on /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-10-08T15:11:29.010+0900] {processor.py:914} INFO - Processing file /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2024-10-08T15:11:29.011+0900] {logging_mixin.py:190} INFO - [2024-10-08T15:11:29.011+0900] {dagbag.py:588} INFO - Filling up the DagBag from /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-10-08T15:11:29.025+0900] {processor.py:925} INFO - DAG(s) 'example_bash_operator' retrieved from /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-10-08T15:11:29.166+0900] {logging_mixin.py:190} INFO - [2024-10-08T15:11:29.166+0900] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-08T15:11:29.188+0900] {logging_mixin.py:190} INFO - [2024-10-08T15:11:29.188+0900] {dag.py:4180} INFO - Setting next_dagrun for example_bash_operator to 2024-10-07T00:00:00+00:00, run_after=2024-10-08T00:00:00+00:00
+[2024-10-08T15:11:29.208+0900] {processor.py:208} INFO - Processing /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py took 0.203 seconds
+[2024-10-08T15:17:31.741+0900] {processor.py:186} INFO - Started process (PID=23286) to work on /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-10-08T15:17:31.742+0900] {processor.py:914} INFO - Processing file /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2024-10-08T15:17:31.743+0900] {logging_mixin.py:190} INFO - [2024-10-08T15:17:31.742+0900] {dagbag.py:588} INFO - Filling up the DagBag from /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-10-08T15:17:31.758+0900] {processor.py:925} INFO - DAG(s) 'example_bash_operator' retrieved from /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-10-08T15:17:31.911+0900] {logging_mixin.py:190} INFO - [2024-10-08T15:17:31.911+0900] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-08T15:17:31.936+0900] {logging_mixin.py:190} INFO - [2024-10-08T15:17:31.936+0900] {dag.py:4180} INFO - Setting next_dagrun for example_bash_operator to 2024-10-07T00:00:00+00:00, run_after=2024-10-08T00:00:00+00:00
+[2024-10-08T15:17:31.958+0900] {processor.py:208} INFO - Processing /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py took 0.223 seconds
+[2024-10-08T15:23:47.236+0900] {processor.py:186} INFO - Started process (PID=23481) to work on /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-10-08T15:23:47.237+0900] {processor.py:914} INFO - Processing file /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2024-10-08T15:23:47.238+0900] {logging_mixin.py:190} INFO - [2024-10-08T15:23:47.238+0900] {dagbag.py:588} INFO - Filling up the DagBag from /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-10-08T15:23:47.253+0900] {processor.py:925} INFO - DAG(s) 'example_bash_operator' retrieved from /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-10-08T15:23:47.397+0900] {logging_mixin.py:190} INFO - [2024-10-08T15:23:47.397+0900] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-08T15:23:47.420+0900] {logging_mixin.py:190} INFO - [2024-10-08T15:23:47.420+0900] {dag.py:4180} INFO - Setting next_dagrun for example_bash_operator to 2024-10-07T00:00:00+00:00, run_after=2024-10-08T00:00:00+00:00
+[2024-10-08T15:23:47.440+0900] {processor.py:208} INFO - Processing /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py took 0.208 seconds
+[2024-10-08T15:29:51.361+0900] {processor.py:186} INFO - Started process (PID=23684) to work on /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-10-08T15:29:51.361+0900] {processor.py:914} INFO - Processing file /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2024-10-08T15:29:51.363+0900] {logging_mixin.py:190} INFO - [2024-10-08T15:29:51.362+0900] {dagbag.py:588} INFO - Filling up the DagBag from /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-10-08T15:29:51.378+0900] {processor.py:925} INFO - DAG(s) 'example_bash_operator' retrieved from /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-10-08T15:29:51.524+0900] {logging_mixin.py:190} INFO - [2024-10-08T15:29:51.524+0900] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-08T15:29:51.547+0900] {logging_mixin.py:190} INFO - [2024-10-08T15:29:51.546+0900] {dag.py:4180} INFO - Setting next_dagrun for example_bash_operator to 2024-10-07T00:00:00+00:00, run_after=2024-10-08T00:00:00+00:00
+[2024-10-08T15:29:51.566+0900] {processor.py:208} INFO - Processing /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py took 0.212 seconds
+[2024-10-08T16:38:47.699+0900] {processor.py:186} INFO - Started process (PID=25105) to work on /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-10-08T16:38:47.700+0900] {processor.py:914} INFO - Processing file /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2024-10-08T16:38:47.701+0900] {logging_mixin.py:190} INFO - [2024-10-08T16:38:47.701+0900] {dagbag.py:588} INFO - Filling up the DagBag from /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-10-08T16:38:47.716+0900] {processor.py:925} INFO - DAG(s) 'example_bash_operator' retrieved from /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-10-08T16:38:47.861+0900] {logging_mixin.py:190} INFO - [2024-10-08T16:38:47.861+0900] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-08T16:38:47.883+0900] {logging_mixin.py:190} INFO - [2024-10-08T16:38:47.883+0900] {dag.py:4180} INFO - Setting next_dagrun for example_bash_operator to 2024-10-07T00:00:00+00:00, run_after=2024-10-08T00:00:00+00:00
+[2024-10-08T16:38:47.902+0900] {processor.py:208} INFO - Processing /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py took 0.207 seconds
+[2024-10-08T17:30:27.686+0900] {processor.py:186} INFO - Started process (PID=26486) to work on /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-10-08T17:30:27.687+0900] {processor.py:914} INFO - Processing file /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2024-10-08T17:30:27.688+0900] {logging_mixin.py:190} INFO - [2024-10-08T17:30:27.687+0900] {dagbag.py:588} INFO - Filling up the DagBag from /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-10-08T17:30:27.703+0900] {processor.py:925} INFO - DAG(s) 'example_bash_operator' retrieved from /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-10-08T17:30:27.853+0900] {logging_mixin.py:190} INFO - [2024-10-08T17:30:27.853+0900] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-08T17:30:27.876+0900] {logging_mixin.py:190} INFO - [2024-10-08T17:30:27.876+0900] {dag.py:4180} INFO - Setting next_dagrun for example_bash_operator to 2024-10-07T00:00:00+00:00, run_after=2024-10-08T00:00:00+00:00
+[2024-10-08T17:30:27.896+0900] {processor.py:208} INFO - Processing /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py took 0.214 seconds
+[2024-10-08T17:57:30.882+0900] {processor.py:186} INFO - Started process (PID=27382) to work on /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-10-08T17:57:30.883+0900] {processor.py:914} INFO - Processing file /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2024-10-08T17:57:30.884+0900] {logging_mixin.py:190} INFO - [2024-10-08T17:57:30.884+0900] {dagbag.py:588} INFO - Filling up the DagBag from /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-10-08T17:57:30.898+0900] {processor.py:925} INFO - DAG(s) 'example_bash_operator' retrieved from /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-10-08T17:57:31.045+0900] {logging_mixin.py:190} INFO - [2024-10-08T17:57:31.045+0900] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-08T17:57:31.068+0900] {logging_mixin.py:190} INFO - [2024-10-08T17:57:31.068+0900] {dag.py:4180} INFO - Setting next_dagrun for example_bash_operator to 2024-10-07T00:00:00+00:00, run_after=2024-10-08T00:00:00+00:00
+[2024-10-08T17:57:31.088+0900] {processor.py:208} INFO - Processing /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py took 0.211 seconds
+[2024-10-08T18:02:20.865+0900] {processor.py:186} INFO - Started process (PID=27604) to work on /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-10-08T18:02:20.865+0900] {processor.py:914} INFO - Processing file /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2024-10-08T18:02:20.866+0900] {logging_mixin.py:190} INFO - [2024-10-08T18:02:20.866+0900] {dagbag.py:588} INFO - Filling up the DagBag from /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-10-08T18:02:20.880+0900] {processor.py:925} INFO - DAG(s) 'example_bash_operator' retrieved from /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-10-08T18:02:21.022+0900] {logging_mixin.py:190} INFO - [2024-10-08T18:02:21.022+0900] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-08T18:02:21.044+0900] {logging_mixin.py:190} INFO - [2024-10-08T18:02:21.044+0900] {dag.py:4180} INFO - Setting next_dagrun for example_bash_operator to 2024-10-07T00:00:00+00:00, run_after=2024-10-08T00:00:00+00:00
+[2024-10-08T18:02:21.064+0900] {processor.py:208} INFO - Processing /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py took 0.203 seconds
+[2024-10-08T18:08:28.626+0900] {processor.py:186} INFO - Started process (PID=27813) to work on /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-10-08T18:08:28.627+0900] {processor.py:914} INFO - Processing file /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2024-10-08T18:08:28.628+0900] {logging_mixin.py:190} INFO - [2024-10-08T18:08:28.627+0900] {dagbag.py:588} INFO - Filling up the DagBag from /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-10-08T18:08:28.643+0900] {processor.py:925} INFO - DAG(s) 'example_bash_operator' retrieved from /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-10-08T18:08:28.784+0900] {logging_mixin.py:190} INFO - [2024-10-08T18:08:28.784+0900] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-08T18:08:28.806+0900] {logging_mixin.py:190} INFO - [2024-10-08T18:08:28.806+0900] {dag.py:4180} INFO - Setting next_dagrun for example_bash_operator to 2024-10-07T00:00:00+00:00, run_after=2024-10-08T00:00:00+00:00
+[2024-10-08T18:08:28.826+0900] {processor.py:208} INFO - Processing /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py took 0.204 seconds
+[2024-10-08T18:14:48.446+0900] {processor.py:186} INFO - Started process (PID=28017) to work on /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-10-08T18:14:48.447+0900] {processor.py:914} INFO - Processing file /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2024-10-08T18:14:48.448+0900] {logging_mixin.py:190} INFO - [2024-10-08T18:14:48.448+0900] {dagbag.py:588} INFO - Filling up the DagBag from /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-10-08T18:14:48.463+0900] {processor.py:925} INFO - DAG(s) 'example_bash_operator' retrieved from /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-10-08T18:14:48.604+0900] {logging_mixin.py:190} INFO - [2024-10-08T18:14:48.604+0900] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-08T18:14:48.626+0900] {logging_mixin.py:190} INFO - [2024-10-08T18:14:48.626+0900] {dag.py:4180} INFO - Setting next_dagrun for example_bash_operator to 2024-10-07T00:00:00+00:00, run_after=2024-10-08T00:00:00+00:00
+[2024-10-08T18:14:48.645+0900] {processor.py:208} INFO - Processing /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py took 0.203 seconds
+[2024-10-08T18:48:56.675+0900] {processor.py:186} INFO - Started process (PID=29319) to work on /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-10-08T18:48:56.676+0900] {processor.py:914} INFO - Processing file /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2024-10-08T18:48:56.677+0900] {logging_mixin.py:190} INFO - [2024-10-08T18:48:56.676+0900] {dagbag.py:588} INFO - Filling up the DagBag from /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-10-08T18:48:56.693+0900] {processor.py:925} INFO - DAG(s) 'example_bash_operator' retrieved from /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-10-08T18:48:56.837+0900] {logging_mixin.py:190} INFO - [2024-10-08T18:48:56.836+0900] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-08T18:48:56.860+0900] {logging_mixin.py:190} INFO - [2024-10-08T18:48:56.860+0900] {dag.py:4180} INFO - Setting next_dagrun for example_bash_operator to 2024-10-07T00:00:00+00:00, run_after=2024-10-08T00:00:00+00:00
+[2024-10-08T18:48:56.880+0900] {processor.py:208} INFO - Processing /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py took 0.210 seconds
