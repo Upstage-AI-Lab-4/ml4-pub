@@ -43,7 +43,9 @@ def preprocess_image_cv(image_path):
         digit_img = cv2.resize(digit_img, (28, 28), interpolation=cv2.INTER_AREA)
 
         # 픽셀 값 정규화 및 차원 변경
-        digit_array = digit_img.astype(np.float32) / 255.0
+        # digit_array = digit_img.astype(np.float32) / 255.0
+        digit_array = (digit_img.astype(np.float32) - 128) / 128
+
         digit_array = digit_array.reshape(1, 28, 28)  # 배치 차원 제거
         digits.append(digit_array)
 

@@ -1,0 +1,106 @@
+[2024-10-08T17:58:51.693+0900] {processor.py:186} INFO - Started process (PID=27457) to work on /Users/alookso/1007MLpj/ml-project-ml-pjt-7/airflow/dags/hw_test_dag.py
+[2024-10-08T17:58:51.693+0900] {processor.py:914} INFO - Processing file /Users/alookso/1007MLpj/ml-project-ml-pjt-7/airflow/dags/hw_test_dag.py for tasks to queue
+[2024-10-08T17:58:51.694+0900] {logging_mixin.py:190} INFO - [2024-10-08T17:58:51.694+0900] {dagbag.py:588} INFO - Filling up the DagBag from /Users/alookso/1007MLpj/ml-project-ml-pjt-7/airflow/dags/hw_test_dag.py
+[2024-10-08T17:58:51.727+0900] {processor.py:925} INFO - DAG(s) 'first_dags' retrieved from /Users/alookso/1007MLpj/ml-project-ml-pjt-7/airflow/dags/hw_test_dag.py
+[2024-10-08T17:58:51.962+0900] {logging_mixin.py:190} INFO - [2024-10-08T17:58:51.961+0900] {override.py:1901} INFO - Created Permission View: can read on DAG:first_dags
+[2024-10-08T17:58:51.972+0900] {logging_mixin.py:190} INFO - [2024-10-08T17:58:51.972+0900] {override.py:1901} INFO - Created Permission View: can edit on DAG:first_dags
+[2024-10-08T17:58:51.979+0900] {logging_mixin.py:190} INFO - [2024-10-08T17:58:51.979+0900] {override.py:1901} INFO - Created Permission View: can delete on DAG:first_dags
+[2024-10-08T17:58:51.989+0900] {logging_mixin.py:190} INFO - [2024-10-08T17:58:51.988+0900] {override.py:1901} INFO - Created Permission View: can read on DAG Run:first_dags
+[2024-10-08T17:58:51.995+0900] {logging_mixin.py:190} INFO - [2024-10-08T17:58:51.995+0900] {override.py:1901} INFO - Created Permission View: can create on DAG Run:first_dags
+[2024-10-08T17:58:52.004+0900] {logging_mixin.py:190} INFO - [2024-10-08T17:58:52.004+0900] {override.py:1901} INFO - Created Permission View: can delete on DAG Run:first_dags
+[2024-10-08T17:58:52.011+0900] {logging_mixin.py:190} INFO - [2024-10-08T17:58:52.011+0900] {override.py:1901} INFO - Created Permission View: menu access on DAG Run:first_dags
+[2024-10-08T17:58:52.012+0900] {logging_mixin.py:190} INFO - [2024-10-08T17:58:52.012+0900] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-08T17:58:52.026+0900] {logging_mixin.py:190} INFO - [2024-10-08T17:58:52.026+0900] {dag.py:3262} INFO - Creating ORM DAG for first_dags
+[2024-10-08T17:58:52.036+0900] {logging_mixin.py:190} INFO - [2024-10-08T17:58:52.036+0900] {dag.py:4180} INFO - Setting next_dagrun for first_dags to 2024-10-07T00:00:00+00:00, run_after=2024-10-08T00:00:00+00:00
+[2024-10-08T17:58:52.055+0900] {processor.py:208} INFO - Processing /Users/alookso/1007MLpj/ml-project-ml-pjt-7/airflow/dags/hw_test_dag.py took 0.367 seconds
+[2024-10-08T18:02:28.255+0900] {processor.py:186} INFO - Started process (PID=27607) to work on /Users/alookso/1007MLpj/ml-project-ml-pjt-7/airflow/dags/hw_test_dag.py
+[2024-10-08T18:02:28.255+0900] {processor.py:914} INFO - Processing file /Users/alookso/1007MLpj/ml-project-ml-pjt-7/airflow/dags/hw_test_dag.py for tasks to queue
+[2024-10-08T18:02:28.256+0900] {logging_mixin.py:190} INFO - [2024-10-08T18:02:28.256+0900] {dagbag.py:588} INFO - Filling up the DagBag from /Users/alookso/1007MLpj/ml-project-ml-pjt-7/airflow/dags/hw_test_dag.py
+[2024-10-08T18:02:28.287+0900] {processor.py:925} INFO - DAG(s) 'first_dags' retrieved from /Users/alookso/1007MLpj/ml-project-ml-pjt-7/airflow/dags/hw_test_dag.py
+[2024-10-08T18:02:28.522+0900] {logging_mixin.py:190} INFO - [2024-10-08T18:02:28.522+0900] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-08T18:02:28.545+0900] {logging_mixin.py:190} INFO - [2024-10-08T18:02:28.545+0900] {dag.py:4180} INFO - Setting next_dagrun for first_dags to 2024-10-08T00:00:00+00:00, run_after=2024-10-09T00:00:00+00:00
+[2024-10-08T18:02:28.567+0900] {processor.py:208} INFO - Processing /Users/alookso/1007MLpj/ml-project-ml-pjt-7/airflow/dags/hw_test_dag.py took 0.317 seconds
+[2024-10-08T18:05:00.420+0900] {processor.py:186} INFO - Started process (PID=27710) to work on /Users/alookso/1007MLpj/ml-project-ml-pjt-7/airflow/dags/hw_test_dag.py
+[2024-10-08T18:05:00.421+0900] {processor.py:914} INFO - Processing file /Users/alookso/1007MLpj/ml-project-ml-pjt-7/airflow/dags/hw_test_dag.py for tasks to queue
+[2024-10-08T18:05:00.422+0900] {logging_mixin.py:190} INFO - [2024-10-08T18:05:00.422+0900] {dagbag.py:588} INFO - Filling up the DagBag from /Users/alookso/1007MLpj/ml-project-ml-pjt-7/airflow/dags/hw_test_dag.py
+[2024-10-08T18:05:00.454+0900] {processor.py:925} INFO - DAG(s) 'first_dags' retrieved from /Users/alookso/1007MLpj/ml-project-ml-pjt-7/airflow/dags/hw_test_dag.py
+[2024-10-08T18:05:00.584+0900] {logging_mixin.py:190} INFO - [2024-10-08T18:05:00.584+0900] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-08T18:05:00.606+0900] {logging_mixin.py:190} INFO - [2024-10-08T18:05:00.606+0900] {dag.py:4180} INFO - Setting next_dagrun for first_dags to 2024-10-08T00:00:00+00:00, run_after=2024-10-09T00:00:00+00:00
+[2024-10-08T18:05:00.626+0900] {processor.py:208} INFO - Processing /Users/alookso/1007MLpj/ml-project-ml-pjt-7/airflow/dags/hw_test_dag.py took 0.210 seconds
+[2024-10-08T18:08:40.067+0900] {processor.py:186} INFO - Started process (PID=27823) to work on /Users/alookso/1007MLpj/ml-project-ml-pjt-7/airflow/dags/hw_test_dag.py
+[2024-10-08T18:08:40.067+0900] {processor.py:914} INFO - Processing file /Users/alookso/1007MLpj/ml-project-ml-pjt-7/airflow/dags/hw_test_dag.py for tasks to queue
+[2024-10-08T18:08:40.068+0900] {logging_mixin.py:190} INFO - [2024-10-08T18:08:40.068+0900] {dagbag.py:588} INFO - Filling up the DagBag from /Users/alookso/1007MLpj/ml-project-ml-pjt-7/airflow/dags/hw_test_dag.py
+[2024-10-08T18:08:40.099+0900] {processor.py:925} INFO - DAG(s) 'first_dags' retrieved from /Users/alookso/1007MLpj/ml-project-ml-pjt-7/airflow/dags/hw_test_dag.py
+[2024-10-08T18:08:40.228+0900] {logging_mixin.py:190} INFO - [2024-10-08T18:08:40.228+0900] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-08T18:08:40.250+0900] {logging_mixin.py:190} INFO - [2024-10-08T18:08:40.250+0900] {dag.py:4180} INFO - Setting next_dagrun for first_dags to 2024-10-08T00:00:00+00:00, run_after=2024-10-09T00:00:00+00:00
+[2024-10-08T18:08:40.270+0900] {processor.py:208} INFO - Processing /Users/alookso/1007MLpj/ml-project-ml-pjt-7/airflow/dags/hw_test_dag.py took 0.208 seconds
+[2024-10-08T18:11:49.850+0900] {processor.py:186} INFO - Started process (PID=27916) to work on /Users/alookso/1007MLpj/ml-project-ml-pjt-7/airflow/dags/hw_test_dag.py
+[2024-10-08T18:11:49.851+0900] {processor.py:914} INFO - Processing file /Users/alookso/1007MLpj/ml-project-ml-pjt-7/airflow/dags/hw_test_dag.py for tasks to queue
+[2024-10-08T18:11:49.852+0900] {logging_mixin.py:190} INFO - [2024-10-08T18:11:49.852+0900] {dagbag.py:588} INFO - Filling up the DagBag from /Users/alookso/1007MLpj/ml-project-ml-pjt-7/airflow/dags/hw_test_dag.py
+[2024-10-08T18:11:49.882+0900] {processor.py:925} INFO - DAG(s) 'first_dags' retrieved from /Users/alookso/1007MLpj/ml-project-ml-pjt-7/airflow/dags/hw_test_dag.py
+[2024-10-08T18:11:50.014+0900] {logging_mixin.py:190} INFO - [2024-10-08T18:11:50.014+0900] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-08T18:11:50.037+0900] {logging_mixin.py:190} INFO - [2024-10-08T18:11:50.037+0900] {dag.py:4180} INFO - Setting next_dagrun for first_dags to 2024-10-08T00:00:00+00:00, run_after=2024-10-09T00:00:00+00:00
+[2024-10-08T18:11:50.056+0900] {processor.py:208} INFO - Processing /Users/alookso/1007MLpj/ml-project-ml-pjt-7/airflow/dags/hw_test_dag.py took 0.212 seconds
+[2024-10-08T18:14:59.879+0900] {processor.py:186} INFO - Started process (PID=28021) to work on /Users/alookso/1007MLpj/ml-project-ml-pjt-7/airflow/dags/hw_test_dag.py
+[2024-10-08T18:14:59.879+0900] {processor.py:914} INFO - Processing file /Users/alookso/1007MLpj/ml-project-ml-pjt-7/airflow/dags/hw_test_dag.py for tasks to queue
+[2024-10-08T18:14:59.880+0900] {logging_mixin.py:190} INFO - [2024-10-08T18:14:59.880+0900] {dagbag.py:588} INFO - Filling up the DagBag from /Users/alookso/1007MLpj/ml-project-ml-pjt-7/airflow/dags/hw_test_dag.py
+[2024-10-08T18:14:59.910+0900] {processor.py:925} INFO - DAG(s) 'first_dags' retrieved from /Users/alookso/1007MLpj/ml-project-ml-pjt-7/airflow/dags/hw_test_dag.py
+[2024-10-08T18:15:00.038+0900] {logging_mixin.py:190} INFO - [2024-10-08T18:15:00.038+0900] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-08T18:15:00.060+0900] {logging_mixin.py:190} INFO - [2024-10-08T18:15:00.060+0900] {dag.py:4180} INFO - Setting next_dagrun for first_dags to 2024-10-08T00:00:00+00:00, run_after=2024-10-09T00:00:00+00:00
+[2024-10-08T18:15:00.079+0900] {processor.py:208} INFO - Processing /Users/alookso/1007MLpj/ml-project-ml-pjt-7/airflow/dags/hw_test_dag.py took 0.206 seconds
+[2024-10-08T18:18:08.559+0900] {processor.py:186} INFO - Started process (PID=28112) to work on /Users/alookso/1007MLpj/ml-project-ml-pjt-7/airflow/dags/hw_test_dag.py
+[2024-10-08T18:18:08.560+0900] {processor.py:914} INFO - Processing file /Users/alookso/1007MLpj/ml-project-ml-pjt-7/airflow/dags/hw_test_dag.py for tasks to queue
+[2024-10-08T18:18:08.561+0900] {logging_mixin.py:190} INFO - [2024-10-08T18:18:08.560+0900] {dagbag.py:588} INFO - Filling up the DagBag from /Users/alookso/1007MLpj/ml-project-ml-pjt-7/airflow/dags/hw_test_dag.py
+[2024-10-08T18:18:08.591+0900] {processor.py:925} INFO - DAG(s) 'first_dags' retrieved from /Users/alookso/1007MLpj/ml-project-ml-pjt-7/airflow/dags/hw_test_dag.py
+[2024-10-08T18:18:08.716+0900] {logging_mixin.py:190} INFO - [2024-10-08T18:18:08.716+0900] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-08T18:18:08.737+0900] {logging_mixin.py:190} INFO - [2024-10-08T18:18:08.737+0900] {dag.py:4180} INFO - Setting next_dagrun for first_dags to 2024-10-08T00:00:00+00:00, run_after=2024-10-09T00:00:00+00:00
+[2024-10-08T18:18:08.756+0900] {processor.py:208} INFO - Processing /Users/alookso/1007MLpj/ml-project-ml-pjt-7/airflow/dags/hw_test_dag.py took 0.202 seconds
+[2024-10-08T18:20:55.251+0900] {processor.py:186} INFO - Started process (PID=28236) to work on /Users/alookso/1007MLpj/ml-project-ml-pjt-7/airflow/dags/hw_test_dag.py
+[2024-10-08T18:20:55.251+0900] {processor.py:914} INFO - Processing file /Users/alookso/1007MLpj/ml-project-ml-pjt-7/airflow/dags/hw_test_dag.py for tasks to queue
+[2024-10-08T18:20:55.252+0900] {logging_mixin.py:190} INFO - [2024-10-08T18:20:55.252+0900] {dagbag.py:588} INFO - Filling up the DagBag from /Users/alookso/1007MLpj/ml-project-ml-pjt-7/airflow/dags/hw_test_dag.py
+[2024-10-08T18:20:55.282+0900] {processor.py:925} INFO - DAG(s) 'first_dags' retrieved from /Users/alookso/1007MLpj/ml-project-ml-pjt-7/airflow/dags/hw_test_dag.py
+[2024-10-08T18:20:55.409+0900] {logging_mixin.py:190} INFO - [2024-10-08T18:20:55.409+0900] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-08T18:20:55.431+0900] {logging_mixin.py:190} INFO - [2024-10-08T18:20:55.431+0900] {dag.py:4180} INFO - Setting next_dagrun for first_dags to 2024-10-08T00:00:00+00:00, run_after=2024-10-09T00:00:00+00:00
+[2024-10-08T18:20:55.449+0900] {processor.py:208} INFO - Processing /Users/alookso/1007MLpj/ml-project-ml-pjt-7/airflow/dags/hw_test_dag.py took 0.203 seconds
+[2024-10-08T18:27:11.884+0900] {processor.py:186} INFO - Started process (PID=28468) to work on /Users/alookso/1007MLpj/ml-project-ml-pjt-7/airflow/dags/hw_test_dag.py
+[2024-10-08T18:27:11.884+0900] {processor.py:914} INFO - Processing file /Users/alookso/1007MLpj/ml-project-ml-pjt-7/airflow/dags/hw_test_dag.py for tasks to queue
+[2024-10-08T18:27:11.885+0900] {logging_mixin.py:190} INFO - [2024-10-08T18:27:11.885+0900] {dagbag.py:588} INFO - Filling up the DagBag from /Users/alookso/1007MLpj/ml-project-ml-pjt-7/airflow/dags/hw_test_dag.py
+[2024-10-08T18:27:11.916+0900] {processor.py:925} INFO - DAG(s) 'first_dags' retrieved from /Users/alookso/1007MLpj/ml-project-ml-pjt-7/airflow/dags/hw_test_dag.py
+[2024-10-08T18:27:12.045+0900] {logging_mixin.py:190} INFO - [2024-10-08T18:27:12.045+0900] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-08T18:27:12.070+0900] {logging_mixin.py:190} INFO - [2024-10-08T18:27:12.070+0900] {dag.py:4180} INFO - Setting next_dagrun for first_dags to 2024-10-08T00:00:00+00:00, run_after=2024-10-09T00:00:00+00:00
+[2024-10-08T18:27:12.091+0900] {processor.py:208} INFO - Processing /Users/alookso/1007MLpj/ml-project-ml-pjt-7/airflow/dags/hw_test_dag.py took 0.213 seconds
+[2024-10-08T18:31:46.160+0900] {processor.py:186} INFO - Started process (PID=28642) to work on /Users/alookso/1007MLpj/ml-project-ml-pjt-7/airflow/dags/hw_test_dag.py
+[2024-10-08T18:31:46.161+0900] {processor.py:914} INFO - Processing file /Users/alookso/1007MLpj/ml-project-ml-pjt-7/airflow/dags/hw_test_dag.py for tasks to queue
+[2024-10-08T18:31:46.163+0900] {logging_mixin.py:190} INFO - [2024-10-08T18:31:46.162+0900] {dagbag.py:588} INFO - Filling up the DagBag from /Users/alookso/1007MLpj/ml-project-ml-pjt-7/airflow/dags/hw_test_dag.py
+[2024-10-08T18:31:46.195+0900] {processor.py:925} INFO - DAG(s) 'first_dags' retrieved from /Users/alookso/1007MLpj/ml-project-ml-pjt-7/airflow/dags/hw_test_dag.py
+[2024-10-08T18:31:46.328+0900] {logging_mixin.py:190} INFO - [2024-10-08T18:31:46.328+0900] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-08T18:31:46.351+0900] {logging_mixin.py:190} INFO - [2024-10-08T18:31:46.351+0900] {dag.py:4180} INFO - Setting next_dagrun for first_dags to 2024-10-08T00:00:00+00:00, run_after=2024-10-09T00:00:00+00:00
+[2024-10-08T18:31:46.371+0900] {processor.py:208} INFO - Processing /Users/alookso/1007MLpj/ml-project-ml-pjt-7/airflow/dags/hw_test_dag.py took 0.216 seconds
+[2024-10-08T18:33:49.606+0900] {processor.py:186} INFO - Started process (PID=28755) to work on /Users/alookso/1007MLpj/ml-project-ml-pjt-7/airflow/dags/hw_test_dag.py
+[2024-10-08T18:33:49.606+0900] {processor.py:914} INFO - Processing file /Users/alookso/1007MLpj/ml-project-ml-pjt-7/airflow/dags/hw_test_dag.py for tasks to queue
+[2024-10-08T18:33:49.607+0900] {logging_mixin.py:190} INFO - [2024-10-08T18:33:49.607+0900] {dagbag.py:588} INFO - Filling up the DagBag from /Users/alookso/1007MLpj/ml-project-ml-pjt-7/airflow/dags/hw_test_dag.py
+[2024-10-08T18:33:49.638+0900] {processor.py:925} INFO - DAG(s) 'first_dags' retrieved from /Users/alookso/1007MLpj/ml-project-ml-pjt-7/airflow/dags/hw_test_dag.py
+[2024-10-08T18:33:49.769+0900] {logging_mixin.py:190} INFO - [2024-10-08T18:33:49.769+0900] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-08T18:33:49.792+0900] {logging_mixin.py:190} INFO - [2024-10-08T18:33:49.792+0900] {dag.py:4180} INFO - Setting next_dagrun for first_dags to 2024-10-08T00:00:00+00:00, run_after=2024-10-09T00:00:00+00:00
+[2024-10-08T18:33:49.811+0900] {processor.py:208} INFO - Processing /Users/alookso/1007MLpj/ml-project-ml-pjt-7/airflow/dags/hw_test_dag.py took 0.211 seconds
+[2024-10-08T18:39:58.664+0900] {processor.py:186} INFO - Started process (PID=29012) to work on /Users/alookso/1007MLpj/ml-project-ml-pjt-7/airflow/dags/hw_test_dag.py
+[2024-10-08T18:39:58.665+0900] {processor.py:914} INFO - Processing file /Users/alookso/1007MLpj/ml-project-ml-pjt-7/airflow/dags/hw_test_dag.py for tasks to queue
+[2024-10-08T18:39:58.666+0900] {logging_mixin.py:190} INFO - [2024-10-08T18:39:58.666+0900] {dagbag.py:588} INFO - Filling up the DagBag from /Users/alookso/1007MLpj/ml-project-ml-pjt-7/airflow/dags/hw_test_dag.py
+[2024-10-08T18:39:58.696+0900] {processor.py:925} INFO - DAG(s) 'first_dags' retrieved from /Users/alookso/1007MLpj/ml-project-ml-pjt-7/airflow/dags/hw_test_dag.py
+[2024-10-08T18:39:58.822+0900] {logging_mixin.py:190} INFO - [2024-10-08T18:39:58.821+0900] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-08T18:39:58.843+0900] {logging_mixin.py:190} INFO - [2024-10-08T18:39:58.843+0900] {dag.py:4180} INFO - Setting next_dagrun for first_dags to 2024-10-08T00:00:00+00:00, run_after=2024-10-09T00:00:00+00:00
+[2024-10-08T18:39:58.862+0900] {processor.py:208} INFO - Processing /Users/alookso/1007MLpj/ml-project-ml-pjt-7/airflow/dags/hw_test_dag.py took 0.202 seconds
+[2024-10-08T18:45:30.911+0900] {processor.py:186} INFO - Started process (PID=29209) to work on /Users/alookso/1007MLpj/ml-project-ml-pjt-7/airflow/dags/hw_test_dag.py
+[2024-10-08T18:45:30.912+0900] {processor.py:914} INFO - Processing file /Users/alookso/1007MLpj/ml-project-ml-pjt-7/airflow/dags/hw_test_dag.py for tasks to queue
+[2024-10-08T18:45:30.913+0900] {logging_mixin.py:190} INFO - [2024-10-08T18:45:30.913+0900] {dagbag.py:588} INFO - Filling up the DagBag from /Users/alookso/1007MLpj/ml-project-ml-pjt-7/airflow/dags/hw_test_dag.py
+[2024-10-08T18:45:30.943+0900] {processor.py:925} INFO - DAG(s) 'first_dags' retrieved from /Users/alookso/1007MLpj/ml-project-ml-pjt-7/airflow/dags/hw_test_dag.py
+[2024-10-08T18:45:31.070+0900] {logging_mixin.py:190} INFO - [2024-10-08T18:45:31.070+0900] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-08T18:45:31.092+0900] {logging_mixin.py:190} INFO - [2024-10-08T18:45:31.092+0900] {dag.py:4180} INFO - Setting next_dagrun for first_dags to 2024-10-08T00:00:00+00:00, run_after=2024-10-09T00:00:00+00:00
+[2024-10-08T18:45:31.110+0900] {processor.py:208} INFO - Processing /Users/alookso/1007MLpj/ml-project-ml-pjt-7/airflow/dags/hw_test_dag.py took 0.203 seconds
+[2024-10-08T18:54:29.261+0900] {processor.py:186} INFO - Started process (PID=29380) to work on /Users/alookso/1007MLpj/ml-project-ml-pjt-7/airflow/dags/hw_test_dag.py
+[2024-10-08T18:54:29.262+0900] {processor.py:914} INFO - Processing file /Users/alookso/1007MLpj/ml-project-ml-pjt-7/airflow/dags/hw_test_dag.py for tasks to queue
+[2024-10-08T18:54:29.264+0900] {logging_mixin.py:190} INFO - [2024-10-08T18:54:29.263+0900] {dagbag.py:588} INFO - Filling up the DagBag from /Users/alookso/1007MLpj/ml-project-ml-pjt-7/airflow/dags/hw_test_dag.py
+[2024-10-08T18:54:29.294+0900] {processor.py:925} INFO - DAG(s) 'first_dags' retrieved from /Users/alookso/1007MLpj/ml-project-ml-pjt-7/airflow/dags/hw_test_dag.py
+[2024-10-08T18:54:29.426+0900] {logging_mixin.py:190} INFO - [2024-10-08T18:54:29.426+0900] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-08T18:54:29.449+0900] {logging_mixin.py:190} INFO - [2024-10-08T18:54:29.449+0900] {dag.py:4180} INFO - Setting next_dagrun for first_dags to 2024-10-08T00:00:00+00:00, run_after=2024-10-09T00:00:00+00:00
+[2024-10-08T18:54:29.471+0900] {processor.py:208} INFO - Processing /Users/alookso/1007MLpj/ml-project-ml-pjt-7/airflow/dags/hw_test_dag.py took 0.214 seconds

@@ -79,10 +79,13 @@ def predict(model, input_data_list):
             predictions.append(predicted.item())
     return predictions
 
-def train_and_evaluate_model():
+def train_and_evaluate_model(use_all_data=False):
     learning_rate = 0.001
     training_epochs = 15
     batch_size = 100
+    
+    best_val_accuracy = 0.0
+    model_version = 1
 
     transform = transforms.Compose([
         transforms.ToTensor(),
@@ -92,6 +95,28 @@ def train_and_evaluate_model():
 
     # MNIST 데이터셋 로드
     full_dataset = datasets.MNIST(root='./data', train=True, download=True, transform=transform)
+
+    if use_all_data:
+        # all_data에서 새로운 데이터 가져오기
+        all_data = get_all_data()
+        new_train_data = []
+        new_train_labels = []
+        for item in all_data:
+            img = preprocess_image_cv(item['image_path'])
+            new_train_data.append(img)
+            new_train_labels.append(int(item['label']))
+
+        # 새로운 데이터를 PyTorch 텐서로 변환
+        new_train_data = torch.tensor(np.array(new_train_data)).float()
+        new_train_labels = torch.tensor(new_train_labels).long()
+
+        # 새로운 데이터셋 생성
+        new_dataset = TensorDataset(new_train_data, new_train_labels)
+
+        # MNIST 데이터셋과 새로운 데이터셋 결합
+        combined_dataset = ConcatDataset([full_dataset, new_dataset])
+    else:
+        combined_dataset = full_dataset
 
     # 데이터셋 분할 (80% 학습, 20% 검증)
     train_size = int(0.8 * len(full_dataset))
@@ -145,8 +170,19 @@ def train_and_evaluate_model():
         # 가장 좋은 모델 저장
         if val_accuracy > best_val_accuracy:
             best_val_accuracy = val_accuracy
-            torch.save(model.state_dict(), 'saved_model.pth')
-            print(f'Best model saved with Validation Accuracy: {val_accuracy:.2f}%')
+
+            # 현재 시간 정보 가져오기
+            current_time = datetime.datetime.now().strftime("%H%M%S")
+            # 모델 파일 이름 생성
+            model_filename = f"model_v{model_version}_acc{val_accuracy:.2f}_{current_time}.pth"
+            # 모델 저장 경로 설정
+            model_save_path = os.path.join('saved_models', model_filename)
+            # 저장 디렉토리가 없으면 생성
+            os.makedirs('saved_models', exist_ok=True)
+
+             # 모델 저장
+            torch.save(model.state_dict(), model_save_path)
+            print(f'Best model saved: {model_filename} with Validation Accuracy: {val_accuracy:.2f}%')
 
     print("Training complete.")
 
@@ -166,6 +202,9 @@ def evaluate_model(model, dataloader):
     return accuracy
 
 if __name__ == "__main__":
+    final_model_path = train_and_evaluate_model(use_all_data=True)
+    print(f"Final model saved at: {final_model_path}")
+
     train_and_evaluate_model()
 
     # 테스트 데이터로 모델 평가
@@ -178,6 +217,8 @@ if __name__ == "__main__":
     mnist_test = datasets.MNIST(root='./data', train=False, transform=transform, download=True)
     test_loader = DataLoader(dataset=mnist_test, batch_size=100, shuffle=False)
 
-    model = load_model('saved_model.pth')
+    model = load_model(final_model_path)
     test_accuracy = evaluate_model(model, test_loader)
     print(f'Test Accuracy: {test_accuracy:.2f}%')
+
+

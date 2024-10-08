@@ -1,0 +1,113 @@
+[2024-10-08T14:46:23.351+0900] {processor.py:186} INFO - Started process (PID=22304) to work on /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2024-10-08T14:46:23.352+0900] {processor.py:914} INFO - Processing file /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py for tasks to queue
+[2024-10-08T14:46:23.352+0900] {logging_mixin.py:190} INFO - [2024-10-08T14:46:23.352+0900] {dagbag.py:588} INFO - Filling up the DagBag from /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2024-10-08T14:46:23.363+0900] {processor.py:925} INFO - DAG(s) 'example_branch_labels' retrieved from /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2024-10-08T14:46:23.605+0900] {logging_mixin.py:190} INFO - [2024-10-08T14:46:23.604+0900] {override.py:1901} INFO - Created Permission View: can edit on DAG:example_branch_labels
+[2024-10-08T14:46:23.615+0900] {logging_mixin.py:190} INFO - [2024-10-08T14:46:23.615+0900] {override.py:1901} INFO - Created Permission View: can delete on DAG:example_branch_labels
+[2024-10-08T14:46:23.623+0900] {logging_mixin.py:190} INFO - [2024-10-08T14:46:23.622+0900] {override.py:1901} INFO - Created Permission View: can read on DAG:example_branch_labels
+[2024-10-08T14:46:23.632+0900] {logging_mixin.py:190} INFO - [2024-10-08T14:46:23.632+0900] {override.py:1901} INFO - Created Permission View: can delete on DAG Run:example_branch_labels
+[2024-10-08T14:46:23.640+0900] {logging_mixin.py:190} INFO - [2024-10-08T14:46:23.639+0900] {override.py:1901} INFO - Created Permission View: can create on DAG Run:example_branch_labels
+[2024-10-08T14:46:23.647+0900] {logging_mixin.py:190} INFO - [2024-10-08T14:46:23.647+0900] {override.py:1901} INFO - Created Permission View: menu access on DAG Run:example_branch_labels
+[2024-10-08T14:46:23.654+0900] {logging_mixin.py:190} INFO - [2024-10-08T14:46:23.654+0900] {override.py:1901} INFO - Created Permission View: can read on DAG Run:example_branch_labels
+[2024-10-08T14:46:23.655+0900] {logging_mixin.py:190} INFO - [2024-10-08T14:46:23.655+0900] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-08T14:46:23.669+0900] {logging_mixin.py:190} INFO - [2024-10-08T14:46:23.669+0900] {dag.py:3262} INFO - Creating ORM DAG for example_branch_labels
+[2024-10-08T14:46:23.681+0900] {logging_mixin.py:190} INFO - [2024-10-08T14:46:23.681+0900] {dag.py:4180} INFO - Setting next_dagrun for example_branch_labels to 2024-10-07T00:00:00+00:00, run_after=2024-10-08T00:00:00+00:00
+[2024-10-08T14:46:23.699+0900] {processor.py:208} INFO - Processing /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py took 0.352 seconds
+[2024-10-08T14:52:40.388+0900] {processor.py:186} INFO - Started process (PID=22479) to work on /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2024-10-08T14:52:40.389+0900] {processor.py:914} INFO - Processing file /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py for tasks to queue
+[2024-10-08T14:52:40.390+0900] {logging_mixin.py:190} INFO - [2024-10-08T14:52:40.390+0900] {dagbag.py:588} INFO - Filling up the DagBag from /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2024-10-08T14:52:40.402+0900] {processor.py:925} INFO - DAG(s) 'example_branch_labels' retrieved from /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2024-10-08T14:52:40.537+0900] {logging_mixin.py:190} INFO - [2024-10-08T14:52:40.537+0900] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-08T14:52:40.561+0900] {logging_mixin.py:190} INFO - [2024-10-08T14:52:40.560+0900] {dag.py:4180} INFO - Setting next_dagrun for example_branch_labels to 2024-10-07T00:00:00+00:00, run_after=2024-10-08T00:00:00+00:00
+[2024-10-08T14:52:40.589+0900] {processor.py:208} INFO - Processing /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py took 0.206 seconds
+[2024-10-08T14:58:53.359+0900] {processor.py:186} INFO - Started process (PID=22708) to work on /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2024-10-08T14:58:53.360+0900] {processor.py:914} INFO - Processing file /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py for tasks to queue
+[2024-10-08T14:58:53.361+0900] {logging_mixin.py:190} INFO - [2024-10-08T14:58:53.361+0900] {dagbag.py:588} INFO - Filling up the DagBag from /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2024-10-08T14:58:53.372+0900] {processor.py:925} INFO - DAG(s) 'example_branch_labels' retrieved from /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2024-10-08T14:58:53.517+0900] {logging_mixin.py:190} INFO - [2024-10-08T14:58:53.517+0900] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-08T14:58:53.542+0900] {logging_mixin.py:190} INFO - [2024-10-08T14:58:53.542+0900] {dag.py:4180} INFO - Setting next_dagrun for example_branch_labels to 2024-10-07T00:00:00+00:00, run_after=2024-10-08T00:00:00+00:00
+[2024-10-08T14:58:53.564+0900] {processor.py:208} INFO - Processing /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py took 0.210 seconds
+[2024-10-08T15:05:11.349+0900] {processor.py:186} INFO - Started process (PID=22891) to work on /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2024-10-08T15:05:11.350+0900] {processor.py:914} INFO - Processing file /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py for tasks to queue
+[2024-10-08T15:05:11.351+0900] {logging_mixin.py:190} INFO - [2024-10-08T15:05:11.351+0900] {dagbag.py:588} INFO - Filling up the DagBag from /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2024-10-08T15:05:11.361+0900] {processor.py:925} INFO - DAG(s) 'example_branch_labels' retrieved from /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2024-10-08T15:05:11.496+0900] {logging_mixin.py:190} INFO - [2024-10-08T15:05:11.496+0900] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-08T15:05:11.519+0900] {logging_mixin.py:190} INFO - [2024-10-08T15:05:11.519+0900] {dag.py:4180} INFO - Setting next_dagrun for example_branch_labels to 2024-10-07T00:00:00+00:00, run_after=2024-10-08T00:00:00+00:00
+[2024-10-08T15:05:11.539+0900] {processor.py:208} INFO - Processing /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py took 0.194 seconds
+[2024-10-08T15:11:19.064+0900] {processor.py:186} INFO - Started process (PID=23113) to work on /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2024-10-08T15:11:19.065+0900] {processor.py:914} INFO - Processing file /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py for tasks to queue
+[2024-10-08T15:11:19.066+0900] {logging_mixin.py:190} INFO - [2024-10-08T15:11:19.066+0900] {dagbag.py:588} INFO - Filling up the DagBag from /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2024-10-08T15:11:19.076+0900] {processor.py:925} INFO - DAG(s) 'example_branch_labels' retrieved from /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2024-10-08T15:11:19.206+0900] {logging_mixin.py:190} INFO - [2024-10-08T15:11:19.206+0900] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-08T15:11:19.228+0900] {logging_mixin.py:190} INFO - [2024-10-08T15:11:19.228+0900] {dag.py:4180} INFO - Setting next_dagrun for example_branch_labels to 2024-10-07T00:00:00+00:00, run_after=2024-10-08T00:00:00+00:00
+[2024-10-08T15:11:19.247+0900] {processor.py:208} INFO - Processing /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py took 0.187 seconds
+[2024-10-08T15:17:20.401+0900] {processor.py:186} INFO - Started process (PID=23281) to work on /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2024-10-08T15:17:20.402+0900] {processor.py:914} INFO - Processing file /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py for tasks to queue
+[2024-10-08T15:17:20.402+0900] {logging_mixin.py:190} INFO - [2024-10-08T15:17:20.402+0900] {dagbag.py:588} INFO - Filling up the DagBag from /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2024-10-08T15:17:20.413+0900] {processor.py:925} INFO - DAG(s) 'example_branch_labels' retrieved from /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2024-10-08T15:17:20.547+0900] {logging_mixin.py:190} INFO - [2024-10-08T15:17:20.547+0900] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-08T15:17:20.569+0900] {logging_mixin.py:190} INFO - [2024-10-08T15:17:20.569+0900] {dag.py:4180} INFO - Setting next_dagrun for example_branch_labels to 2024-10-07T00:00:00+00:00, run_after=2024-10-08T00:00:00+00:00
+[2024-10-08T15:17:20.589+0900] {processor.py:208} INFO - Processing /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py took 0.193 seconds
+[2024-10-08T15:23:36.686+0900] {processor.py:186} INFO - Started process (PID=23477) to work on /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2024-10-08T15:23:36.686+0900] {processor.py:914} INFO - Processing file /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py for tasks to queue
+[2024-10-08T15:23:36.687+0900] {logging_mixin.py:190} INFO - [2024-10-08T15:23:36.687+0900] {dagbag.py:588} INFO - Filling up the DagBag from /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2024-10-08T15:23:36.698+0900] {processor.py:925} INFO - DAG(s) 'example_branch_labels' retrieved from /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2024-10-08T15:23:36.829+0900] {logging_mixin.py:190} INFO - [2024-10-08T15:23:36.829+0900] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-08T15:23:36.852+0900] {logging_mixin.py:190} INFO - [2024-10-08T15:23:36.852+0900] {dag.py:4180} INFO - Setting next_dagrun for example_branch_labels to 2024-10-07T00:00:00+00:00, run_after=2024-10-08T00:00:00+00:00
+[2024-10-08T15:23:36.872+0900] {processor.py:208} INFO - Processing /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py took 0.190 seconds
+[2024-10-08T15:29:40.705+0900] {processor.py:186} INFO - Started process (PID=23676) to work on /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2024-10-08T15:29:40.705+0900] {processor.py:914} INFO - Processing file /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py for tasks to queue
+[2024-10-08T15:29:40.706+0900] {logging_mixin.py:190} INFO - [2024-10-08T15:29:40.706+0900] {dagbag.py:588} INFO - Filling up the DagBag from /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2024-10-08T15:29:40.717+0900] {processor.py:925} INFO - DAG(s) 'example_branch_labels' retrieved from /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2024-10-08T15:29:40.848+0900] {logging_mixin.py:190} INFO - [2024-10-08T15:29:40.848+0900] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-08T15:29:40.870+0900] {logging_mixin.py:190} INFO - [2024-10-08T15:29:40.870+0900] {dag.py:4180} INFO - Setting next_dagrun for example_branch_labels to 2024-10-07T00:00:00+00:00, run_after=2024-10-08T00:00:00+00:00
+[2024-10-08T15:29:40.889+0900] {processor.py:208} INFO - Processing /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py took 0.189 seconds
+[2024-10-08T16:38:36.730+0900] {processor.py:186} INFO - Started process (PID=25096) to work on /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2024-10-08T16:38:36.730+0900] {processor.py:914} INFO - Processing file /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py for tasks to queue
+[2024-10-08T16:38:36.731+0900] {logging_mixin.py:190} INFO - [2024-10-08T16:38:36.731+0900] {dagbag.py:588} INFO - Filling up the DagBag from /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2024-10-08T16:38:36.742+0900] {processor.py:925} INFO - DAG(s) 'example_branch_labels' retrieved from /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2024-10-08T16:38:36.877+0900] {logging_mixin.py:190} INFO - [2024-10-08T16:38:36.877+0900] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-08T16:38:36.900+0900] {logging_mixin.py:190} INFO - [2024-10-08T16:38:36.900+0900] {dag.py:4180} INFO - Setting next_dagrun for example_branch_labels to 2024-10-07T00:00:00+00:00, run_after=2024-10-08T00:00:00+00:00
+[2024-10-08T16:38:36.919+0900] {processor.py:208} INFO - Processing /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py took 0.195 seconds
+[2024-10-08T17:30:16.147+0900] {processor.py:186} INFO - Started process (PID=26478) to work on /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2024-10-08T17:30:16.148+0900] {processor.py:914} INFO - Processing file /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py for tasks to queue
+[2024-10-08T17:30:16.149+0900] {logging_mixin.py:190} INFO - [2024-10-08T17:30:16.149+0900] {dagbag.py:588} INFO - Filling up the DagBag from /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2024-10-08T17:30:16.161+0900] {processor.py:925} INFO - DAG(s) 'example_branch_labels' retrieved from /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2024-10-08T17:30:16.305+0900] {logging_mixin.py:190} INFO - [2024-10-08T17:30:16.305+0900] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-08T17:30:16.329+0900] {logging_mixin.py:190} INFO - [2024-10-08T17:30:16.329+0900] {dag.py:4180} INFO - Setting next_dagrun for example_branch_labels to 2024-10-07T00:00:00+00:00, run_after=2024-10-08T00:00:00+00:00
+[2024-10-08T17:30:16.349+0900] {processor.py:208} INFO - Processing /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py took 0.208 seconds
+[2024-10-08T17:57:20.412+0900] {processor.py:186} INFO - Started process (PID=27376) to work on /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2024-10-08T17:57:20.413+0900] {processor.py:914} INFO - Processing file /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py for tasks to queue
+[2024-10-08T17:57:20.414+0900] {logging_mixin.py:190} INFO - [2024-10-08T17:57:20.414+0900] {dagbag.py:588} INFO - Filling up the DagBag from /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2024-10-08T17:57:20.424+0900] {processor.py:925} INFO - DAG(s) 'example_branch_labels' retrieved from /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2024-10-08T17:57:20.555+0900] {logging_mixin.py:190} INFO - [2024-10-08T17:57:20.554+0900] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-08T17:57:20.576+0900] {logging_mixin.py:190} INFO - [2024-10-08T17:57:20.576+0900] {dag.py:4180} INFO - Setting next_dagrun for example_branch_labels to 2024-10-07T00:00:00+00:00, run_after=2024-10-08T00:00:00+00:00
+[2024-10-08T17:57:20.595+0900] {processor.py:208} INFO - Processing /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py took 0.187 seconds
+[2024-10-08T18:02:10.868+0900] {processor.py:186} INFO - Started process (PID=27600) to work on /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2024-10-08T18:02:10.869+0900] {processor.py:914} INFO - Processing file /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py for tasks to queue
+[2024-10-08T18:02:10.869+0900] {logging_mixin.py:190} INFO - [2024-10-08T18:02:10.869+0900] {dagbag.py:588} INFO - Filling up the DagBag from /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2024-10-08T18:02:10.880+0900] {processor.py:925} INFO - DAG(s) 'example_branch_labels' retrieved from /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2024-10-08T18:02:11.013+0900] {logging_mixin.py:190} INFO - [2024-10-08T18:02:11.012+0900] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-08T18:02:11.035+0900] {logging_mixin.py:190} INFO - [2024-10-08T18:02:11.035+0900] {dag.py:4180} INFO - Setting next_dagrun for example_branch_labels to 2024-10-07T00:00:00+00:00, run_after=2024-10-08T00:00:00+00:00
+[2024-10-08T18:02:11.055+0900] {processor.py:208} INFO - Processing /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py took 0.192 seconds
+[2024-10-08T18:08:18.192+0900] {processor.py:186} INFO - Started process (PID=27809) to work on /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2024-10-08T18:08:18.193+0900] {processor.py:914} INFO - Processing file /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py for tasks to queue
+[2024-10-08T18:08:18.194+0900] {logging_mixin.py:190} INFO - [2024-10-08T18:08:18.194+0900] {dagbag.py:588} INFO - Filling up the DagBag from /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2024-10-08T18:08:18.205+0900] {processor.py:925} INFO - DAG(s) 'example_branch_labels' retrieved from /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2024-10-08T18:08:18.337+0900] {logging_mixin.py:190} INFO - [2024-10-08T18:08:18.337+0900] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-08T18:08:18.359+0900] {logging_mixin.py:190} INFO - [2024-10-08T18:08:18.359+0900] {dag.py:4180} INFO - Setting next_dagrun for example_branch_labels to 2024-10-07T00:00:00+00:00, run_after=2024-10-08T00:00:00+00:00
+[2024-10-08T18:08:18.379+0900] {processor.py:208} INFO - Processing /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py took 0.192 seconds
+[2024-10-08T18:14:38.014+0900] {processor.py:186} INFO - Started process (PID=28013) to work on /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2024-10-08T18:14:38.015+0900] {processor.py:914} INFO - Processing file /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py for tasks to queue
+[2024-10-08T18:14:38.016+0900] {logging_mixin.py:190} INFO - [2024-10-08T18:14:38.016+0900] {dagbag.py:588} INFO - Filling up the DagBag from /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2024-10-08T18:14:38.026+0900] {processor.py:925} INFO - DAG(s) 'example_branch_labels' retrieved from /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2024-10-08T18:14:38.159+0900] {logging_mixin.py:190} INFO - [2024-10-08T18:14:38.158+0900] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-08T18:14:38.180+0900] {logging_mixin.py:190} INFO - [2024-10-08T18:14:38.180+0900] {dag.py:4180} INFO - Setting next_dagrun for example_branch_labels to 2024-10-07T00:00:00+00:00, run_after=2024-10-08T00:00:00+00:00
+[2024-10-08T18:14:38.200+0900] {processor.py:208} INFO - Processing /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py took 0.189 seconds
+[2024-10-08T18:48:46.329+0900] {processor.py:186} INFO - Started process (PID=29314) to work on /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2024-10-08T18:48:46.329+0900] {processor.py:914} INFO - Processing file /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py for tasks to queue
+[2024-10-08T18:48:46.330+0900] {logging_mixin.py:190} INFO - [2024-10-08T18:48:46.330+0900] {dagbag.py:588} INFO - Filling up the DagBag from /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2024-10-08T18:48:46.341+0900] {processor.py:925} INFO - DAG(s) 'example_branch_labels' retrieved from /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2024-10-08T18:48:46.474+0900] {logging_mixin.py:190} INFO - [2024-10-08T18:48:46.474+0900] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-08T18:48:46.496+0900] {logging_mixin.py:190} INFO - [2024-10-08T18:48:46.496+0900] {dag.py:4180} INFO - Setting next_dagrun for example_branch_labels to 2024-10-07T00:00:00+00:00, run_after=2024-10-08T00:00:00+00:00
+[2024-10-08T18:48:46.516+0900] {processor.py:208} INFO - Processing /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py took 0.191 seconds

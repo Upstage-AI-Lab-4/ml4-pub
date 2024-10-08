@@ -1,0 +1,86 @@
+[2024-10-08T16:50:31.366+0900] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2024-10-08T16:50:31.379+0900] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: mnist_model_workflow.new_data_sensor scheduled__2024-10-08T07:45:00+00:00 [queued]>
+[2024-10-08T16:50:31.385+0900] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: mnist_model_workflow.new_data_sensor scheduled__2024-10-08T07:45:00+00:00 [queued]>
+[2024-10-08T16:50:31.386+0900] {taskinstance.py:2865} INFO - Starting attempt 1 of 2
+[2024-10-08T16:50:31.399+0900] {taskinstance.py:2888} INFO - Executing <Task(FileSensor): new_data_sensor> on 2024-10-08 07:45:00+00:00
+[2024-10-08T16:50:31.413+0900] {standard_task_runner.py:72} INFO - Started process 25627 to run task
+[2024-10-08T16:50:31.425+0900] {standard_task_runner.py:104} INFO - Running: ['airflow', 'tasks', 'run', 'mnist_model_workflow', 'new_data_sensor', 'scheduled__2024-10-08T07:45:00+00:00', '--job-id', '10', '--raw', '--subdir', 'DAGS_FOLDER/mnist_model_dag.py', '--cfg-path', '/var/folders/tx/bcbxk5bj33x4r2rt041m7bmr0000gn/T/tmpozmqe2sh']
+[2024-10-08T16:50:31.427+0900] {standard_task_runner.py:105} INFO - Job 10: Subtask new_data_sensor
+[2024-10-08T16:50:31.490+0900] {task_command.py:467} INFO - Running <TaskInstance: mnist_model_workflow.new_data_sensor scheduled__2024-10-08T07:45:00+00:00 [running]> on host hyowon-kim-macbook-pro.local
+[2024-10-08T16:50:31.563+0900] {taskinstance.py:3131} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='mnist_model_workflow' AIRFLOW_CTX_TASK_ID='new_data_sensor' AIRFLOW_CTX_EXECUTION_DATE='2024-10-08T07:45:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2024-10-08T07:45:00+00:00'
+[2024-10-08T16:50:31.565+0900] {logging_mixin.py:190} INFO - Task instance is in running state
+[2024-10-08T16:50:31.566+0900] {logging_mixin.py:190} INFO -  Previous state of the Task instance: queued
+[2024-10-08T16:50:31.566+0900] {logging_mixin.py:190} INFO - Current task name:new_data_sensor state:running start_date:2024-10-08 07:50:31.379444+00:00
+[2024-10-08T16:50:31.567+0900] {logging_mixin.py:190} INFO - Dag name:mnist_model_workflow and current dag run status:running
+[2024-10-08T16:50:31.567+0900] {taskinstance.py:731} INFO - ::endgroup::
+[2024-10-08T16:50:31.568+0900] {baseoperator.py:405} WARNING - FileSensor.execute cannot be called outside TaskInstance!
+[2024-10-08T16:50:31.575+0900] {base.py:84} INFO - Retrieving connection 'fs_default'
+[2024-10-08T16:50:31.576+0900] {filesystem.py:109} INFO - Poking for file /Users/alookso/1007MLpj/ml-project-ml-pjt-7/uploads/*.{jpg,png,jpeg}
+[2024-10-08T16:51:31.667+0900] {filesystem.py:109} INFO - Poking for file /Users/alookso/1007MLpj/ml-project-ml-pjt-7/uploads/*.{jpg,png,jpeg}
+[2024-10-08T16:52:31.670+0900] {filesystem.py:109} INFO - Poking for file /Users/alookso/1007MLpj/ml-project-ml-pjt-7/uploads/*.{jpg,png,jpeg}
+[2024-10-08T16:53:31.673+0900] {filesystem.py:109} INFO - Poking for file /Users/alookso/1007MLpj/ml-project-ml-pjt-7/uploads/*.{jpg,png,jpeg}
+[2024-10-08T16:54:31.676+0900] {filesystem.py:109} INFO - Poking for file /Users/alookso/1007MLpj/ml-project-ml-pjt-7/uploads/*.{jpg,png,jpeg}
+[2024-10-08T16:55:31.680+0900] {filesystem.py:109} INFO - Poking for file /Users/alookso/1007MLpj/ml-project-ml-pjt-7/uploads/*.{jpg,png,jpeg}
+[2024-10-08T16:56:31.683+0900] {filesystem.py:109} INFO - Poking for file /Users/alookso/1007MLpj/ml-project-ml-pjt-7/uploads/*.{jpg,png,jpeg}
+[2024-10-08T16:57:31.692+0900] {filesystem.py:109} INFO - Poking for file /Users/alookso/1007MLpj/ml-project-ml-pjt-7/uploads/*.{jpg,png,jpeg}
+[2024-10-08T16:58:31.697+0900] {filesystem.py:109} INFO - Poking for file /Users/alookso/1007MLpj/ml-project-ml-pjt-7/uploads/*.{jpg,png,jpeg}
+[2024-10-08T16:59:31.700+0900] {filesystem.py:109} INFO - Poking for file /Users/alookso/1007MLpj/ml-project-ml-pjt-7/uploads/*.{jpg,png,jpeg}
+[2024-10-08T17:00:31.703+0900] {filesystem.py:109} INFO - Poking for file /Users/alookso/1007MLpj/ml-project-ml-pjt-7/uploads/*.{jpg,png,jpeg}
+[2024-10-08T17:01:31.706+0900] {filesystem.py:109} INFO - Poking for file /Users/alookso/1007MLpj/ml-project-ml-pjt-7/uploads/*.{jpg,png,jpeg}
+[2024-10-08T17:02:31.710+0900] {filesystem.py:109} INFO - Poking for file /Users/alookso/1007MLpj/ml-project-ml-pjt-7/uploads/*.{jpg,png,jpeg}
+[2024-10-08T17:03:31.713+0900] {filesystem.py:109} INFO - Poking for file /Users/alookso/1007MLpj/ml-project-ml-pjt-7/uploads/*.{jpg,png,jpeg}
+[2024-10-08T17:04:31.716+0900] {filesystem.py:109} INFO - Poking for file /Users/alookso/1007MLpj/ml-project-ml-pjt-7/uploads/*.{jpg,png,jpeg}
+[2024-10-08T17:05:31.719+0900] {filesystem.py:109} INFO - Poking for file /Users/alookso/1007MLpj/ml-project-ml-pjt-7/uploads/*.{jpg,png,jpeg}
+[2024-10-08T17:06:31.722+0900] {filesystem.py:109} INFO - Poking for file /Users/alookso/1007MLpj/ml-project-ml-pjt-7/uploads/*.{jpg,png,jpeg}
+[2024-10-08T17:07:31.738+0900] {filesystem.py:109} INFO - Poking for file /Users/alookso/1007MLpj/ml-project-ml-pjt-7/uploads/*.{jpg,png,jpeg}
+[2024-10-08T17:08:31.742+0900] {filesystem.py:109} INFO - Poking for file /Users/alookso/1007MLpj/ml-project-ml-pjt-7/uploads/*.{jpg,png,jpeg}
+[2024-10-08T17:09:31.744+0900] {filesystem.py:109} INFO - Poking for file /Users/alookso/1007MLpj/ml-project-ml-pjt-7/uploads/*.{jpg,png,jpeg}
+[2024-10-08T17:10:31.748+0900] {filesystem.py:109} INFO - Poking for file /Users/alookso/1007MLpj/ml-project-ml-pjt-7/uploads/*.{jpg,png,jpeg}
+[2024-10-08T17:11:31.751+0900] {filesystem.py:109} INFO - Poking for file /Users/alookso/1007MLpj/ml-project-ml-pjt-7/uploads/*.{jpg,png,jpeg}
+[2024-10-08T17:12:31.754+0900] {filesystem.py:109} INFO - Poking for file /Users/alookso/1007MLpj/ml-project-ml-pjt-7/uploads/*.{jpg,png,jpeg}
+[2024-10-08T17:13:31.758+0900] {filesystem.py:109} INFO - Poking for file /Users/alookso/1007MLpj/ml-project-ml-pjt-7/uploads/*.{jpg,png,jpeg}
+[2024-10-08T17:14:31.761+0900] {filesystem.py:109} INFO - Poking for file /Users/alookso/1007MLpj/ml-project-ml-pjt-7/uploads/*.{jpg,png,jpeg}
+[2024-10-08T17:15:31.763+0900] {filesystem.py:109} INFO - Poking for file /Users/alookso/1007MLpj/ml-project-ml-pjt-7/uploads/*.{jpg,png,jpeg}
+[2024-10-08T17:16:31.767+0900] {filesystem.py:109} INFO - Poking for file /Users/alookso/1007MLpj/ml-project-ml-pjt-7/uploads/*.{jpg,png,jpeg}
+[2024-10-08T17:17:31.771+0900] {filesystem.py:109} INFO - Poking for file /Users/alookso/1007MLpj/ml-project-ml-pjt-7/uploads/*.{jpg,png,jpeg}
+[2024-10-08T17:18:31.774+0900] {filesystem.py:109} INFO - Poking for file /Users/alookso/1007MLpj/ml-project-ml-pjt-7/uploads/*.{jpg,png,jpeg}
+[2024-10-08T17:19:31.777+0900] {filesystem.py:109} INFO - Poking for file /Users/alookso/1007MLpj/ml-project-ml-pjt-7/uploads/*.{jpg,png,jpeg}
+[2024-10-08T17:20:31.780+0900] {filesystem.py:109} INFO - Poking for file /Users/alookso/1007MLpj/ml-project-ml-pjt-7/uploads/*.{jpg,png,jpeg}
+[2024-10-08T17:21:31.784+0900] {filesystem.py:109} INFO - Poking for file /Users/alookso/1007MLpj/ml-project-ml-pjt-7/uploads/*.{jpg,png,jpeg}
+[2024-10-08T17:22:31.640+0900] {filesystem.py:109} INFO - Poking for file /Users/alookso/1007MLpj/ml-project-ml-pjt-7/uploads/*.{jpg,png,jpeg}
+[2024-10-08T17:23:31.639+0900] {filesystem.py:109} INFO - Poking for file /Users/alookso/1007MLpj/ml-project-ml-pjt-7/uploads/*.{jpg,png,jpeg}
+[2024-10-08T17:24:31.639+0900] {filesystem.py:109} INFO - Poking for file /Users/alookso/1007MLpj/ml-project-ml-pjt-7/uploads/*.{jpg,png,jpeg}
+[2024-10-08T17:25:31.638+0900] {filesystem.py:109} INFO - Poking for file /Users/alookso/1007MLpj/ml-project-ml-pjt-7/uploads/*.{jpg,png,jpeg}
+[2024-10-08T17:26:28.021+0900] {local_task_job_runner.py:245} INFO - ::endgroup::
+[2024-10-08T17:26:28.040+0900] {process_utils.py:132} INFO - Sending Signals.SIGTERM to group 25627. PIDs of all processes in the group: [25627]
+[2024-10-08T17:26:28.040+0900] {process_utils.py:87} INFO - Sending the signal Signals.SIGTERM to group 25627
+[2024-10-08T17:26:28.041+0900] {taskinstance.py:3092} ERROR - Received SIGTERM. Terminating subprocesses.
+[2024-10-08T17:26:28.046+0900] {taskinstance.py:3310} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 767, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+  File "/Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 733, in _execute_callable
+    return ExecutionCallableRunner(
+  File "/Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/utils/operator_helpers.py", line 252, in run
+    return self.func(*args, **kwargs)
+  File "/Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 406, in wrapper
+    return func(self, *args, **kwargs)
+  File "/Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/sensors/filesystem.py", line 123, in execute
+    super().execute(context=context)
+  File "/Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 406, in wrapper
+    return func(self, *args, **kwargs)
+  File "/Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/sensors/base.py", line 334, in execute
+    time.sleep(self._get_next_poke_interval(started_at, run_duration, poke_count))
+  File "/Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 3094, in signal_handler
+    raise AirflowTaskTerminated("Task received SIGTERM signal")
+airflow.exceptions.AirflowTaskTerminated: Task received SIGTERM signal
+[2024-10-08T17:26:28.054+0900] {logging_mixin.py:190} INFO - Task instance in failure state
+[2024-10-08T17:26:28.055+0900] {logging_mixin.py:190} INFO - Task start:2024-10-08 07:50:31.379444+00:00 end:2024-10-08 08:26:28.053969+00:00 duration:2156.674525
+[2024-10-08T17:26:28.055+0900] {logging_mixin.py:190} INFO - Task:<Task(FileSensor): new_data_sensor> dag:<DAG: mnist_model_workflow> dagrun:<DagRun mnist_model_workflow @ 2024-10-08 07:45:00+00:00: scheduled__2024-10-08T07:45:00+00:00, state:running, queued_at: 2024-10-08 07:50:24.542265+00:00. externally triggered: False>
+[2024-10-08T17:26:28.056+0900] {logging_mixin.py:190} INFO - Failure caused by Task received SIGTERM signal
+[2024-10-08T17:26:28.057+0900] {taskinstance.py:1225} INFO - Marking task as UP_FOR_RETRY. dag_id=mnist_model_workflow, task_id=new_data_sensor, run_id=scheduled__2024-10-08T07:45:00+00:00, execution_date=20241008T074500, start_date=20241008T075031, end_date=20241008T082628
+[2024-10-08T17:26:28.070+0900] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2024-10-08T17:26:28.097+0900] {process_utils.py:80} INFO - Process psutil.Process(pid=25627, status='terminated', exitcode=2, started='16:50:31') (25627) terminated with exit code 2
+[2024-10-08T17:26:36.062+0900] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2024-10-08T17:26:36.074+0900] {taskinstance.py:2602} INFO - Dependencies not met for <TaskInstance: mnist_model_workflow.new_data_sensor scheduled__2024-10-08T07:45:00+00:00 [up_for_retry]>, dependency 'Not In Retry Period' FAILED: Task is not ready for retry yet but will be retried automatically. Current date is 2024-10-08T08:26:36.074446+00:00 and task will be retried at 2024-10-08T08:31:28.053969+00:00.
+[2024-10-08T17:26:36.075+0900] {local_task_job_runner.py:166} INFO - Task is not able to be run
