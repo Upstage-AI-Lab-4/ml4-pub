@@ -87,7 +87,7 @@ def train_and_evaluate_model():
     # torch 버전이슈로 autolog 불가 
     # mlflow.pytorch.autolog()
     learning_rate = 0.001
-    training_epochs = 15
+    training_epochs = 2
     batch_size = 100
 
     transform = transforms.Compose([
