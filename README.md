@@ -30,26 +30,29 @@
 - Oct 11 : 프로젝트 마감
 
 
-## 2. Components
+## 2. Module
 
-### Directory
+- 사용자 입력: 시각 장애인은 웹 페이지의 캔버스에 손글씨로 숫자를 입력합니다.
+- 이미지 전처리: 입력된 이미지 데이터는 서버로 전송되어 전처리 과정을 거칩니다.
+- 모델 예측: 전처리된 이미지는 머신러닝 모델에 의해 비밀번호로 인식됩니다.
+- 결과 제공: 인식된 비밀번호는 음성으로 변환되어 사용자에게 전달됩니다.
+- 데이터 저장: 입력된 이미지와 예측 결과는 데이터베이스에 저장되어 모델의 성능 향상을 위해 활용됩니다.
+- 모델 관리 및 배포: MLflow와 airflow를 통해 모델의 실험을 추적하고, 최적의 모델을 등록 및 배포합니다.
 
-- _Insert your directory structure_
 
-e.g.
 ```
 ├── code
-│   ├── jupyter_notebooks
-│   │   └── model_train.ipynb
-│   └── train.py
-├── docs
-│   ├── pdf
-│   │   └── (Template) [패스트캠퍼스] Upstage AI Lab 1기_그룹 스터디 .pptx
-│   └── paper
-└── input
-    └── data
-        ├── eval
-        └── train
+│   ├── api_module.py
+│   ├── data_processing.py
+│   ├── model.py
+│   ├── database.py
+│   ├── mlflow_model.py
+└────── monitoring.py
+│── dags 
+│    ├──dags.py
+│
+└─── data
+
 ```
 
 ## 3. Data descrption
