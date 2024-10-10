@@ -72,10 +72,8 @@ e.g.
 
 ## 5. Result
 
-### Leader Board
+![스크린샷 2024-10-10 오후 5 24 35](https://github.com/user-attachments/assets/27f7befb-18e2-45c3-8eae-c90082fef366)
 
-- _Insert Leader Board Capture_
-- _Write rank and score_
 
 ### Presentation
 
@@ -85,5 +83,5 @@ e.g.
 
 ### Meeting Log
 
-- [_Insert your meeting log link like Notion or Google Docs_](https://www.notion.so/4-558866cebfc14b4f87864a9f4cc46c84)
+- [_4조 노션 링크_](https://www.notion.so/4-558866cebfc14b4f87864a9f4cc46c84)
 
