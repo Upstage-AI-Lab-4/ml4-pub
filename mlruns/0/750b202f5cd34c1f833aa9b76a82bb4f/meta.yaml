@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/0/750b202f5cd34c1f833aa9b76a82bb4f/artifacts
+end_time: 1728380169968
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 750b202f5cd34c1f833aa9b76a82bb4f
+run_name: sneaky-trout-426
+run_uuid: 750b202f5cd34c1f833aa9b76a82bb4f
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1728380169903
+status: 3
+tags: []
+user_id: moon

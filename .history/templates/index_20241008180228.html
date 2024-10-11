@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>손글씨 숫자 인식</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f0f0f5;
+            color: #333;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+        }
+
+        h1 {
+            color: #4a4a4a;
+            font-size: 2.5em;
+            margin-top: 20px;
+        }
+
+        .canvas-container {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            margin: 30px auto;
+            
+        }
+
+        .canvas-wrapper {
+            margin: 20px;
+        }
+
+        p {
+            font-size: 1.2em;
+            color: #4a4a4a;
+            margin-bottom: 10px;
+        }
+
+        canvas {
+            border: 2px solid #ccc;
+            border-radius: 10px;
+            background-color: #ffffff;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        button {
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            font-size: 1em;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-top: 10px;
+            transition: background-color 0.3s ease;
+        }
+
+        button:hover {
+            background-color: #45a049;
+        }
+
+        button[type="submit"] {
+            background-color: #007BFF;
+            margin-top: 20px;
+            padding: 12px 24px;
+            font-size: 1.1em;
+        }
+
+        button[type="submit"]:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <h1>손글씨 숫자 인식</h1>
+    <form id="digitForm" action="/" method="post" onsubmit="prepareForm()">
+        <div class="canvas-container">
+            <div class="canvas-wrapper">
+                <p>숫자 1</p>
+                <canvas id="canvas1" width="200" height="200"></canvas><br>
+                <button type="button" onclick="clearCanvas('canvas1')">지우기</button>
+            </div>
+            <div class="canvas-wrapper">
+                <p>숫자 2</p>
+                <canvas id="canvas2" width="200" height="200"></canvas><br>
+                <button type="button" onclick="clearCanvas('canvas2')">지우기</button>
+            </div>
+            <div class="canvas-wrapper">
+                <p>숫자 3</p>
+                <canvas id="canvas3" width="200" height="200"></canvas><br>
+                <button type="button" onclick="clearCanvas('canvas3')">지우기</button>
+            </div>
+            <div class="canvas-wrapper">
+                <p>숫자 4</p>
+                <canvas id="canvas4" width="200" height="200"></canvas><br>
+                <button type="button" onclick="clearCanvas('canvas4')">지우기</button>
+            </div>
+        </div>
+        <!-- 캔버스 데이터를 저장하기 위한 숨겨진 입력 필드 -->
+        <input type="hidden" name="image1" id="image1">
+        <input type="hidden" name="image2" id="image2">
+        <input type="hidden" name="image3" id="image3">
+        <input type="hidden" name="image4" id="image4">
+        <button type="submit">예측하기</button>
+    </form>
+
+    <h1>예측 결과</h1>
+    {% if error %}
+        <p style="color: red;">{{ error }}</p>
+    {% elif predictions %}
+        <p>예측된 숫자들: {{ predictions }}</p>
+        <p>전체 숫자: {{ predictions|join('') }}</p>
+    {% else %}
+        <p>예측 결과를 가져올 수 없습니다.</p>
+    {% endif %}
+    <a href="/">돌아가기</a>
+
+    <script>
+        function initCanvas(canvasId) {
+            var canvas = document.getElementById(canvasId);
+            var ctx = canvas.getContext("2d");
+            var painting = false;
+
+            // 배경색을 검정색으로 초기화
+            ctx.fillStyle = "#000";
+            ctx.fillRect(0, 0, canvas.width, canvas.height);
+
+            // 선 색상을 흰색으로 설정
+            ctx.strokeStyle = "#fff";
+
+            // 이벤트 타입 결정
+            var events = {
+                start: "mousedown",
+                move: "mousemove",
+                end: "mouseup"
+            };
+
+            if ('ontouchstart' in window) {
+                events.start = "touchstart";
+                events.move = "touchmove";
+                events.end = "touchend";
+            }
+
+            canvas.addEventListener(events.start, startPosition);
+            canvas.addEventListener(events.end, finishedPosition);
+            canvas.addEventListener(events.move, draw);
+            canvas.addEventListener("mouseleave", finishedPosition);
+
+            function getPointerPos(e) {
+                var rect = canvas.getBoundingClientRect();
+                if (e.touches) {
+                    return {
+                        x: e.touches[0].clientX - rect.left,
+                        y: e.touches[0].clientY - rect.top
+                    };
+                } else {
+                    return {
+                        x: e.clientX - rect.left,
+                        y: e.clientY - rect.top
+                    };
+                }
+            }
+
+            function startPosition(e) {
+                e.preventDefault();
+                painting = true;
+                draw(e);
+            }
+
+            function finishedPosition() {
+                painting = false;
+                ctx.beginPath();
+            }
+
+            function draw(e) {
+                if (!painting) return;
+                e.preventDefault();
+                ctx.lineWidth = 12;
+                ctx.lineCap = "round";
+
+                var pos = getPointerPos(e);
+                ctx.lineTo(pos.x, pos.y);
+                ctx.stroke();
+                ctx.beginPath();
+                ctx.moveTo(pos.x, pos.y);
+            }
+        }
+
+        function clearCanvas(canvasId) {
+            var canvas = document.getElementById(canvasId);
+            var ctx = canvas.getContext("2d");
+            // 캔버스를 검정색으로 초기화
+            ctx.fillStyle = "#000";
+            ctx.fillRect(0, 0, canvas.width, canvas.height);
+            ctx.beginPath();
+        }
+
+        function prepareForm() {
+            var canvases = ['canvas1', 'canvas2', 'canvas3', 'canvas4'];
+            for (var i = 0; i < canvases.length; i++) {
+                var canvas = document.getElementById(canvases[i]);
+                var dataURL = canvas.toDataURL('image/png');
+                document.getElementById('image' + (i+1)).value = dataURL;
+            }
+        }
+
+        // 캔버스 초기화
+        initCanvas('canvas1');
+        initCanvas('canvas2');
+        initCanvas('canvas3');
+        initCanvas('canvas4');
+    </script>
+</body>
+</html>

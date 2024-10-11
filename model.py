@@ -6,8 +6,9 @@ import torch.nn.functional as F
 from torchvision import datasets, transforms
 from torch.utils.data import DataLoader, random_split
 import torch.optim as optim
-import torch.nn.init
-import os  # os 모듈 추가
+import os
+from monitoring import log_info
+import logging
 
 device = 'cuda' if torch.cuda.is_available() else 'cpu'
 
@@ -50,7 +51,7 @@ class CNNModel(nn.Module):
 
     def forward(self, x):
         out = self.layer1(x)
-        out = self.layer2(out)
+        out = self.layer2(out)  # 수정된 부분
         out = self.layer3(out)
         out = out.view(-1, 4 * 4 * 128)
         out = self.layer4(out)
@@ -58,20 +59,31 @@ class CNNModel(nn.Module):
         return out
 
 def load_model(model_path='saved_model.pth'):
+    device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
     model = CNNModel().to(device)
+    
     if not os.path.exists(model_path):
-        print("Model file not found. Training a new model...")
-        train_and_evaluate_model()
-    # FutureWarning 해결을 위해 weights_only=True 설정
-    state_dict = torch.load(model_path, map_location=device)
-    model.load_state_dict(state_dict)
+        logging.warning(f"Model file not found at {model_path}. Initializing a new model.")
+        torch.save(model.state_dict(), model_path)
+        logging.info(f"New model saved to {model_path}")
+    else:
+        try:
+            state_dict = torch.load(model_path, map_location=device)
+            model.load_state_dict(state_dict)
+            logging.info(f"Model loaded successfully from {model_path}")
+        except Exception as e:
+            logging.error(f"Error loading model from {model_path}: {str(e)}")
+            logging.warning("Initializing a new model.")
+            torch.save(model.state_dict(), model_path)
+            logging.info(f"New model saved to {model_path}")
+    
     model.eval()
     return model
 
 def predict(model, input_data_list):
     predictions = []
     with torch.no_grad():
-        for input_data in input_data_list:
+        for idx, input_data in enumerate(input_data_list):
             input_tensor = torch.from_numpy(input_data).float().to(device)
             input_tensor = input_tensor.unsqueeze(0)  # 배치 차원 추가
             outputs = model(input_tensor)
@@ -83,40 +95,24 @@ def train_and_evaluate_model(use_all_data=False):
     learning_rate = 0.001
     training_epochs = 15
     batch_size = 100
-    
-    best_val_accuracy = 0.0
-    model_version = 1
 
-    transform = transforms.Compose([
+    # 데이터 증강을 포함한 변환 정의
+    train_transform = transforms.Compose([
+        transforms.RandomRotation(10),        # ±10도 회전
+        transforms.RandomAffine(0, shear=10, scale=(0.8,1.2)),  # 전단 변환 및 스케일 조정
+        transforms.RandomHorizontalFlip(),    # 좌우 반전
         transforms.ToTensor(),
-        transforms.Lambda(lambda x: 1 - x),  # 이미지 반전
+        transforms.Normalize((0.5,), (0.5,))
+    ])
+
+    test_transform = transforms.Compose([
+        transforms.ToTensor(),
         transforms.Normalize((0.5,), (0.5,))
     ])
 
     # MNIST 데이터셋 로드
-    full_dataset = datasets.MNIST(root='./data', train=True, download=True, transform=transform)
-
-    if use_all_data:
-        # all_data에서 새로운 데이터 가져오기
-        all_data = get_all_data()
-        new_train_data = []
-        new_train_labels = []
-        for item in all_data:
-            img = preprocess_image_cv(item['image_path'])
-            new_train_data.append(img)
-            new_train_labels.append(int(item['label']))
-
-        # 새로운 데이터를 PyTorch 텐서로 변환
-        new_train_data = torch.tensor(np.array(new_train_data)).float()
-        new_train_labels = torch.tensor(new_train_labels).long()
-
-        # 새로운 데이터셋 생성
-        new_dataset = TensorDataset(new_train_data, new_train_labels)
-
-        # MNIST 데이터셋과 새로운 데이터셋 결합
-        combined_dataset = ConcatDataset([full_dataset, new_dataset])
-    else:
-        combined_dataset = full_dataset
+    full_dataset = datasets.MNIST(root='./data', train=True, download=True, transform=train_transform)
+    test_dataset = datasets.MNIST(root='./data', train=False, download=True, transform=test_transform)
 
     # 데이터셋 분할 (80% 학습, 20% 검증)
     train_size = int(0.8 * len(full_dataset))
@@ -125,6 +121,7 @@ def train_and_evaluate_model(use_all_data=False):
 
     train_loader = DataLoader(dataset=train_dataset, batch_size=batch_size, shuffle=True, drop_last=True)
     val_loader = DataLoader(dataset=val_dataset, batch_size=batch_size, shuffle=False)
+    test_loader = DataLoader(dataset=test_dataset, batch_size=batch_size, shuffle=False)
 
     model = CNNModel().to(device)
     criterion = nn.CrossEntropyLoss().to(device)
@@ -186,6 +183,10 @@ def train_and_evaluate_model(use_all_data=False):
 
     print("Training complete.")
 
+    # 테스트 데이터로 모델 평가
+    test_accuracy = evaluate_model(model, test_loader)
+    print(f'Test Accuracy: {test_accuracy:.2f}%')
+
 def evaluate_model(model, dataloader):
     model.eval()
     correct = 0
@@ -206,19 +207,3 @@ if __name__ == "__main__":
     print(f"Final model saved at: {final_model_path}")
 
     train_and_evaluate_model()
-
-    # 테스트 데이터로 모델 평가
-    transform = transforms.Compose([
-        transforms.ToTensor(),
-        transforms.Lambda(lambda x: 1 - x),  # 이미지 반전
-        transforms.Normalize((0.5,), (0.5,))
-    ])
-
-    mnist_test = datasets.MNIST(root='./data', train=False, transform=transform, download=True)
-    test_loader = DataLoader(dataset=mnist_test, batch_size=100, shuffle=False)
-
-    model = load_model(final_model_path)
-    test_accuracy = evaluate_model(model, test_loader)
-    print(f'Test Accuracy: {test_accuracy:.2f}%')
-
-

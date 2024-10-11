@@ -1,0 +1,19 @@
+[2024-10-11T00:13:06.850+0900] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2024-10-11T00:13:06.861+0900] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: handwriting_dag.retrain_model manual__2024-10-10T15:07:17.429727+00:00 [queued]>
+[2024-10-11T00:13:06.867+0900] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: handwriting_dag.retrain_model manual__2024-10-10T15:07:17.429727+00:00 [queued]>
+[2024-10-11T00:13:06.867+0900] {taskinstance.py:2865} INFO - Starting attempt 2 of 2
+[2024-10-11T00:13:06.880+0900] {taskinstance.py:2888} INFO - Executing <Task(PythonOperator): retrain_model> on 2024-10-10 15:07:17.429727+00:00
+[2024-10-11T00:13:06.895+0900] {standard_task_runner.py:72} INFO - Started process 64690 to run task
+[2024-10-11T00:13:06.906+0900] {standard_task_runner.py:104} INFO - Running: ['airflow', 'tasks', 'run', 'handwriting_dag', 'retrain_model', 'manual__2024-10-10T15:07:17.429727+00:00', '--job-id', '43', '--raw', '--subdir', 'DAGS_FOLDER/model_dag.py', '--cfg-path', '/var/folders/tx/bcbxk5bj33x4r2rt041m7bmr0000gn/T/tmp60v1285y']
+[2024-10-11T00:13:06.908+0900] {standard_task_runner.py:105} INFO - Job 43: Subtask retrain_model
+[2024-10-11T00:13:06.958+0900] {task_command.py:467} INFO - Running <TaskInstance: handwriting_dag.retrain_model manual__2024-10-10T15:07:17.429727+00:00 [running]> on host hyowon-kim-macbook-pro.local
+[2024-10-11T00:13:07.029+0900] {taskinstance.py:3131} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='handwriting_dag' AIRFLOW_CTX_TASK_ID='retrain_model' AIRFLOW_CTX_EXECUTION_DATE='2024-10-10T15:07:17.429727+00:00' AIRFLOW_CTX_TRY_NUMBER='2' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-10-10T15:07:17.429727+00:00'
+[2024-10-11T00:13:07.031+0900] {logging_mixin.py:190} INFO - Task instance is in running state
+[2024-10-11T00:13:07.031+0900] {logging_mixin.py:190} INFO -  Previous state of the Task instance: queued
+[2024-10-11T00:13:07.032+0900] {logging_mixin.py:190} INFO - Current task name:retrain_model state:running start_date:2024-10-10 15:13:06.861493+00:00
+[2024-10-11T00:13:07.032+0900] {logging_mixin.py:190} INFO - Dag name:handwriting_dag and current dag run status:running
+[2024-10-11T00:13:07.033+0900] {taskinstance.py:731} INFO - ::endgroup::
+[2024-10-11T00:13:07.065+0900] {logging_mixin.py:190} INFO - Model file not found. Training a new model...
+[2024-10-11T00:13:07.509+0900] {local_task_job_runner.py:266} INFO - Task exited with return code -6
+[2024-10-11T00:13:07.524+0900] {taskinstance.py:3900} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2024-10-11T00:13:07.525+0900] {local_task_job_runner.py:245} INFO - ::endgroup::
