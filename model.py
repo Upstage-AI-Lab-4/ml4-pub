@@ -58,7 +58,7 @@ class CNNModel(nn.Module):
         out = self.fc2(out)
         return out
 
-def load_model(model_path):
+def load_model(model_path='saved_model.pth'):
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
     model = CNNModel().to(device)
     
