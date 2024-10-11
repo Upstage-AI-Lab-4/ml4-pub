@@ -91,7 +91,7 @@ def predict(model, input_data_list):
             predictions.append(predicted.item())
     return predictions
 
-def train_and_evaluate_model(use_all_data=False):
+def train_and_evaluate_model():
     learning_rate = 0.001
     training_epochs = 15
     batch_size = 100
@@ -167,19 +167,8 @@ def train_and_evaluate_model(use_all_data=False):
         # 가장 좋은 모델 저장
         if val_accuracy > best_val_accuracy:
             best_val_accuracy = val_accuracy
-
-            # 현재 시간 정보 가져오기
-            current_time = datetime.datetime.now().strftime("%H%M%S")
-            # 모델 파일 이름 생성
-            model_filename = f"model_v{model_version}_acc{val_accuracy:.2f}_{current_time}.pth"
-            # 모델 저장 경로 설정
-            model_save_path = os.path.join('saved_models', model_filename)
-            # 저장 디렉토리가 없으면 생성
-            os.makedirs('saved_models', exist_ok=True)
-
-             # 모델 저장
-            torch.save(model.state_dict(), model_save_path)
-            print(f'Best model saved: {model_filename} with Validation Accuracy: {val_accuracy:.2f}%')
+            torch.save(model.state_dict(), 'saved_model.pth')
+            print(f'Best model saved with Validation Accuracy: {val_accuracy:.2f}%')
 
     print("Training complete.")
 
@@ -203,7 +192,4 @@ def evaluate_model(model, dataloader):
     return accuracy
 
 if __name__ == "__main__":
-    final_model_path = train_and_evaluate_model(use_all_data=True)
-    print(f"Final model saved at: {final_model_path}")
-
     train_and_evaluate_model()

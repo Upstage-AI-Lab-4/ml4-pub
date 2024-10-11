@@ -34,12 +34,10 @@ def preprocess_canvas_images(images_data):
         img = img.resize((28, 28), Image.LANCZOS)
 
         # 픽셀 값이 0~255 사이인지 확인
-        # img_array = np.array(img).astype(np.float32)
+        img_array = np.array(img).astype(np.float32)
 
         # 픽셀 값 정규화
         img_array = img_array / 255.0
-
-        digit_array = (digit_img.astype(np.float32) - 128) / 128
 
         # 배열 형태 변경
         img_array = img_array.reshape(1, 28, 28)
@@ -71,4 +69,3 @@ def preprocess_image_file(image_path):
     img_array = img_array / 255.0  # 정규화
     img_array = img_array.reshape(1, 28, 28)  # 형태 변경
     return img_array
-
