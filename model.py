@@ -8,6 +8,7 @@ from torch.utils.data import DataLoader, random_split
 import torch.optim as optim
 import os
 from monitoring import log_info
+import logging
 
 device = 'cuda' if torch.cuda.is_available() else 'cpu'
 
@@ -57,13 +58,25 @@ class CNNModel(nn.Module):
         out = self.fc2(out)
         return out
 
-def load_model(model_path='saved_model.pth'):
+def load_model(model_path):
+    device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
     model = CNNModel().to(device)
+    
     if not os.path.exists(model_path):
-        print("Model file not found. Training a new model...")
-        train_and_evaluate_model()
-    state_dict = torch.load(model_path, map_location=device)
-    model.load_state_dict(state_dict)
+        logging.warning(f"Model file not found at {model_path}. Initializing a new model.")
+        torch.save(model.state_dict(), model_path)
+        logging.info(f"New model saved to {model_path}")
+    else:
+        try:
+            state_dict = torch.load(model_path, map_location=device)
+            model.load_state_dict(state_dict)
+            logging.info(f"Model loaded successfully from {model_path}")
+        except Exception as e:
+            logging.error(f"Error loading model from {model_path}: {str(e)}")
+            logging.warning("Initializing a new model.")
+            torch.save(model.state_dict(), model_path)
+            logging.info(f"New model saved to {model_path}")
+    
     model.eval()
     return model
 

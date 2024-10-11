@@ -1,0 +1,210 @@
+[2024-10-10T14:51:30.052+0900] {processor.py:186} INFO - Started process (PID=55468) to work on /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-10-10T14:51:30.053+0900] {processor.py:914} INFO - Processing file /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2024-10-10T14:51:30.054+0900] {logging_mixin.py:190} INFO - [2024-10-10T14:51:30.054+0900] {dagbag.py:588} INFO - Filling up the DagBag from /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-10-10T14:51:30.056+0900] {processor.py:927} WARNING - No viable dags retrieved from /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-10-10T14:51:30.186+0900] {processor.py:208} INFO - Processing /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py took 0.140 seconds
+[2024-10-10T15:31:35.484+0900] {processor.py:186} INFO - Started process (PID=56017) to work on /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-10-10T15:31:35.485+0900] {processor.py:914} INFO - Processing file /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2024-10-10T15:31:35.486+0900] {logging_mixin.py:190} INFO - [2024-10-10T15:31:35.486+0900] {dagbag.py:588} INFO - Filling up the DagBag from /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-10-10T15:31:35.489+0900] {processor.py:927} WARNING - No viable dags retrieved from /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-10-10T15:31:35.617+0900] {processor.py:208} INFO - Processing /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py took 0.140 seconds
+[2024-10-10T15:36:13.977+0900] {processor.py:186} INFO - Started process (PID=56190) to work on /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-10-10T15:36:13.979+0900] {processor.py:914} INFO - Processing file /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2024-10-10T15:36:13.980+0900] {logging_mixin.py:190} INFO - [2024-10-10T15:36:13.980+0900] {dagbag.py:588} INFO - Filling up the DagBag from /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-10-10T15:36:13.982+0900] {processor.py:927} WARNING - No viable dags retrieved from /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-10-10T15:36:14.132+0900] {processor.py:208} INFO - Processing /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py took 0.162 seconds
+[2024-10-10T15:40:25.381+0900] {processor.py:186} INFO - Started process (PID=56303) to work on /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-10-10T15:40:25.382+0900] {processor.py:914} INFO - Processing file /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2024-10-10T15:40:25.383+0900] {logging_mixin.py:190} INFO - [2024-10-10T15:40:25.383+0900] {dagbag.py:588} INFO - Filling up the DagBag from /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-10-10T15:40:25.385+0900] {processor.py:927} WARNING - No viable dags retrieved from /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-10-10T15:40:25.512+0900] {processor.py:208} INFO - Processing /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py took 0.137 seconds
+[2024-10-10T15:40:53.376+0900] {processor.py:186} INFO - Started process (PID=56354) to work on /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-10-10T15:40:53.377+0900] {processor.py:914} INFO - Processing file /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2024-10-10T15:40:53.378+0900] {logging_mixin.py:190} INFO - [2024-10-10T15:40:53.377+0900] {dagbag.py:588} INFO - Filling up the DagBag from /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-10-10T15:40:53.380+0900] {processor.py:927} WARNING - No viable dags retrieved from /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-10-10T15:40:53.501+0900] {processor.py:208} INFO - Processing /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py took 0.129 seconds
+[2024-10-10T15:42:59.415+0900] {processor.py:186} INFO - Started process (PID=56480) to work on /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-10-10T15:42:59.417+0900] {processor.py:914} INFO - Processing file /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2024-10-10T15:42:59.418+0900] {logging_mixin.py:190} INFO - [2024-10-10T15:42:59.418+0900] {dagbag.py:588} INFO - Filling up the DagBag from /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-10-10T15:42:59.420+0900] {processor.py:927} WARNING - No viable dags retrieved from /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-10-10T15:42:59.548+0900] {processor.py:208} INFO - Processing /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py took 0.136 seconds
+[2024-10-10T15:46:08.383+0900] {processor.py:186} INFO - Started process (PID=56625) to work on /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-10-10T15:46:08.384+0900] {processor.py:914} INFO - Processing file /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2024-10-10T15:46:08.385+0900] {logging_mixin.py:190} INFO - [2024-10-10T15:46:08.385+0900] {dagbag.py:588} INFO - Filling up the DagBag from /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-10-10T15:46:08.387+0900] {processor.py:927} WARNING - No viable dags retrieved from /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-10-10T15:46:08.517+0900] {processor.py:208} INFO - Processing /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py took 0.141 seconds
+[2024-10-10T15:50:18.948+0900] {processor.py:186} INFO - Started process (PID=56826) to work on /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-10-10T15:50:18.949+0900] {processor.py:914} INFO - Processing file /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2024-10-10T15:50:18.950+0900] {logging_mixin.py:190} INFO - [2024-10-10T15:50:18.950+0900] {dagbag.py:588} INFO - Filling up the DagBag from /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-10-10T15:50:18.952+0900] {processor.py:927} WARNING - No viable dags retrieved from /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-10-10T15:50:19.084+0900] {processor.py:208} INFO - Processing /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py took 0.143 seconds
+[2024-10-10T16:17:18.425+0900] {processor.py:186} INFO - Started process (PID=57281) to work on /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-10-10T16:17:18.427+0900] {processor.py:914} INFO - Processing file /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2024-10-10T16:17:18.428+0900] {logging_mixin.py:190} INFO - [2024-10-10T16:17:18.428+0900] {dagbag.py:588} INFO - Filling up the DagBag from /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-10-10T16:17:18.430+0900] {processor.py:927} WARNING - No viable dags retrieved from /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-10-10T16:17:18.553+0900] {processor.py:208} INFO - Processing /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py took 0.133 seconds
+[2024-10-10T16:21:37.984+0900] {processor.py:186} INFO - Started process (PID=57446) to work on /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-10-10T16:21:37.986+0900] {processor.py:914} INFO - Processing file /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2024-10-10T16:21:37.987+0900] {logging_mixin.py:190} INFO - [2024-10-10T16:21:37.987+0900] {dagbag.py:588} INFO - Filling up the DagBag from /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-10-10T16:21:37.989+0900] {processor.py:927} WARNING - No viable dags retrieved from /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-10-10T16:21:38.115+0900] {processor.py:208} INFO - Processing /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py took 0.137 seconds
+[2024-10-10T16:24:58.294+0900] {processor.py:186} INFO - Started process (PID=57565) to work on /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-10-10T16:24:58.295+0900] {processor.py:914} INFO - Processing file /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2024-10-10T16:24:58.296+0900] {logging_mixin.py:190} INFO - [2024-10-10T16:24:58.296+0900] {dagbag.py:588} INFO - Filling up the DagBag from /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-10-10T16:24:58.298+0900] {processor.py:927} WARNING - No viable dags retrieved from /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-10-10T16:24:58.419+0900] {processor.py:208} INFO - Processing /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py took 0.130 seconds
+[2024-10-10T16:29:21.983+0900] {processor.py:186} INFO - Started process (PID=57781) to work on /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-10-10T16:29:21.984+0900] {processor.py:914} INFO - Processing file /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2024-10-10T16:29:21.985+0900] {logging_mixin.py:190} INFO - [2024-10-10T16:29:21.985+0900] {dagbag.py:588} INFO - Filling up the DagBag from /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-10-10T16:29:21.987+0900] {processor.py:927} WARNING - No viable dags retrieved from /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-10-10T16:29:22.123+0900] {processor.py:208} INFO - Processing /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py took 0.146 seconds
+[2024-10-10T16:31:29.891+0900] {processor.py:186} INFO - Started process (PID=57910) to work on /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-10-10T16:31:29.892+0900] {processor.py:914} INFO - Processing file /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2024-10-10T16:31:29.893+0900] {logging_mixin.py:190} INFO - [2024-10-10T16:31:29.893+0900] {dagbag.py:588} INFO - Filling up the DagBag from /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-10-10T16:31:29.895+0900] {processor.py:927} WARNING - No viable dags retrieved from /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-10-10T16:31:30.023+0900] {processor.py:208} INFO - Processing /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py took 0.138 seconds
+[2024-10-10T16:35:43.045+0900] {processor.py:186} INFO - Started process (PID=58043) to work on /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-10-10T16:35:43.045+0900] {processor.py:914} INFO - Processing file /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2024-10-10T16:35:43.046+0900] {logging_mixin.py:190} INFO - [2024-10-10T16:35:43.046+0900] {dagbag.py:588} INFO - Filling up the DagBag from /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-10-10T16:35:43.048+0900] {processor.py:927} WARNING - No viable dags retrieved from /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-10-10T16:35:43.170+0900] {processor.py:208} INFO - Processing /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py took 0.131 seconds
+[2024-10-10T16:39:14.415+0900] {processor.py:186} INFO - Started process (PID=58131) to work on /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-10-10T16:39:14.417+0900] {processor.py:914} INFO - Processing file /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2024-10-10T16:39:14.418+0900] {logging_mixin.py:190} INFO - [2024-10-10T16:39:14.418+0900] {dagbag.py:588} INFO - Filling up the DagBag from /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-10-10T16:39:14.420+0900] {processor.py:927} WARNING - No viable dags retrieved from /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-10-10T16:39:14.571+0900] {processor.py:208} INFO - Processing /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py took 0.160 seconds
+[2024-10-10T16:42:55.529+0900] {processor.py:186} INFO - Started process (PID=58221) to work on /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-10-10T16:42:55.530+0900] {processor.py:914} INFO - Processing file /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2024-10-10T16:42:55.531+0900] {logging_mixin.py:190} INFO - [2024-10-10T16:42:55.531+0900] {dagbag.py:588} INFO - Filling up the DagBag from /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-10-10T16:42:55.533+0900] {processor.py:927} WARNING - No viable dags retrieved from /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-10-10T16:42:55.670+0900] {processor.py:208} INFO - Processing /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py took 0.147 seconds
+[2024-10-10T16:46:26.543+0900] {processor.py:186} INFO - Started process (PID=58355) to work on /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-10-10T16:46:26.545+0900] {processor.py:914} INFO - Processing file /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2024-10-10T16:46:26.546+0900] {logging_mixin.py:190} INFO - [2024-10-10T16:46:26.546+0900] {dagbag.py:588} INFO - Filling up the DagBag from /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-10-10T16:46:26.548+0900] {processor.py:927} WARNING - No viable dags retrieved from /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-10-10T16:46:26.674+0900] {processor.py:208} INFO - Processing /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py took 0.137 seconds
+[2024-10-10T16:49:02.799+0900] {processor.py:186} INFO - Started process (PID=58527) to work on /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-10-10T16:49:02.800+0900] {processor.py:914} INFO - Processing file /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2024-10-10T16:49:02.801+0900] {logging_mixin.py:190} INFO - [2024-10-10T16:49:02.801+0900] {dagbag.py:588} INFO - Filling up the DagBag from /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-10-10T16:49:02.803+0900] {processor.py:927} WARNING - No viable dags retrieved from /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-10-10T16:49:02.926+0900] {processor.py:208} INFO - Processing /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py took 0.132 seconds
+[2024-10-10T16:52:40.519+0900] {processor.py:186} INFO - Started process (PID=58719) to work on /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-10-10T16:52:40.521+0900] {processor.py:914} INFO - Processing file /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2024-10-10T16:52:40.522+0900] {logging_mixin.py:190} INFO - [2024-10-10T16:52:40.522+0900] {dagbag.py:588} INFO - Filling up the DagBag from /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-10-10T16:52:40.524+0900] {processor.py:927} WARNING - No viable dags retrieved from /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-10-10T16:52:40.652+0900] {processor.py:208} INFO - Processing /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py took 0.138 seconds
+[2024-10-10T23:46:53.003+0900] {processor.py:186} INFO - Started process (PID=63349) to work on /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-10-10T23:46:53.004+0900] {processor.py:914} INFO - Processing file /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2024-10-10T23:46:53.005+0900] {logging_mixin.py:190} INFO - [2024-10-10T23:46:53.005+0900] {dagbag.py:588} INFO - Filling up the DagBag from /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-10-10T23:46:53.007+0900] {processor.py:927} WARNING - No viable dags retrieved from /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-10-10T23:46:53.132+0900] {processor.py:208} INFO - Processing /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py took 0.135 seconds
+[2024-10-10T23:50:43.270+0900] {processor.py:186} INFO - Started process (PID=63566) to work on /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-10-10T23:50:43.270+0900] {processor.py:914} INFO - Processing file /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2024-10-10T23:50:43.271+0900] {logging_mixin.py:190} INFO - [2024-10-10T23:50:43.271+0900] {dagbag.py:588} INFO - Filling up the DagBag from /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-10-10T23:50:43.273+0900] {processor.py:927} WARNING - No viable dags retrieved from /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-10-10T23:50:43.397+0900] {processor.py:208} INFO - Processing /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py took 0.132 seconds
+[2024-10-10T23:53:37.970+0900] {processor.py:186} INFO - Started process (PID=63738) to work on /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-10-10T23:53:37.971+0900] {processor.py:914} INFO - Processing file /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2024-10-10T23:53:37.973+0900] {logging_mixin.py:190} INFO - [2024-10-10T23:53:37.972+0900] {dagbag.py:588} INFO - Filling up the DagBag from /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-10-10T23:53:37.976+0900] {processor.py:927} WARNING - No viable dags retrieved from /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-10-10T23:53:38.188+0900] {processor.py:208} INFO - Processing /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py took 0.225 seconds
+[2024-10-10T23:55:45.094+0900] {processor.py:186} INFO - Started process (PID=63837) to work on /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-10-10T23:55:45.095+0900] {processor.py:914} INFO - Processing file /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2024-10-10T23:55:45.096+0900] {logging_mixin.py:190} INFO - [2024-10-10T23:55:45.096+0900] {dagbag.py:588} INFO - Filling up the DagBag from /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-10-10T23:55:45.098+0900] {processor.py:927} WARNING - No viable dags retrieved from /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-10-10T23:55:45.238+0900] {processor.py:208} INFO - Processing /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py took 0.148 seconds
+[2024-10-11T00:00:17.909+0900] {processor.py:186} INFO - Started process (PID=64000) to work on /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-10-11T00:00:17.910+0900] {processor.py:914} INFO - Processing file /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2024-10-11T00:00:17.911+0900] {logging_mixin.py:190} INFO - [2024-10-11T00:00:17.911+0900] {dagbag.py:588} INFO - Filling up the DagBag from /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-10-11T00:00:17.913+0900] {processor.py:927} WARNING - No viable dags retrieved from /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-10-11T00:00:18.038+0900] {processor.py:208} INFO - Processing /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py took 0.133 seconds
+[2024-10-11T00:03:56.194+0900] {processor.py:186} INFO - Started process (PID=64211) to work on /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-10-11T00:03:56.195+0900] {processor.py:914} INFO - Processing file /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2024-10-11T00:03:56.196+0900] {logging_mixin.py:190} INFO - [2024-10-11T00:03:56.196+0900] {dagbag.py:588} INFO - Filling up the DagBag from /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-10-11T00:03:56.198+0900] {processor.py:927} WARNING - No viable dags retrieved from /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-10-11T00:03:56.341+0900] {processor.py:208} INFO - Processing /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py took 0.151 seconds
+[2024-10-11T00:07:19.874+0900] {processor.py:186} INFO - Started process (PID=64405) to work on /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-10-11T00:07:19.875+0900] {processor.py:914} INFO - Processing file /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2024-10-11T00:07:19.876+0900] {logging_mixin.py:190} INFO - [2024-10-11T00:07:19.876+0900] {dagbag.py:588} INFO - Filling up the DagBag from /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-10-11T00:07:19.878+0900] {processor.py:927} WARNING - No viable dags retrieved from /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-10-11T00:07:20.002+0900] {processor.py:208} INFO - Processing /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py took 0.132 seconds
+[2024-10-11T00:10:56.565+0900] {processor.py:186} INFO - Started process (PID=64559) to work on /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-10-11T00:10:56.566+0900] {processor.py:914} INFO - Processing file /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2024-10-11T00:10:56.567+0900] {logging_mixin.py:190} INFO - [2024-10-11T00:10:56.567+0900] {dagbag.py:588} INFO - Filling up the DagBag from /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-10-11T00:10:56.569+0900] {processor.py:927} WARNING - No viable dags retrieved from /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-10-11T00:10:56.693+0900] {processor.py:208} INFO - Processing /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py took 0.133 seconds
+[2024-10-11T00:13:29.761+0900] {processor.py:186} INFO - Started process (PID=64711) to work on /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-10-11T00:13:29.762+0900] {processor.py:914} INFO - Processing file /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2024-10-11T00:13:29.763+0900] {logging_mixin.py:190} INFO - [2024-10-11T00:13:29.763+0900] {dagbag.py:588} INFO - Filling up the DagBag from /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-10-11T00:13:29.765+0900] {processor.py:927} WARNING - No viable dags retrieved from /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-10-11T00:13:29.884+0900] {processor.py:208} INFO - Processing /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py took 0.128 seconds
+[2024-10-11T00:16:06.956+0900] {processor.py:186} INFO - Started process (PID=64792) to work on /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-10-11T00:16:06.957+0900] {processor.py:914} INFO - Processing file /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2024-10-11T00:16:06.958+0900] {logging_mixin.py:190} INFO - [2024-10-11T00:16:06.958+0900] {dagbag.py:588} INFO - Filling up the DagBag from /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-10-11T00:16:06.960+0900] {processor.py:927} WARNING - No viable dags retrieved from /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-10-11T00:16:07.079+0900] {processor.py:208} INFO - Processing /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py took 0.127 seconds
+[2024-10-11T00:18:40.073+0900] {processor.py:186} INFO - Started process (PID=64869) to work on /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-10-11T00:18:40.073+0900] {processor.py:914} INFO - Processing file /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2024-10-11T00:18:40.074+0900] {logging_mixin.py:190} INFO - [2024-10-11T00:18:40.074+0900] {dagbag.py:588} INFO - Filling up the DagBag from /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-10-11T00:18:40.076+0900] {processor.py:927} WARNING - No viable dags retrieved from /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-10-11T00:18:40.202+0900] {processor.py:208} INFO - Processing /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py took 0.135 seconds
+[2024-10-11T00:21:15.488+0900] {processor.py:186} INFO - Started process (PID=64981) to work on /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-10-11T00:21:15.489+0900] {processor.py:914} INFO - Processing file /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2024-10-11T00:21:15.490+0900] {logging_mixin.py:190} INFO - [2024-10-11T00:21:15.490+0900] {dagbag.py:588} INFO - Filling up the DagBag from /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-10-11T00:21:15.492+0900] {processor.py:927} WARNING - No viable dags retrieved from /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-10-11T00:21:15.616+0900] {processor.py:208} INFO - Processing /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py took 0.133 seconds
+[2024-10-11T00:23:46.545+0900] {processor.py:186} INFO - Started process (PID=65051) to work on /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-10-11T00:23:46.546+0900] {processor.py:914} INFO - Processing file /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2024-10-11T00:23:46.547+0900] {logging_mixin.py:190} INFO - [2024-10-11T00:23:46.547+0900] {dagbag.py:588} INFO - Filling up the DagBag from /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-10-11T00:23:46.549+0900] {processor.py:927} WARNING - No viable dags retrieved from /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-10-11T00:23:46.672+0900] {processor.py:208} INFO - Processing /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py took 0.132 seconds
+[2024-10-11T00:26:22.639+0900] {processor.py:186} INFO - Started process (PID=65148) to work on /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-10-11T00:26:22.640+0900] {processor.py:914} INFO - Processing file /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2024-10-11T00:26:22.641+0900] {logging_mixin.py:190} INFO - [2024-10-11T00:26:22.640+0900] {dagbag.py:588} INFO - Filling up the DagBag from /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-10-11T00:26:22.643+0900] {processor.py:927} WARNING - No viable dags retrieved from /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-10-11T00:26:22.761+0900] {processor.py:208} INFO - Processing /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py took 0.126 seconds
+[2024-10-11T00:29:58.161+0900] {processor.py:186} INFO - Started process (PID=65350) to work on /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-10-11T00:29:58.161+0900] {processor.py:914} INFO - Processing file /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2024-10-11T00:29:58.162+0900] {logging_mixin.py:190} INFO - [2024-10-11T00:29:58.162+0900] {dagbag.py:588} INFO - Filling up the DagBag from /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-10-11T00:29:58.165+0900] {processor.py:927} WARNING - No viable dags retrieved from /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-10-11T00:29:58.290+0900] {processor.py:208} INFO - Processing /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py took 0.135 seconds
+[2024-10-11T00:33:32.903+0900] {processor.py:186} INFO - Started process (PID=65508) to work on /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-10-11T00:33:32.904+0900] {processor.py:914} INFO - Processing file /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2024-10-11T00:33:32.905+0900] {logging_mixin.py:190} INFO - [2024-10-11T00:33:32.905+0900] {dagbag.py:588} INFO - Filling up the DagBag from /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-10-11T00:33:32.907+0900] {processor.py:927} WARNING - No viable dags retrieved from /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-10-11T00:33:33.030+0900] {processor.py:208} INFO - Processing /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py took 0.132 seconds
+[2024-10-11T00:37:16.637+0900] {processor.py:186} INFO - Started process (PID=65684) to work on /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-10-11T00:37:16.638+0900] {processor.py:914} INFO - Processing file /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2024-10-11T00:37:16.638+0900] {logging_mixin.py:190} INFO - [2024-10-11T00:37:16.638+0900] {dagbag.py:588} INFO - Filling up the DagBag from /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-10-11T00:37:16.640+0900] {processor.py:927} WARNING - No viable dags retrieved from /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-10-11T00:37:16.763+0900] {processor.py:208} INFO - Processing /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py took 0.131 seconds
+[2024-10-11T00:41:00.199+0900] {processor.py:186} INFO - Started process (PID=65878) to work on /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-10-11T00:41:00.200+0900] {processor.py:914} INFO - Processing file /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2024-10-11T00:41:00.200+0900] {logging_mixin.py:190} INFO - [2024-10-11T00:41:00.200+0900] {dagbag.py:588} INFO - Filling up the DagBag from /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-10-11T00:41:00.203+0900] {processor.py:927} WARNING - No viable dags retrieved from /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-10-11T00:41:00.328+0900] {processor.py:208} INFO - Processing /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py took 0.135 seconds
+[2024-10-11T00:44:28.355+0900] {processor.py:186} INFO - Started process (PID=66041) to work on /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-10-11T00:44:28.356+0900] {processor.py:914} INFO - Processing file /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2024-10-11T00:44:28.357+0900] {logging_mixin.py:190} INFO - [2024-10-11T00:44:28.356+0900] {dagbag.py:588} INFO - Filling up the DagBag from /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-10-11T00:44:28.359+0900] {processor.py:927} WARNING - No viable dags retrieved from /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-10-11T00:44:28.478+0900] {processor.py:208} INFO - Processing /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py took 0.128 seconds
+[2024-10-11T00:47:03.205+0900] {processor.py:186} INFO - Started process (PID=66119) to work on /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-10-11T00:47:03.206+0900] {processor.py:914} INFO - Processing file /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2024-10-11T00:47:03.207+0900] {logging_mixin.py:190} INFO - [2024-10-11T00:47:03.207+0900] {dagbag.py:588} INFO - Filling up the DagBag from /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-10-11T00:47:03.210+0900] {processor.py:927} WARNING - No viable dags retrieved from /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-10-11T00:47:03.330+0900] {processor.py:208} INFO - Processing /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py took 0.129 seconds
+[2024-10-11T00:48:16.705+0900] {processor.py:186} INFO - Started process (PID=66202) to work on /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-10-11T00:48:16.706+0900] {processor.py:914} INFO - Processing file /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2024-10-11T00:48:16.707+0900] {logging_mixin.py:190} INFO - [2024-10-11T00:48:16.707+0900] {dagbag.py:588} INFO - Filling up the DagBag from /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-10-11T00:48:16.709+0900] {processor.py:927} WARNING - No viable dags retrieved from /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-10-11T00:48:16.833+0900] {processor.py:208} INFO - Processing /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py took 0.132 seconds
+[2024-10-11T00:51:54.779+0900] {processor.py:186} INFO - Started process (PID=66422) to work on /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-10-11T00:51:54.781+0900] {processor.py:914} INFO - Processing file /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2024-10-11T00:51:54.782+0900] {logging_mixin.py:190} INFO - [2024-10-11T00:51:54.782+0900] {dagbag.py:588} INFO - Filling up the DagBag from /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-10-11T00:51:54.784+0900] {processor.py:927} WARNING - No viable dags retrieved from /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-10-11T00:51:54.905+0900] {processor.py:208} INFO - Processing /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py took 0.132 seconds
+[2024-10-11T00:54:40.738+0900] {processor.py:186} INFO - Started process (PID=66577) to work on /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-10-11T00:54:40.739+0900] {processor.py:914} INFO - Processing file /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2024-10-11T00:54:40.740+0900] {logging_mixin.py:190} INFO - [2024-10-11T00:54:40.739+0900] {dagbag.py:588} INFO - Filling up the DagBag from /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-10-11T00:54:40.742+0900] {processor.py:927} WARNING - No viable dags retrieved from /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-10-11T00:54:40.861+0900] {processor.py:208} INFO - Processing /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py took 0.128 seconds

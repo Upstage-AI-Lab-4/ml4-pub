@@ -1,0 +1,141 @@
+[2024-10-10T15:35:10.611+0900] {processor.py:186} INFO - Started process (PID=56129) to work on /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2024-10-10T15:35:10.612+0900] {processor.py:914} INFO - Processing file /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2024-10-10T15:35:10.614+0900] {logging_mixin.py:190} INFO - [2024-10-10T15:35:10.613+0900] {dagbag.py:588} INFO - Filling up the DagBag from /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2024-10-10T15:35:10.631+0900] {processor.py:925} INFO - DAG(s) 'example_complex' retrieved from /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2024-10-10T15:35:10.892+0900] {logging_mixin.py:190} INFO - [2024-10-10T15:35:10.892+0900] {override.py:1901} INFO - Created Permission View: can read on DAG:example_complex
+[2024-10-10T15:35:10.902+0900] {logging_mixin.py:190} INFO - [2024-10-10T15:35:10.902+0900] {override.py:1901} INFO - Created Permission View: can edit on DAG:example_complex
+[2024-10-10T15:35:10.910+0900] {logging_mixin.py:190} INFO - [2024-10-10T15:35:10.910+0900] {override.py:1901} INFO - Created Permission View: can delete on DAG:example_complex
+[2024-10-10T15:35:10.920+0900] {logging_mixin.py:190} INFO - [2024-10-10T15:35:10.920+0900] {override.py:1901} INFO - Created Permission View: can create on DAG Run:example_complex
+[2024-10-10T15:35:10.927+0900] {logging_mixin.py:190} INFO - [2024-10-10T15:35:10.927+0900] {override.py:1901} INFO - Created Permission View: can read on DAG Run:example_complex
+[2024-10-10T15:35:10.934+0900] {logging_mixin.py:190} INFO - [2024-10-10T15:35:10.934+0900] {override.py:1901} INFO - Created Permission View: menu access on DAG Run:example_complex
+[2024-10-10T15:35:10.942+0900] {logging_mixin.py:190} INFO - [2024-10-10T15:35:10.941+0900] {override.py:1901} INFO - Created Permission View: can delete on DAG Run:example_complex
+[2024-10-10T15:35:10.942+0900] {logging_mixin.py:190} INFO - [2024-10-10T15:35:10.942+0900] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-10T15:35:10.956+0900] {logging_mixin.py:190} INFO - [2024-10-10T15:35:10.956+0900] {dag.py:3262} INFO - Creating ORM DAG for example_complex
+[2024-10-10T15:35:10.957+0900] {logging_mixin.py:190} INFO - [2024-10-10T15:35:10.957+0900] {dag.py:4180} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2024-10-10T15:35:10.976+0900] {processor.py:208} INFO - Processing /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py took 0.371 seconds
+[2024-10-10T15:39:39.732+0900] {processor.py:186} INFO - Started process (PID=56287) to work on /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2024-10-10T15:39:39.733+0900] {processor.py:914} INFO - Processing file /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2024-10-10T15:39:39.734+0900] {logging_mixin.py:190} INFO - [2024-10-10T15:39:39.734+0900] {dagbag.py:588} INFO - Filling up the DagBag from /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2024-10-10T15:39:39.756+0900] {processor.py:925} INFO - DAG(s) 'example_complex' retrieved from /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2024-10-10T15:39:39.929+0900] {logging_mixin.py:190} INFO - [2024-10-10T15:39:39.929+0900] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-10T15:39:39.944+0900] {logging_mixin.py:190} INFO - [2024-10-10T15:39:39.944+0900] {dag.py:4180} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2024-10-10T15:39:39.965+0900] {processor.py:208} INFO - Processing /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py took 0.241 seconds
+[2024-10-10T15:49:32.166+0900] {processor.py:186} INFO - Started process (PID=56792) to work on /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2024-10-10T15:49:32.167+0900] {processor.py:914} INFO - Processing file /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2024-10-10T15:49:32.168+0900] {logging_mixin.py:190} INFO - [2024-10-10T15:49:32.168+0900] {dagbag.py:588} INFO - Filling up the DagBag from /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2024-10-10T15:49:32.185+0900] {processor.py:925} INFO - DAG(s) 'example_complex' retrieved from /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2024-10-10T15:49:32.349+0900] {logging_mixin.py:190} INFO - [2024-10-10T15:49:32.349+0900] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-10T15:49:32.364+0900] {logging_mixin.py:190} INFO - [2024-10-10T15:49:32.363+0900] {dag.py:4180} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2024-10-10T15:49:32.387+0900] {processor.py:208} INFO - Processing /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py took 0.226 seconds
+[2024-10-10T16:20:52.075+0900] {processor.py:186} INFO - Started process (PID=57429) to work on /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2024-10-10T16:20:52.076+0900] {processor.py:914} INFO - Processing file /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2024-10-10T16:20:52.077+0900] {logging_mixin.py:190} INFO - [2024-10-10T16:20:52.077+0900] {dagbag.py:588} INFO - Filling up the DagBag from /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2024-10-10T16:20:52.095+0900] {processor.py:925} INFO - DAG(s) 'example_complex' retrieved from /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2024-10-10T16:20:52.278+0900] {logging_mixin.py:190} INFO - [2024-10-10T16:20:52.278+0900] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-10T16:20:52.294+0900] {logging_mixin.py:190} INFO - [2024-10-10T16:20:52.294+0900] {dag.py:4180} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2024-10-10T16:20:52.320+0900] {processor.py:208} INFO - Processing /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py took 0.251 seconds
+[2024-10-10T16:28:36.534+0900] {processor.py:186} INFO - Started process (PID=57748) to work on /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2024-10-10T16:28:36.536+0900] {processor.py:914} INFO - Processing file /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2024-10-10T16:28:36.536+0900] {logging_mixin.py:190} INFO - [2024-10-10T16:28:36.536+0900] {dagbag.py:588} INFO - Filling up the DagBag from /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2024-10-10T16:28:36.553+0900] {processor.py:925} INFO - DAG(s) 'example_complex' retrieved from /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2024-10-10T16:28:36.704+0900] {logging_mixin.py:190} INFO - [2024-10-10T16:28:36.704+0900] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-10T16:28:36.717+0900] {logging_mixin.py:190} INFO - [2024-10-10T16:28:36.717+0900] {dag.py:4180} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2024-10-10T16:28:36.737+0900] {processor.py:208} INFO - Processing /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py took 0.207 seconds
+[2024-10-10T16:34:58.690+0900] {processor.py:186} INFO - Started process (PID=58024) to work on /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2024-10-10T16:34:58.691+0900] {processor.py:914} INFO - Processing file /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2024-10-10T16:34:58.692+0900] {logging_mixin.py:190} INFO - [2024-10-10T16:34:58.692+0900] {dagbag.py:588} INFO - Filling up the DagBag from /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2024-10-10T16:34:58.709+0900] {processor.py:925} INFO - DAG(s) 'example_complex' retrieved from /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2024-10-10T16:34:58.857+0900] {logging_mixin.py:190} INFO - [2024-10-10T16:34:58.857+0900] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-10T16:34:58.870+0900] {logging_mixin.py:190} INFO - [2024-10-10T16:34:58.869+0900] {dag.py:4180} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2024-10-10T16:34:58.889+0900] {processor.py:208} INFO - Processing /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py took 0.204 seconds
+[2024-10-10T16:39:01.327+0900] {processor.py:186} INFO - Started process (PID=58127) to work on /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2024-10-10T16:39:01.328+0900] {processor.py:914} INFO - Processing file /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2024-10-10T16:39:01.329+0900] {logging_mixin.py:190} INFO - [2024-10-10T16:39:01.328+0900] {dagbag.py:588} INFO - Filling up the DagBag from /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2024-10-10T16:39:01.347+0900] {processor.py:925} INFO - DAG(s) 'example_complex' retrieved from /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2024-10-10T16:39:01.524+0900] {logging_mixin.py:190} INFO - [2024-10-10T16:39:01.524+0900] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-10T16:39:01.541+0900] {logging_mixin.py:190} INFO - [2024-10-10T16:39:01.540+0900] {dag.py:4180} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2024-10-10T16:39:01.568+0900] {processor.py:208} INFO - Processing /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py took 0.247 seconds
+[2024-10-10T16:52:04.031+0900] {processor.py:186} INFO - Started process (PID=58691) to work on /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2024-10-10T16:52:04.032+0900] {processor.py:914} INFO - Processing file /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2024-10-10T16:52:04.033+0900] {logging_mixin.py:190} INFO - [2024-10-10T16:52:04.033+0900] {dagbag.py:588} INFO - Filling up the DagBag from /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2024-10-10T16:52:04.049+0900] {processor.py:925} INFO - DAG(s) 'example_complex' retrieved from /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2024-10-10T16:52:04.199+0900] {logging_mixin.py:190} INFO - [2024-10-10T16:52:04.198+0900] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-10T16:52:04.212+0900] {logging_mixin.py:190} INFO - [2024-10-10T16:52:04.212+0900] {dag.py:4180} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2024-10-10T16:52:04.232+0900] {processor.py:208} INFO - Processing /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py took 0.206 seconds
+[2024-10-10T23:50:04.626+0900] {processor.py:186} INFO - Started process (PID=63533) to work on /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2024-10-10T23:50:04.629+0900] {processor.py:914} INFO - Processing file /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2024-10-10T23:50:04.630+0900] {logging_mixin.py:190} INFO - [2024-10-10T23:50:04.630+0900] {dagbag.py:588} INFO - Filling up the DagBag from /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2024-10-10T23:50:04.650+0900] {processor.py:925} INFO - DAG(s) 'example_complex' retrieved from /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2024-10-10T23:50:04.821+0900] {logging_mixin.py:190} INFO - [2024-10-10T23:50:04.820+0900] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-10T23:50:04.836+0900] {logging_mixin.py:190} INFO - [2024-10-10T23:50:04.836+0900] {dag.py:4180} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2024-10-10T23:50:04.859+0900] {processor.py:208} INFO - Processing /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py took 0.239 seconds
+[2024-10-10T23:59:08.598+0900] {processor.py:186} INFO - Started process (PID=63925) to work on /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2024-10-10T23:59:08.599+0900] {processor.py:914} INFO - Processing file /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2024-10-10T23:59:08.600+0900] {logging_mixin.py:190} INFO - [2024-10-10T23:59:08.599+0900] {dagbag.py:588} INFO - Filling up the DagBag from /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2024-10-10T23:59:08.615+0900] {processor.py:925} INFO - DAG(s) 'example_complex' retrieved from /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2024-10-10T23:59:08.766+0900] {logging_mixin.py:190} INFO - [2024-10-10T23:59:08.766+0900] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-10T23:59:08.779+0900] {logging_mixin.py:190} INFO - [2024-10-10T23:59:08.779+0900] {dag.py:4180} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2024-10-10T23:59:08.798+0900] {processor.py:208} INFO - Processing /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py took 0.204 seconds
+[2024-10-11T00:03:21.030+0900] {processor.py:186} INFO - Started process (PID=64175) to work on /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2024-10-11T00:03:21.031+0900] {processor.py:914} INFO - Processing file /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2024-10-11T00:03:21.032+0900] {logging_mixin.py:190} INFO - [2024-10-11T00:03:21.032+0900] {dagbag.py:588} INFO - Filling up the DagBag from /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2024-10-11T00:03:21.049+0900] {processor.py:925} INFO - DAG(s) 'example_complex' retrieved from /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2024-10-11T00:03:21.201+0900] {logging_mixin.py:190} INFO - [2024-10-11T00:03:21.201+0900] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-11T00:03:21.214+0900] {logging_mixin.py:190} INFO - [2024-10-11T00:03:21.213+0900] {dag.py:4180} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2024-10-11T00:03:21.233+0900] {processor.py:208} INFO - Processing /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py took 0.207 seconds
+[2024-10-11T00:10:22.826+0900] {processor.py:186} INFO - Started process (PID=64542) to work on /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2024-10-11T00:10:22.827+0900] {processor.py:914} INFO - Processing file /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2024-10-11T00:10:22.828+0900] {logging_mixin.py:190} INFO - [2024-10-11T00:10:22.828+0900] {dagbag.py:588} INFO - Filling up the DagBag from /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2024-10-11T00:10:22.844+0900] {processor.py:925} INFO - DAG(s) 'example_complex' retrieved from /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2024-10-11T00:10:22.988+0900] {logging_mixin.py:190} INFO - [2024-10-11T00:10:22.988+0900] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-11T00:10:23.000+0900] {logging_mixin.py:190} INFO - [2024-10-11T00:10:23.000+0900] {dag.py:4180} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2024-10-11T00:10:23.019+0900] {processor.py:208} INFO - Processing /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py took 0.197 seconds
+[2024-10-11T00:15:33.767+0900] {processor.py:186} INFO - Started process (PID=64777) to work on /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2024-10-11T00:15:33.768+0900] {processor.py:914} INFO - Processing file /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2024-10-11T00:15:33.769+0900] {logging_mixin.py:190} INFO - [2024-10-11T00:15:33.769+0900] {dagbag.py:588} INFO - Filling up the DagBag from /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2024-10-11T00:15:33.785+0900] {processor.py:925} INFO - DAG(s) 'example_complex' retrieved from /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2024-10-11T00:15:33.934+0900] {logging_mixin.py:190} INFO - [2024-10-11T00:15:33.934+0900] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-11T00:15:33.947+0900] {logging_mixin.py:190} INFO - [2024-10-11T00:15:33.946+0900] {dag.py:4180} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2024-10-11T00:15:33.965+0900] {processor.py:208} INFO - Processing /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py took 0.202 seconds
+[2024-10-11T00:20:39.423+0900] {processor.py:186} INFO - Started process (PID=64962) to work on /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2024-10-11T00:20:39.424+0900] {processor.py:914} INFO - Processing file /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2024-10-11T00:20:39.425+0900] {logging_mixin.py:190} INFO - [2024-10-11T00:20:39.424+0900] {dagbag.py:588} INFO - Filling up the DagBag from /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2024-10-11T00:20:39.441+0900] {processor.py:925} INFO - DAG(s) 'example_complex' retrieved from /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2024-10-11T00:20:39.588+0900] {logging_mixin.py:190} INFO - [2024-10-11T00:20:39.588+0900] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-11T00:20:39.601+0900] {logging_mixin.py:190} INFO - [2024-10-11T00:20:39.601+0900] {dag.py:4180} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2024-10-11T00:20:39.620+0900] {processor.py:208} INFO - Processing /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py took 0.202 seconds
+[2024-10-11T00:25:48.022+0900] {processor.py:186} INFO - Started process (PID=65120) to work on /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2024-10-11T00:25:48.023+0900] {processor.py:914} INFO - Processing file /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2024-10-11T00:25:48.024+0900] {logging_mixin.py:190} INFO - [2024-10-11T00:25:48.024+0900] {dagbag.py:588} INFO - Filling up the DagBag from /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2024-10-11T00:25:48.043+0900] {processor.py:925} INFO - DAG(s) 'example_complex' retrieved from /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2024-10-11T00:25:48.193+0900] {logging_mixin.py:190} INFO - [2024-10-11T00:25:48.193+0900] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-11T00:25:48.206+0900] {logging_mixin.py:190} INFO - [2024-10-11T00:25:48.206+0900] {dag.py:4180} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2024-10-11T00:25:48.225+0900] {processor.py:208} INFO - Processing /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py took 0.209 seconds
+[2024-10-11T00:32:48.305+0900] {processor.py:186} INFO - Started process (PID=65490) to work on /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2024-10-11T00:32:48.306+0900] {processor.py:914} INFO - Processing file /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2024-10-11T00:32:48.307+0900] {logging_mixin.py:190} INFO - [2024-10-11T00:32:48.307+0900] {dagbag.py:588} INFO - Filling up the DagBag from /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2024-10-11T00:32:48.323+0900] {processor.py:925} INFO - DAG(s) 'example_complex' retrieved from /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2024-10-11T00:32:48.472+0900] {logging_mixin.py:190} INFO - [2024-10-11T00:32:48.472+0900] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-11T00:32:48.485+0900] {logging_mixin.py:190} INFO - [2024-10-11T00:32:48.485+0900] {dag.py:4180} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2024-10-11T00:32:48.504+0900] {processor.py:208} INFO - Processing /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py took 0.203 seconds
+[2024-10-11T00:37:03.769+0900] {processor.py:186} INFO - Started process (PID=65677) to work on /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2024-10-11T00:37:03.770+0900] {processor.py:914} INFO - Processing file /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2024-10-11T00:37:03.771+0900] {logging_mixin.py:190} INFO - [2024-10-11T00:37:03.771+0900] {dagbag.py:588} INFO - Filling up the DagBag from /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2024-10-11T00:37:03.787+0900] {processor.py:925} INFO - DAG(s) 'example_complex' retrieved from /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2024-10-11T00:37:03.936+0900] {logging_mixin.py:190} INFO - [2024-10-11T00:37:03.936+0900] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-11T00:37:03.949+0900] {logging_mixin.py:190} INFO - [2024-10-11T00:37:03.949+0900] {dag.py:4180} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2024-10-11T00:37:03.968+0900] {processor.py:208} INFO - Processing /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py took 0.204 seconds
+[2024-10-11T00:44:18.056+0900] {processor.py:186} INFO - Started process (PID=66038) to work on /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2024-10-11T00:44:18.057+0900] {processor.py:914} INFO - Processing file /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2024-10-11T00:44:18.058+0900] {logging_mixin.py:190} INFO - [2024-10-11T00:44:18.058+0900] {dagbag.py:588} INFO - Filling up the DagBag from /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2024-10-11T00:44:18.074+0900] {processor.py:925} INFO - DAG(s) 'example_complex' retrieved from /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2024-10-11T00:44:18.223+0900] {logging_mixin.py:190} INFO - [2024-10-11T00:44:18.223+0900] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-11T00:44:18.235+0900] {logging_mixin.py:190} INFO - [2024-10-11T00:44:18.235+0900] {dag.py:4180} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2024-10-11T00:44:18.254+0900] {processor.py:208} INFO - Processing /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py took 0.203 seconds
+[2024-10-11T00:51:20.466+0900] {processor.py:186} INFO - Started process (PID=66379) to work on /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2024-10-11T00:51:20.466+0900] {processor.py:914} INFO - Processing file /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2024-10-11T00:51:20.467+0900] {logging_mixin.py:190} INFO - [2024-10-11T00:51:20.467+0900] {dagbag.py:588} INFO - Filling up the DagBag from /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2024-10-11T00:51:20.484+0900] {processor.py:925} INFO - DAG(s) 'example_complex' retrieved from /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2024-10-11T00:51:20.631+0900] {logging_mixin.py:190} INFO - [2024-10-11T00:51:20.630+0900] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-11T00:51:20.643+0900] {logging_mixin.py:190} INFO - [2024-10-11T00:51:20.643+0900] {dag.py:4180} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2024-10-11T00:51:20.663+0900] {processor.py:208} INFO - Processing /Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py took 0.202 seconds

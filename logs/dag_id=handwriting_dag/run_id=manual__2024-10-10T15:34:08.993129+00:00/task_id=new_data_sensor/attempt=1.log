@@ -1,0 +1,29 @@
+[2024-10-11T00:34:17.064+0900] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2024-10-11T00:34:17.075+0900] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: handwriting_dag.new_data_sensor manual__2024-10-10T15:34:08.993129+00:00 [queued]>
+[2024-10-11T00:34:17.081+0900] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: handwriting_dag.new_data_sensor manual__2024-10-10T15:34:08.993129+00:00 [queued]>
+[2024-10-11T00:34:17.081+0900] {taskinstance.py:2865} INFO - Starting attempt 1 of 2
+[2024-10-11T00:34:17.093+0900] {taskinstance.py:2888} INFO - Executing <Task(FileSensor): new_data_sensor> on 2024-10-10 15:34:08.993129+00:00
+[2024-10-11T00:34:17.111+0900] {standard_task_runner.py:72} INFO - Started process 65540 to run task
+[2024-10-11T00:34:17.122+0900] {standard_task_runner.py:104} INFO - Running: ['airflow', 'tasks', 'run', 'handwriting_dag', 'new_data_sensor', 'manual__2024-10-10T15:34:08.993129+00:00', '--job-id', '48', '--raw', '--subdir', 'DAGS_FOLDER/model_dag.py', '--cfg-path', '/var/folders/tx/bcbxk5bj33x4r2rt041m7bmr0000gn/T/tmpjl6u6d5s']
+[2024-10-11T00:34:17.124+0900] {standard_task_runner.py:105} INFO - Job 48: Subtask new_data_sensor
+[2024-10-11T00:34:17.173+0900] {task_command.py:467} INFO - Running <TaskInstance: handwriting_dag.new_data_sensor manual__2024-10-10T15:34:08.993129+00:00 [running]> on host hyowon-kim-macbook-pro.local
+[2024-10-11T00:34:17.246+0900] {taskinstance.py:3131} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='handwriting_dag' AIRFLOW_CTX_TASK_ID='new_data_sensor' AIRFLOW_CTX_EXECUTION_DATE='2024-10-10T15:34:08.993129+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-10-10T15:34:08.993129+00:00'
+[2024-10-11T00:34:17.248+0900] {logging_mixin.py:190} INFO - Task instance is in running state
+[2024-10-11T00:34:17.248+0900] {logging_mixin.py:190} INFO -  Previous state of the Task instance: queued
+[2024-10-11T00:34:17.249+0900] {logging_mixin.py:190} INFO - Current task name:new_data_sensor state:running start_date:2024-10-10 15:34:17.075727+00:00
+[2024-10-11T00:34:17.250+0900] {logging_mixin.py:190} INFO - Dag name:handwriting_dag and current dag run status:running
+[2024-10-11T00:34:17.250+0900] {taskinstance.py:731} INFO - ::endgroup::
+[2024-10-11T00:34:17.251+0900] {baseoperator.py:405} WARNING - FileSensor.execute cannot be called outside TaskInstance!
+[2024-10-11T00:34:17.259+0900] {base.py:84} INFO - Retrieving connection 'file_sensor'
+[2024-10-11T00:34:17.259+0900] {filesystem.py:109} INFO - Poking for file /Users/alookso/1010LMpj/ml-project-ml-pjt-7/saved_images
+[2024-10-11T00:34:17.260+0900] {base.py:336} INFO - Success criteria met. Exiting.
+[2024-10-11T00:34:17.260+0900] {filesystem.py:109} INFO - Poking for file /Users/alookso/1010LMpj/ml-project-ml-pjt-7/saved_images
+[2024-10-11T00:34:17.266+0900] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2024-10-11T00:34:17.267+0900] {taskinstance.py:352} INFO - Marking task as SUCCESS. dag_id=handwriting_dag, task_id=new_data_sensor, run_id=manual__2024-10-10T15:34:08.993129+00:00, execution_date=20241010T153408, start_date=20241010T153417, end_date=20241010T153417
+[2024-10-11T00:34:17.274+0900] {logging_mixin.py:190} INFO - Task instance in success state
+[2024-10-11T00:34:17.275+0900] {logging_mixin.py:190} INFO -  Previous state of the Task instance: running
+[2024-10-11T00:34:17.275+0900] {logging_mixin.py:190} INFO - Dag name:handwriting_dag queued_at:2024-10-10 15:34:09.004208+00:00
+[2024-10-11T00:34:17.275+0900] {logging_mixin.py:190} INFO - Task hostname:hyowon-kim-macbook-pro.local operator:FileSensor
+[2024-10-11T00:34:17.296+0900] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2024-10-11T00:34:17.328+0900] {taskinstance.py:3900} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2024-10-11T00:34:17.330+0900] {local_task_job_runner.py:245} INFO - ::endgroup::

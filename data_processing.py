@@ -51,3 +51,22 @@ def preprocess_canvas_images(images_data):
         img.save(os.path.join(IMAGE_SAVE_FOLDER, f"processed_image_{idx}.png"))
 
     return digits, raw_images
+
+
+def preprocess_image_file(image_path):
+    """
+    파일 시스템에서 이미지를 로드하고 전처리합니다.
+
+    Parameters:
+    - image_path: 이미지 파일의 경로
+
+    Returns:
+    - img_array: 전처리된 이미지 배열
+    """
+    img = Image.open(image_path).convert('L')  # 그레이스케일 변환
+    img = img.resize((28, 28), Image.LANCZOS)  # 크기 조정
+    img_array = np.array(img).astype(np.float32)
+    img_array = img_array / 255.0  # 정규화
+    img_array = img_array.reshape(1, 28, 28)  # 형태 변경
+    return img_array
+

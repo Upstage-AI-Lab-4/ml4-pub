@@ -8,6 +8,7 @@ from torch.utils.data import DataLoader, random_split
 import torch.optim as optim
 import torch.nn.init
 import os
+import logging
 
 import mlflow
 import mlflow.pytorch  # pytorch 모델을 mlflow로 저장하기 위함

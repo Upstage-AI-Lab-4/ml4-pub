@@ -1,0 +1,89 @@
+[2024-10-11T00:27:05.500+0900] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2024-10-11T00:27:05.511+0900] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: handwriting_dag.retrain_model manual__2024-10-10T15:26:32.298632+00:00 [queued]>
+[2024-10-11T00:27:05.517+0900] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: handwriting_dag.retrain_model manual__2024-10-10T15:26:32.298632+00:00 [queued]>
+[2024-10-11T00:27:05.518+0900] {taskinstance.py:2865} INFO - Starting attempt 1 of 2
+[2024-10-11T00:27:05.530+0900] {taskinstance.py:2888} INFO - Executing <Task(PythonOperator): retrain_model> on 2024-10-10 15:26:32.298632+00:00
+[2024-10-11T00:27:05.546+0900] {standard_task_runner.py:72} INFO - Started process 65193 to run task
+[2024-10-11T00:27:05.558+0900] {standard_task_runner.py:104} INFO - Running: ['airflow', 'tasks', 'run', 'handwriting_dag', 'retrain_model', 'manual__2024-10-10T15:26:32.298632+00:00', '--job-id', '46', '--raw', '--subdir', 'DAGS_FOLDER/model_dag.py', '--cfg-path', '/var/folders/tx/bcbxk5bj33x4r2rt041m7bmr0000gn/T/tmph99wzpgc']
+[2024-10-11T00:27:05.560+0900] {standard_task_runner.py:105} INFO - Job 46: Subtask retrain_model
+[2024-10-11T00:27:05.609+0900] {task_command.py:467} INFO - Running <TaskInstance: handwriting_dag.retrain_model manual__2024-10-10T15:26:32.298632+00:00 [running]> on host hyowon-kim-macbook-pro.local
+[2024-10-11T00:27:05.683+0900] {taskinstance.py:3131} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='handwriting_dag' AIRFLOW_CTX_TASK_ID='retrain_model' AIRFLOW_CTX_EXECUTION_DATE='2024-10-10T15:26:32.298632+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-10-10T15:26:32.298632+00:00'
+[2024-10-11T00:27:05.685+0900] {logging_mixin.py:190} INFO - Task instance is in running state
+[2024-10-11T00:27:05.686+0900] {logging_mixin.py:190} INFO -  Previous state of the Task instance: queued
+[2024-10-11T00:27:05.686+0900] {logging_mixin.py:190} INFO - Current task name:retrain_model state:running start_date:2024-10-10 15:27:05.511562+00:00
+[2024-10-11T00:27:05.687+0900] {logging_mixin.py:190} INFO - Dag name:handwriting_dag and current dag run status:running
+[2024-10-11T00:27:05.687+0900] {taskinstance.py:731} INFO - ::endgroup::
+[2024-10-11T00:27:05.720+0900] {model_dag.py:125} ERROR - Error in retrain_model: name 'logging' is not defined
+[2024-10-11T00:27:05.721+0900] {taskinstance.py:3310} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 762, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+  File "/Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 733, in _execute_callable
+    return ExecutionCallableRunner(
+  File "/Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/utils/operator_helpers.py", line 252, in run
+    return self.func(*args, **kwargs)
+  File "/Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 406, in wrapper
+    return func(self, *args, **kwargs)
+  File "/Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/operators/python.py", line 238, in execute
+    return_value = self.execute_callable()
+  File "/Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/operators/python.py", line 256, in execute_callable
+    return runner.run(*self.op_args, **self.op_kwargs)
+  File "/Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/utils/operator_helpers.py", line 252, in run
+    return self.func(*args, **kwargs)
+  File "/Users/alookso/1010LMpj/ml-project-ml-pjt-7/dags/model_dag.py", line 100, in retrain_model
+    model = load_model('saved_model.pth')
+  File "/Users/alookso/1010LMpj/ml-project-ml-pjt-7/model.py", line 65, in load_model
+    logging.warning(f"Model file not found at {model_path}. Initializing a new model.")
+NameError: name 'logging' is not defined. Did you mean: 'log_info'?
+[2024-10-11T00:27:05.738+0900] {logging_mixin.py:190} INFO - Task instance in failure state
+[2024-10-11T00:27:05.739+0900] {logging_mixin.py:190} INFO - Task start:2024-10-10 15:27:05.511562+00:00 end:2024-10-10 15:27:05.738010+00:00 duration:0.226448
+[2024-10-11T00:27:05.739+0900] {logging_mixin.py:190} INFO - Task:<Task(PythonOperator): retrain_model> dag:<DAG: handwriting_dag> dagrun:<DagRun handwriting_dag @ 2024-10-10 15:26:32.298632+00:00: manual__2024-10-10T15:26:32.298632+00:00, state:running, queued_at: 2024-10-10 15:26:32.307847+00:00. externally triggered: True>
+[2024-10-11T00:27:05.740+0900] {logging_mixin.py:190} INFO - Failure caused by name 'logging' is not defined
+[2024-10-11T00:27:05.741+0900] {taskinstance.py:1225} INFO - Marking task as UP_FOR_RETRY. dag_id=handwriting_dag, task_id=retrain_model, run_id=manual__2024-10-10T15:26:32.298632+00:00, execution_date=20241010T152632, start_date=20241010T152705, end_date=20241010T152705
+[2024-10-11T00:27:05.754+0900] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2024-10-11T00:27:05.754+0900] {standard_task_runner.py:124} ERROR - Failed to execute job 46 for task retrain_model (name 'logging' is not defined; 65193)
+Traceback (most recent call last):
+  File "/Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/task/task_runner/standard_task_runner.py", line 117, in _start_by_fork
+    ret = args.func(args, dag=self.dag)
+  File "/Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/cli/cli_config.py", line 49, in command
+    return func(*args, **kwargs)
+  File "/Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/utils/cli.py", line 115, in wrapper
+    return f(*args, **kwargs)
+  File "/Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/cli/commands/task_command.py", line 483, in task_run
+    task_return_code = _run_task_by_selected_method(args, _dag, ti)
+  File "/Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/cli/commands/task_command.py", line 256, in _run_task_by_selected_method
+    return _run_raw_task(args, ti)
+  File "/Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/cli/commands/task_command.py", line 341, in _run_raw_task
+    return ti._run_raw_task(
+  File "/Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/utils/session.py", line 97, in wrapper
+    return func(*args, session=session, **kwargs)
+  File "/Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 3004, in _run_raw_task
+    return _run_raw_task(
+  File "/Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 273, in _run_raw_task
+    TaskInstance._execute_task_with_callbacks(
+  File "/Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 3158, in _execute_task_with_callbacks
+    result = self._execute_task(context, task_orig)
+  File "/Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 3182, in _execute_task
+    return _execute_task(self, context, task_orig)
+  File "/Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 762, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+  File "/Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 733, in _execute_callable
+    return ExecutionCallableRunner(
+  File "/Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/utils/operator_helpers.py", line 252, in run
+    return self.func(*args, **kwargs)
+  File "/Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 406, in wrapper
+    return func(self, *args, **kwargs)
+  File "/Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/operators/python.py", line 238, in execute
+    return_value = self.execute_callable()
+  File "/Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/operators/python.py", line 256, in execute_callable
+    return runner.run(*self.op_args, **self.op_kwargs)
+  File "/Users/alookso/1007MLpj/myenv/lib/python3.10/site-packages/airflow/utils/operator_helpers.py", line 252, in run
+    return self.func(*args, **kwargs)
+  File "/Users/alookso/1010LMpj/ml-project-ml-pjt-7/dags/model_dag.py", line 100, in retrain_model
+    model = load_model('saved_model.pth')
+  File "/Users/alookso/1010LMpj/ml-project-ml-pjt-7/model.py", line 65, in load_model
+    logging.warning(f"Model file not found at {model_path}. Initializing a new model.")
+NameError: name 'logging' is not defined. Did you mean: 'log_info'?
+[2024-10-11T00:27:05.775+0900] {local_task_job_runner.py:266} INFO - Task exited with return code 1
+[2024-10-11T00:27:05.791+0900] {taskinstance.py:3900} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2024-10-11T00:27:05.792+0900] {local_task_job_runner.py:245} INFO - ::endgroup::

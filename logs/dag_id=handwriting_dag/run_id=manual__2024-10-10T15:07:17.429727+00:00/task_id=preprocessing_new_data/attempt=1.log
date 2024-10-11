@@ -1,0 +1,30 @@
+[2024-10-11T00:07:39.509+0900] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2024-10-11T00:07:39.523+0900] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: handwriting_dag.preprocessing_new_data manual__2024-10-10T15:07:17.429727+00:00 [queued]>
+[2024-10-11T00:07:39.531+0900] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: handwriting_dag.preprocessing_new_data manual__2024-10-10T15:07:17.429727+00:00 [queued]>
+[2024-10-11T00:07:39.531+0900] {taskinstance.py:2865} INFO - Starting attempt 1 of 2
+[2024-10-11T00:07:39.543+0900] {taskinstance.py:2888} INFO - Executing <Task(PythonOperator): preprocessing_new_data> on 2024-10-10 15:07:17.429727+00:00
+[2024-10-11T00:07:39.559+0900] {standard_task_runner.py:72} INFO - Started process 64430 to run task
+[2024-10-11T00:07:39.571+0900] {standard_task_runner.py:104} INFO - Running: ['airflow', 'tasks', 'run', 'handwriting_dag', 'preprocessing_new_data', 'manual__2024-10-10T15:07:17.429727+00:00', '--job-id', '41', '--raw', '--subdir', 'DAGS_FOLDER/model_dag.py', '--cfg-path', '/var/folders/tx/bcbxk5bj33x4r2rt041m7bmr0000gn/T/tmp0m3oajtn']
+[2024-10-11T00:07:39.573+0900] {standard_task_runner.py:105} INFO - Job 41: Subtask preprocessing_new_data
+[2024-10-11T00:07:39.627+0900] {task_command.py:467} INFO - Running <TaskInstance: handwriting_dag.preprocessing_new_data manual__2024-10-10T15:07:17.429727+00:00 [running]> on host hyowon-kim-macbook-pro.local
+[2024-10-11T00:07:39.697+0900] {taskinstance.py:3131} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='handwriting_dag' AIRFLOW_CTX_TASK_ID='preprocessing_new_data' AIRFLOW_CTX_EXECUTION_DATE='2024-10-10T15:07:17.429727+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-10-10T15:07:17.429727+00:00'
+[2024-10-11T00:07:39.699+0900] {logging_mixin.py:190} INFO - Task instance is in running state
+[2024-10-11T00:07:39.700+0900] {logging_mixin.py:190} INFO -  Previous state of the Task instance: queued
+[2024-10-11T00:07:39.701+0900] {logging_mixin.py:190} INFO - Current task name:preprocessing_new_data state:running start_date:2024-10-10 15:07:39.524233+00:00
+[2024-10-11T00:07:39.701+0900] {logging_mixin.py:190} INFO - Dag name:handwriting_dag and current dag run status:running
+[2024-10-11T00:07:39.702+0900] {taskinstance.py:731} INFO - ::endgroup::
+[2024-10-11T00:07:39.724+0900] {model_dag.py:58} INFO - Processed image: 5.png
+[2024-10-11T00:07:39.726+0900] {model_dag.py:58} INFO - Processed image: 2.png
+[2024-10-11T00:07:39.728+0900] {model_dag.py:58} INFO - Processed image: 3.png
+[2024-10-11T00:07:39.730+0900] {model_dag.py:58} INFO - Processed image: 1.png
+[2024-10-11T00:07:39.730+0900] {model_dag.py:63} INFO - Processed 4 new images
+[2024-10-11T00:07:39.731+0900] {python.py:240} INFO - Done. Returned value was: {'processed_files': ['/Users/alookso/1010LMpj/ml-project-ml-pjt-7/processed_data/processed_5.png.pt', '/Users/alookso/1010LMpj/ml-project-ml-pjt-7/processed_data/processed_2.png.pt', '/Users/alookso/1010LMpj/ml-project-ml-pjt-7/processed_data/processed_3.png.pt', '/Users/alookso/1010LMpj/ml-project-ml-pjt-7/processed_data/processed_1.png.pt'], 'labels': [5, 2, 3, 1]}
+[2024-10-11T00:07:39.745+0900] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2024-10-11T00:07:39.747+0900] {taskinstance.py:352} INFO - Marking task as SUCCESS. dag_id=handwriting_dag, task_id=preprocessing_new_data, run_id=manual__2024-10-10T15:07:17.429727+00:00, execution_date=20241010T150717, start_date=20241010T150739, end_date=20241010T150739
+[2024-10-11T00:07:39.754+0900] {logging_mixin.py:190} INFO - Task instance in success state
+[2024-10-11T00:07:39.755+0900] {logging_mixin.py:190} INFO -  Previous state of the Task instance: running
+[2024-10-11T00:07:39.755+0900] {logging_mixin.py:190} INFO - Dag name:handwriting_dag queued_at:2024-10-10 15:07:17.447284+00:00
+[2024-10-11T00:07:39.756+0900] {logging_mixin.py:190} INFO - Task hostname:hyowon-kim-macbook-pro.local operator:PythonOperator
+[2024-10-11T00:07:39.792+0900] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2024-10-11T00:07:39.815+0900] {taskinstance.py:3900} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2024-10-11T00:07:39.816+0900] {local_task_job_runner.py:245} INFO - ::endgroup::
