@@ -54,3 +54,4 @@
 2024-10-08 18:58:53,089 INFO Predictions: [0, 3, 5, 5]
 2024-10-08 18:59:04,096 INFO Predictions: [3, 3, 1, 1]
 2024-10-10 14:21:17,092 INFO Predictions: [2, 1, 3, 5]
+2024-10-11 13:02:57,355 INFO Model loaded successfully from saved_model.pth
